@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Online</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div id="result-container" class="hidden opção_questao">
+            <h2>Resultado</h2>
+            <p id="score"></p>
+            <ul id="answers-list"></ul>
+        </div>
+
+        <div id="quiz-container" class="opção_questao">
+            <h2 id="question"></h2>
+            <div id="Img_t">
+                <img id="question-image" src="" class="imagem" >
+            </div>
+            <div id="options" class="options"></div>
+            <textarea id="dissertative-container"  rows="5" placeholder="Escreva sua resposta aqui..."></textarea>
+        </div>
+       
+        
+    </div>
+
+
+    <div class="Controler">
+        <h3>Navegação</h3>
+        <div id="question-nav"></div>
+        <div id="question-nav-disertativa"></div>
+        <button id="bt_start" class="Bt_Ação" onclick="showResults()">Finalizar Prova</button>
+        <button id="bt_restart"  class="Bt_Ação hidden" onclick="restartQuiz()">Refazer Prova</button>
+    </div>
+
+    <style src="./style.css">
+        
+    </style>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
+

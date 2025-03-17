@@ -1,0 +1,391 @@
+[
+{
+  "question": "Um cliente envia uma mensagem para solicitar informações de um servidor da Web na Internet. Qual é o parâmetro usado na mensagem para indicar o serviço (aplicação) específico solicitado?",
+  "options": [
+    { "text": "nome de domínio do servidor" },    
+    { "text": "endereço IP destino" }, 
+    { "text": "porta de origem" }, 
+    { "text": "portas de origem e destino" }, 
+    { "text": "porta destino"}
+  ],
+  "Resposta": "porta destino"
+},
+
+{
+  "question": "Qual agrupamento de números é um endereço IPv6 válido?",
+  "options": [
+    { "text": "nenhuma das alternativas indicadas" },    
+    { "text": "1234:1230::1238::1299:1000::" }, 
+    { "text": "1b10::1100::2001::2900::ab11::1102::0000::2900" }, 
+    { "text": "12aa::1298:1200::129b" }, 
+    { "text": "2001:0db8:3c55:0015:1010:0000:abcd:ff13"}
+  ],
+  "Resposta": "2001:0db8:3c55:0015:1010:0000:abcd:ff13"
+},
+
+{
+  "question": "Qual é a representação descompactada completa do endereço IPv6 2001:DB8:0:0:AA::200?  ",
+  "options": [
+    { "text": "2001:DB80:0000:0000:AA00:0000:0000:0200" },    
+    { "text": "2001:0DB8:0000:00AA:0000:0000:0000:0200" }, 
+    { "text": "2001:0DB8:0000:0000:00AA:0000:0200:0000" }, 
+    { "text": "nenhuma das alternativas indicadas" }, 
+    { "text": "2001:0DB8:0000:0000:00AA:0000:0000:020"}
+  ],
+  "Resposta": "2001:0DB8:0000:0000:00AA:0000:0000:020"
+},
+
+{
+  "question": "Foi solicitado que um engenheiro de projeto de rede projetasse um esquema de endereçamento IP para a rede do cliente. A rede usará o endereço IP da rede 192.168.30.0/24. O engenheiro aloca 254 endereços IP para os hosts na rede, mas exclui os endereços IP 192.168.30.0/24 e 192.168.30.255/24. Por que o engenheiro deve excluir esses dois endereços IP?  ",
+  "options": [
+    { "text": "192.168.30.0/24 é o endereço IP da rede e 192.168.30.255/24 é o endereço de transmissão IP" },    
+    { "text": "Nenhuma das alternativas indicadas." }, 
+    { "text": "Os endereços IP 192.168.30.0/24 e 192.168.30.255/24 são reservados para os servidores DNS e de e-mail." }, 
+    { "text": "Os endereços IP 192.168.30.0/24 e 192.168.30.255/24 são reservados para a conexão externa com a internet." }, 
+    { "text": "192.168.30.0/24 é o endereço IP reservado para o gateway padrão, e 192.168.30.255/24 é o endereço IP reservado para o servidor DHCP."}
+  ],
+  "Resposta": "192.168.30.0/24 é o endereço IP da rede e 192.168.30.255/24 é o endereço de transmissão IP"
+},
+
+{
+  "question": "Quando um cabo straight-through é usado em uma rede? ",
+  "options": [
+    { "text": "nenhuma das alternativas indicadas" },    
+    { "text": "ao conectar um roteador a outro roteador" }, 
+    { "text": "ao conectar um host a um roteador" }, 
+    { "text": "ao conectar um host a outro host" }, 
+    { "text": "ao conectar um host a um switch"}
+  ],
+  "Resposta": "ao conectar um host a um switch"
+},
+
+{
+  "question": "Qual é o protocolo usado pelos servidores da Web para atender de modo seguro uma página da Web?  ",
+  "options": [
+    { "text": "FTP" },    
+    { "text": "HTTPS" }, 
+    { "text": "DNS" }, 
+    { "text": "SHTTP" }, 
+    { "text": "HTTP"}
+  ],
+  "Resposta": "HTTPS"
+},
+
+
+{
+  "question": "Qual medida de segurança sem fio avançada permite que um administrador de rede mantenha dados confidenciais em segurança à medida que eles trafegam pelo ar em uma rede sem fio?",
+  "options": [
+    { "text": "autenticação" },    
+    { "text": "criptografia" }, 
+    { "text": "fltragem de endereços MAC" }, 
+    { "text": "filtragem de segurança de tráfego" }, 
+    { "text": "senha forte com WEP"}
+  ],
+  "Resposta": "criptografia"
+},
+{
+  "question": "Um cliente coloca um smartphone perto de um terminal de pagamento em uma loja e a cobrança da compra é paga corretamente. Que tipo de tecnologia de conexão sem fio foi usada?  ",
+  "options": [
+    { "text": "NFC" },    
+    { "text": "Nenhuma das alternativas indicadas" }, 
+    { "text": "3G ou 4G" }, 
+    { "text": "Bluetooth" }, 
+    { "text": "Wifi"}
+  ],
+  "Resposta": "NFC"
+},
+{
+  "question": "Por que os aplicativos de transmissão de áudio e vídeo usam UDP em vez de TCP?",
+  "options": [
+    { "text": "Nenhuma das alternativas indicadas pois aplicativos de áudio e vídeo usam TCP ao invés de UDP" },    
+    { "text": "O UDP garante o fornecimento de segmentos para proporcionar fluxos de vídeo e áudio confiáveis." }, 
+    { "text": "O handshake triplo usado em UDP acelera os fluxos de áudio e vídeo" }, 
+    { "text": "Aplicativos de transmissão de áudio e vídeo exigem o recebimento de todos os pacotes independente de atrasos." }, 
+    { "text": "O UDP é um sistema de fornecimento de “melhor esforço” que não requer confirmação de recebimento."}
+  ],
+  "Resposta": "O UDP é um sistema de fornecimento de “melhor esforço” que não requer confirmação de recebimento."
+},
+{
+  "question": "Que tipo de cabo de rede normalmente é usado para conectar computadores de escritório à rede local?  ",
+  "options": [
+    { "text": "cabo de fibra ótica de vidro" },    
+    { "text": "cabo de par transacionado" }, 
+    { "text": "cabo coaxial" }, 
+    { "text": "Nenhuma das respostas indicadas" }, 
+    { "text": "cabo de fibra ótica de plástico"}
+  ],
+  "Resposta": "Nenhuma das respostas indicadas"
+},
+{
+  "question": "",
+  "options": [
+    { "text": "" },    
+    { "text": "" }, 
+    { "text": "" }, 
+    { "text": "" }, 
+    { "text": ""}
+  ],
+  "Resposta": ""
+},
+{
+  "question": "Que tipo de conexão com a Internet seria melhor para uma residência em uma área remota sem cobertura de celular ou conectividade cabeada? ",
+  "options": [
+    { "text": "celular" },    
+    { "text": "DSL" }, 
+    { "text": "dial-up" }, 
+    { "text": "satélite" }, 
+    { "text": "ISDN"}
+  ],
+  "Resposta": "satélite"
+},
+{
+  "question": "Que tipo de filtro de dispositivo pode ser ativado em alguns pontos de acesso sem fio ou em roteadores sem fio?  ",
+  "options": [
+    { "text": "endereço MAC" },    
+    { "text": "filtro de segurança de dispositivo" }, 
+    { "text": "autenticação" }, 
+    { "text": "Endereço IP" }, 
+    { "text": "ID de usuário"}
+  ],
+  "Resposta": "endereço MAC"
+},
+{
+  "question": "Qual afirmação define um protocolo de comunicações de dados?",
+  "options": [
+    { "text": "uma parceria de fabricantes de dispositivos de rede" },    
+    { "text": "um documento assinado e protocolado por um organismo de controle internacional" }, 
+    { "text": "um acordo de troca de dispositivos de rede entre fornecedores" }, 
+    { "text": "um conjunto de regras que regem o processo de comunicação" }, 
+    { "text": "um conjunto de padrões de produto para tipos de dispositivos de rede"}
+  ],
+  "Resposta": "um conjunto de regras que regem o processo de comunicação"
+},
+{
+  "question": "Um dispositivo cliente em um segmento Ethernet precisa de um endereço IP para se comunicar na rede. Um servidor DHCP com endereço IP 192.168.1.1 foi configurado e ativado na rede. Como um dispositivo cliente obtém um endereço IP utilizável para esta rede?",
+  "options": [
+    { "text": "Envia um pacote DHCPREQUEST para o endereço IP 255.255.255.255." },    
+    { "text": "Envia um pacote DHCPACK para o endereço de gateway padrão." }, 
+    { "text": "Use um endereço IP configurado estaticamente do pool de endereços IP oferecido pelo servidor DHCP." }, 
+    { "text": "Envia uma mensagem DHCPDISCOVER para o endereço físico FF-FF-FF-FF-FF-FF." }, 
+    { "text": "Nenhuma das alternativas indicadas"}
+  ],
+  "Resposta": "Envia uma mensagem DHCPDISCOVER para o endereço físico FF-FF-FF-FF-FF-FF."
+},
+{
+  "question": "Qual é o tamanho mínimo de um quadro Ethernet válido, em bytes?",
+  "options": [
+    { "text": "128" },    
+    { "text": "256" }, 
+    { "text": "64" }, 
+    { "text": "48" }, 
+    { "text": "96"}
+  ],
+  "Resposta": ""
+},
+{
+  "question": "Qual é o protocolo usado para transferir páginas da web de um servidor para um dispositivo cliente?",
+  "options": [
+    { "text": "HTML" },    
+    { "text": "WEB PROTOCOL" }, 
+    { "text": "SSH" }, 
+    { "text": "SMTP" }, 
+    { "text": "HTTP"}
+  ],
+  "Resposta": "HTTP"
+},
+{
+  "question": "Qual foi o motivo para a criação e a implementação do UPv6?",
+  "options": [
+    { "text": "Nenhuma das alternativas indicadas." },    
+    { "text": "Para aliviar a redução de endereços IPv4" }, 
+    { "text": "Para facilitar a leitura de um endereço de 32 bits" }, 
+    { "text": "Para permitir o suporte de NAT para o endereçamento privado." }, 
+    { "text": "Para fornecer mais espaço de endereço no registro de internet."}
+  ],
+  "Resposta": "Para aliviar a redução de endereços IPv4"
+},
+
+{
+  "question": "Qual informação um switch Ethernet examina e usa para criar sua tabela de endereços? ",
+  "options": [
+    { "text": "endereço IP destino" },    
+    { "text": "endereço IP origem" }, 
+    { "text": "endereço MAC origem" }, 
+    { "text": "nenhuma das alternativas indicadas" }, 
+    { "text": "endereço MAC destino"}
+  ],
+  "Resposta": "endereço MAC origem"
+},
+
+{
+  "question": "Qual é o valor decimal equivalente de um número binário de 10111011?  ",
+  "options": [
+    { "text": "235" },    
+    { "text": "133" }, 
+    { "text": "187" }, 
+    { "text": "197" }, 
+    { "text": "109"}
+  ],
+  "Resposta": "187"
+},
+{
+  "question": "São vantagens de usar endereços IP privados e NAT, exceto",
+  "options": [
+    { "text": "permitir a expansão de LAN sem endereços IP públicos adicionais" },    
+    { "text": "permitir que empresas utilizem IPs privados" }, 
+    { "text": "preservar endereços IP públicos registrados" }, 
+    { "text": "ocultar o endereçamento de LAN privada de dispositivos externos conectados à Internet" }, 
+    { "text": "criar vários endereços IP públicos"}
+  ],
+  "Resposta": "criar vários endereços IP públicos"
+},
+{
+  "question": "Qual é uma desvantagem de implantar um modelo de rede peer-to-peer?",
+  "options": [
+    { "text": "Alto custo" },    
+    { "text": "Dificuldade de instalação" }, 
+    { "text": "Nenhuma das respostas indicadas" }, 
+    { "text": "Falta de administração centralizada" }, 
+    { "text": "Complexidade de alto nível"}
+  ],
+  "Resposta": "Falta de administração centralizada"
+},
+{
+  "question": "Qual endereço IP abaixo é de uma rede privada?",
+  "options": [
+    { "text": "172.68.83.35" },    
+    { "text": "198.162.0.1" }, 
+    { "text": "172.30.18.6" }, 
+    { "text": "128.37.255.6" }, 
+    { "text": "198.168.6.18"}
+  ],
+  "Resposta": "172.30.18.6"
+},
+{
+  "question": "Quais das duas camadas do modelo OSI correspondem à camada de acesso à rede do modelo TCP/IP?",
+  "options": [
+    { "text": "aplicação e física" },    
+    { "text": "transporte e rede" }, 
+    { "text": "sessão e transporte" }, 
+    { "text": "enlace e física" }, 
+    { "text": "rede e sessão"}
+  ],
+  "Resposta": "enlace e física"
+},
+{
+  "question": "Qual afirmação descreve melhor um endereço MAC?",
+  "options": [
+    { "text": "Tem 128 bits de comprimento." },    
+    { "text": "Identifica os endereços origem e destino de hosts na Internet" }, 
+    { "text": "Ele contém duas partes: a porção da rede e a porção de host." }, 
+    { "text": "Nenhuma das alternativas indicadas" }, 
+    { "text": "É um endereço físico atribuído a uma placa de rede pelo fabricante"}
+  ],
+  "Resposta": ""
+},
+{
+  "question": "Qual protocolo é usado para atribuir automaticamente endereços IP aos hosts?",
+  "options": [
+    { "text": "HTTP" },    
+    { "text": "NAT" }, 
+    { "text": "DHPP" }, 
+    { "text": "Nenhuma das alternativas indicadas" }, 
+    { "text": "DNS"}
+  ],
+  "Resposta": "Nenhuma das alternativas indicadas"
+},
+{
+  "question": "Um cliente envia uma mensagem para solicitar informações de um servidor da Web na Internet. Qual é o parâmetro usado na mensagem para indicar o serviço (aplicação) específico solicitado?  ",
+  "options": [
+    { "text": "porta de origem" },    
+    { "text": "nome de domínio do servidor" }, 
+    { "text": "endereço IP destino" }, 
+    { "text": "portas de origem e destino" }, 
+    { "text": "porta destino"}
+  ],
+  "Resposta": "porta destino"
+},
+{
+  "question": "Qual é um dos propósitos de um endereço IP?",
+  "options": [
+    { "text": "Ele identifica uma posição na memória a partir da qual um progama é executado." },    
+    { "text": "Nenhuma das alternativas indicadas." }, 
+    { "text": "Ele identifica a origem e o destino de pacotes de dados." }, 
+    { "text": "Ele identifica um endereço do remetente para responder as mensagens de e-mail." }, 
+    { "text": "Ele identifica a localização física de um data center."}
+  ],
+  "Resposta": "Ele identifica a origem e o destino de pacotes de dados."
+},
+{
+  "question": "Quantos dados podem ser encapsulados em um quadro Ethernet de tamanho normal, antes de serem enviados pela rede?",
+  "options": [
+    { "text": "0 a 1024 bytes." },    
+    { "text": "32 a 1500 bytes." }, 
+    { "text": "Nenhuma das alterantivas indicadas." }, 
+    { "text": "de 64 a 1518 bytes." }, 
+    { "text": "de 45 a 1500 bytes."}
+  ],
+  "Resposta": "de 45 a 1500 bytes."
+},
+{
+  "question": "Qual tecnologia é usada para identificar exclusivamente uma rede WLAN?",
+  "options": [
+    { "text": "SSID" },    
+    { "text": "WEP" }, 
+    { "text": "Tabela de endereços MAC." }, 
+    { "text": "Nenhuma das alternativas indicadas." }, 
+    { "text": "WPA"}
+  ],
+  "Resposta": "SSID"
+},
+{
+  "question": "Por que os aplicativos de transmissão de áudio e vídeo usam TCP em vez de UDP.",
+  "options": [
+    { "text": "O handshake triplo usado em UDP acelera os fluxos de áudio e vídeo." },    
+    { "text": "Nenhuma das alternativas indicadas pois aplicativos de áudio e vídeo usam UDP ao invés de TCP." }, 
+    { "text": "O TCP garante o fornecimento de segmentos para proporcionar fluxos de vídeo e áudio confiáveis." }, 
+    { "text": "Aplicativos de transmissão de áudio e vídeo conseguem tolerar o atraso causado pela retransmissão." }, 
+    { "text": "Aplicativos de transmissão de áudio e vídeo exigem o recebimento de todos os pacotes independentemente de atrasos."}
+  ],
+  "Resposta": "Nenhuma das alternativas indicadas pois aplicativos de áudio e vídeo usam UDP ao invés de TCP."
+},
+{
+  "question": "Qual é o intervalo de prefixo de endereço reservado para o multicast IPv4?",
+  "options": [
+    { "text": "240.0.0.0-254.255.255.255" },    
+    { "text": "224.0.0.0-239.255.255.255" }, 
+    { "text": "127.0.0.0-127.255.255.255" }, 
+    { "text": "169.254.0.0-169.254.255.255" }, 
+    { "text": "Nenhuma das alternativas indicadas."}
+  ],
+  "Resposta": "224.0.0.0-239.255.255.255"
+},
+{
+  "question": "Em que camada do modelo TCP/IP ocorre TCP?",
+  "options": [
+    { "text": "nenhuma das alternativas indicadas" },    
+    { "text": "transporte" }, 
+    { "text": "aplicação" }, 
+    { "text": "internet" }, 
+    { "text": "accesso à rede"}
+  ],
+  "Resposta": "transporte"
+},
+
+{
+  "question": "São partes de informações identificadas por uma URL, exceto",
+  "options": [
+    { "text": "O protocolo está sendo usado." },    
+    { "text": "Nenhuma das alternativas indicadas" }, 
+    { "text": "O local do recurso" }, 
+    { "text": "O nome do domínio que está sendo acessado." }, 
+    { "text": "O endereço IP do gateway"}
+  ],
+  "Resposta": "O endereço IP do gateway"
+}
+
+
+
+
+  ]
+  

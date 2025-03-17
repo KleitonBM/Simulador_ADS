@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    background: #f4f4f4;
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.Controler {
+    width: 20%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.Bt_Ação {
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background: #23a312;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background: #f5f3f3;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.options button:hover {
+    background: #bbb;
+}
+
+.options button.selected {
+    background: green;
+    color: white;
+}
+
+#question-nav button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #dfdddd;
+    color: rgb(8, 6, 6);
+    border-radius: 5px;
+}
+
+#question-nav-disertativa button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #dfdddd;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.opção_questao {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.opção_questao h2 {
+    padding: 10px;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.opção_questao ul {
+    margin: 20px;
+    padding: 10px;
+    width: 90%;
+    color: rgb(8, 6, 6);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.opção_questao textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.imagem {
+    max-width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#question-nav button.answered, 
+#question-nav-disertativa button.answered {
+    background: green;
+}
+
+#question-nav button.active, 
+#question-nav-disertativa button.active {
+    background: blue;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container, .Controler {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .Controler {
+        order: -1;
+    }
+
+    #question-nav button, 
+    #question-nav-disertativa button {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}

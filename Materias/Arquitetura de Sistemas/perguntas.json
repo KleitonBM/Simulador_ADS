@@ -1,0 +1,197 @@
+[
+{
+  "question": "Qual das frases abaixo é uma vantagem quando se utiliza os padrões de projetos?",
+  "options": [
+    { "text": "Com o uso de padrões de nomenclatura, o projeto possuirá nomes estandardizados, trazendo referência e credibilidade para o software desenvolvido." },
+    { "text": "Piora as técnicas e princípios da programação orientada a objetos, como implementação de herança, composição e polimorfismo." },
+    { "text": "Aumenta a organização e diminui a manutenção de projetos, já que esses padrões se baseiam em alto acoplamento entre as classes e padronização do código." },
+    { "text": "Não implementa hierarquias de herança, diminuindo o tamanho do projeto e aprimorando o mesmo." },
+    { "text": "Não possui refatoração de um código, pois é altamente acoplado e de baixa coesão."}
+  ],
+  "Resposta": "Com o uso de padrões de nomenclatura, o projeto possuirá nomes estandardizados, trazendo referência e credibilidade para o software desenvolvido."
+},
+
+{
+  "question": "As noções de separação e independência são fundamentais para o projeto de arquitetura de software porque permitem que alterações sejam localizadas. Com relação aos padrões de arquitetura em camadas (MVC), é INCORRETO afirmar que:",
+  "options": [
+    { "text": "no padrão MVC, o componente Controlador gerencia o sistema de dados e as operações associadas a esses dados." },
+    { "text": "o padrão MVC oferece a vantagem de permitir que os dados sejam alterados de forma independente de sua representação e vice-versa." },
+    { "text": "o padrão de arquitetura em camadas, na prática, costuma apresentar a desvantagem de ser difícil proporcionar uma clara separação entre as camadas; e uma camada de alto nível pode ter de interagir diretamente com camadas de baixo nível, em vez de através da camada imediatamente abaixo dela." },
+    { "text": "na arquitetura cliente-servidor, os clientes podem ter de saber os nomes dos servidores disponíveis e os serviços que eles fornecem; no entanto, os servidores não precisam conhecer a identidade dos clientes ou quantos clientes estão acessando seus serviços." },
+    { "text": "no padrão MVC, o componente Model gerencia o sistema de dados e as operações associadas a esses dados."}
+  ],
+  "Resposta": "no padrão MVC, o componente Controlador gerencia o sistema de dados e as operações associadas a esses dados."
+},
+
+{
+    "question": "Sobre as vantagens e desvantagens em reutilizar softwares, é correto afirmar que:<br><br>I - Qualidade do código;<br>II - Produtividade;<br>III - Custo maior;<br>IV - Falta de apoio de ferramenta;<br>V - Confiabilidade.<br><br>É correto o que se afirma em:",
+    "options": [
+    { "text": "I, II e V."},
+    { "text": "I, II e III." },
+    { "text": "II, IV e Vg" },
+    { "text": "I, II, III, IV e V"  },
+    { "text": "IV e V."  }
+  ],
+  "Resposta": "I, II e V."
+},
+
+{
+    "question": "São vantagens do uso de framework:<br><br>I-Eficiência;<br>II-Apoio técnico;<br>III-Dependência;<br>IV-Códigos desnecessários;<br>V-Segurança;<br><br>É correto o que se afirma em:",
+    "options": [
+    { "text": "I, II e V"},
+    { "text": "I, II, III, IV e V"},
+    { "text": "I, III, e V"},
+    { "text": "II, III, e IV"},
+    { "text": "II, IV e V"}
+],
+"Resposta": "I, II e V.", "imagem":""
+},
+
+{
+    "question": "Um sistema pode ser definido como a consequente interação de todos os seus componentes. <br>Sobre os componentes de uma arquitetura de sistema, pode-se dizer que:",
+    "options": [
+    { "text": "Componentes podem se relacionar com entidades fora dos limites do software em questão."},
+    { "text": "A interface requires define os serviços que são fornecidos pelo componente para outros componentes do sistema."},
+    { "text": "A interface provides define os serviços que são necessários por um componente para sua correta execução."},
+    { "text": "Os componentes devem ser independentes e robustos, e sua comunicação com os demais elementos do sistema pode ser desconsiderada."},
+    { "text": "Não é comum que haja colaboração entre componentes, uma vez que estes são entidades independentes."}
+], "Resposta": "Componentes podem se relacionar com entidades fora dos limites do software em questão.", "imagem":"" },
+
+{
+    "question": "Leia o texto a seguir:<br><br>\"A engenharia de software baseada em reúso é uma estratégia da engenharia de software em que o processo de desenvolvimento é orientado para o reúso de softwares existentes. Apesar de o reúso ter sido proposto como uma estratégia de desenvolvimento há mais de 40 anos (McILROY, 1968), só em 2000 o ‘desenvolvimento com reúso’ se tornou a norma para novos sistemas de negócios... Cada vez mais empresas consideram o software como um ativo valioso. O reúso tem sido promovido para aumentar o retorno sobre os investimentos em software.\"<br><br>(Extraído de <a href='https://medium.com/@mikiasoliveira/re%C3%BAso-de-software-8406766d9eb8' target='_blank'>Medium</a> em 12/09/2022)<br><br>Sobre a reutilização de software, pode-se afirmar que:",
+    "options": [
+    { "text": "De modo geral acaba por piorar a qualidade de software uma vez que o reúso de software implica obrigatoriamente na adoção de tecnologias e códigos defasados."},
+    { "text": "Promove escalabilidade na produção, apesar de ser um dos principais responsáveis pelo aumento de custos."},
+    { "text": "Impede a manutenção dos softwares uma vez que os sistemas são sempre aproveitados como blocos ou caixas-pretas."},
+    { "text": "Promove redução dos custos com impacto negativo na escalabilidade da produção."},
+    { "text": "É um dos principais responsáveis pelo desenvolvimento estruturado de novos softwares, no entanto pode gerar custos na adoção de softwares sem livre licença."}
+], "Resposta": "É um dos principais responsáveis pelo desenvolvimento estruturado de novos softwares, no entanto pode gerar custos na adoção de softwares sem livre licença.", "imagem":"" },
+
+{
+    "question": "O paradigma da arquitetura orientada a serviços (SOA - Service-Oriented Architecture) foi criado com foco em prover serviços fracamente acoplados e coesos como resposta à demanda de integração tecnológica global com diversidade em tecnologias, plataformas e regras de negócio.<br><br> Apesar de ser utilizada em diversas aplicações, nos dias atuais esse paradigma ainda não é altamente difundido, isso se deve principalmente porque",
+    "options": [
+    { "text": "não existe interesse genuíno das grandes empresas tecnológicas em adotar a SOA e sim em manter estrutura de sistemas orientado a objetos."},
+    { "text": "esse paradigma levaria a um alto custo, pois pressupõe alterar a forma de modelar algo que já está pronto e funcional."},
+    { "text": "não existem vantagens concretas em sua adoção, sendo um paradigma específico para sistemas ineficientes."},
+    { "text": "é muito vantajoso propor uma nova arquitetura para algo que já está em pleno funcionamento."},
+    { "text": "essa tecnologia está em ascensão, sendo ainda muito recente para que ocorra sua completa adoção."}
+], "Resposta": "esse paradigma levaria a um alto custo, pois pressupõe alterar a forma de modelar algo que já está pronto e funcional.", "imagem":"" },
+
+
+{
+    "question": "Sobre o MVC, é correto afirmar que são vantagens:<br><br>I-Desenvolvimento simultâneo;<br>II-Alta coesão;<br>III-Complexidade;<br>IV-Dificuldade de modificação;<br>V-Navegabilidade do código.<br><br>É correto o que se afirma em:",
+    "options": [
+    { "text": "I-II"},
+    { "text": "I-II-III"},
+    { "text": "II-III-IV"},
+    { "text": "II-III"},
+    { "text": "III-IV"}
+], "Resposta": "I-II", "imagem":"" },
+
+{
+  "question": "A respeito do MVC, assinale a alternativa correta:",
+  "options": [
+  { "text": "A comunicação entre as interfaces e as regras de negócio é responsabilidade da camada controller."},
+  { "text": "Trata-se de um modelo conhecido por dificultar a documentação."},
+  { "text": "A camada view é responsável pelas regras de negócio."},
+  { "text": "A maior desvantagem desse padrão é não ser aplicável a muitos contextos, o que diminui o reuso de código."},
+  { "text": "A camada model é responsável pela exibição de dados na tela."}
+], "Resposta": "A comunicação entre as interfaces e as regras de negócio é responsabilidade da camada controller.", "imagem":"" },
+
+{
+    "question": "O que são instâncias dentro do contexto de arquétipos estruturais em arquitetura de sistemas:",
+    "options": [
+    { "text": "são métodos executáveis de programação para acelerar o processo."},
+    { "text": "são representações reais das componentes de um sistema."},
+    { "text": "são funções não implementadas (não reais) de um componente."},
+    { "text": "são elementos geralmente emprega-se para a construção de sistemas."},
+    { "text": "são outra forma de denominar componentes."}
+], "Resposta": "são representações reais das componentes de um sistema.", "imagem":"" },
+
+{
+  "question": "Os padrões de projetos são comumente conhecidos como:",
+  "options": [
+  { "text": "Design patterns"},
+  { "text": "Patterns design"},
+  { "text": "Padronização"},
+  { "text": "Metrificação de projetos"},
+  { "text": "UX design"}
+], "Resposta": "Design patterns", "imagem":"" },
+
+{
+  "question": "Assim como na construção civil, a engenharia de software possui uma subárea denominada Arquitetura. Sobre Arquitetura de Software, é incorreto o que se afirma em:",
+  "options": [
+  { "text": "A arquitetura de software consiste em um modelo relativamente pequeno e compreensível acerca de como o sistema será estruturado."},
+  { "text": "A arquitetura de software define a forma como os componentes de software vão se comunicar"},
+  { "text": "A arquitetura de software abrange a estrutura ou as estruturas do sistema e os componentes de software."},
+  { "text": "A arquitetura de software é uma área independente da engenharia de software."},
+  { "text": "A arquitetura de software define as propriedades externamente visíveis dos componentes de software e as relações entre eles."}
+], "Resposta": "A arquitetura de software é uma área independente da engenharia de software.", "imagem":"" },
+
+{
+  "question": "Quais são os beneficios para a utilização do MVC no processo de desenvolvimento:",
+  "options": [
+  { "text": "Segurança, Organização, Eficiência, Tempo, Transformação."},
+  { "text": "Insegurança, Organização, Eficiência."},
+  { "text": "Eficiència, Desorganização, Tempo, Transformação."},
+  { "text": "Segurança, Ineficiência, Transformação."},
+  { "text": "Todos acima"}
+], "Resposta": "Segurança, Organização, Eficiência, Tempo, Transformação.", "imagem":"" },
+
+{
+  "question": "O padrão da arquitetura de software MVC (Model-View-Controller) é largamente adotada em diveras aplicações atuais. Com base nessa arquitetura, indique qual é o componente responsável pela apresentação que também recebe os dados de entrada do usuário:",
+  "options": [
+  { "text": "Data."},
+  { "text": "Controller."},
+  { "text": "Application."},
+  { "text": "View."},
+  { "text": "Model"}
+], "Resposta": "View.", "imagem":"" },
+
+
+{
+  "question": "Reutilizar componentes é um ato muito comum em desenvolvimento de sistemas. Com relação às vantagens da reutilização de componentes, pode-se afirmar, exceto, que",
+  "options": [
+  { "text": "Em regra, dificulta a manutenção do software"},
+  { "text": "Aprimora a produção dos sistemas"},
+  { "text": "Reduz custos operacionais e com pessoal, de modo geral."},
+  { "text": "Reduz custos operacionais e com pessoal, de modo geral."},
+  { "text": "Podem ser um problema quando não há manutenção de bibliotecas e compatibilidade de APIs."}
+], "Resposta": "Em regra, dificulta a manutenção do software", "imagem":"" },
+
+
+{
+  "question": "Uma das formas mais importantes de representação de um sistema-alvo é por meio do diagrama de arquétipo estrutural. Com relação a este tópico fundamental, assinale a alternativa incorreta:",
+  "options": [
+  { "text": "Trata-se de um requisito essencial para o usuário final do sistema-alvo, sem o qual o mesmo não seria capaz de utilizá-lo."},
+  { "text": "O arquétipo representa o sistema de interesse em uma linguagem de alto nível."},
+  { "text": "É componente fundamental dessa representação o barramento ou interface de comunicação."},
+  { "text": "É de fácil compreensão para todos os envolvidos no desenvolvimento do sistema."},
+  { "text": "Sua implementação é uma etapa fundamental para desenvolvimento de projetos de arquitetura de sistemas."}
+], "Resposta": "Trata-se de um requisito essencial para o usuário final do sistema-alvo, sem o qual o mesmo não seria capaz de utilizá-lo.", "imagem":"" },
+
+{
+  "question": "No MVC, considere as seguintes propriedades e suas prováveis e respectivas características:<br><br>I-gerenciamento de múltiplos visualizadores usando mesmo modelo - facilidade/dificuldade de manutenção, teste e atualização de sistemas múltiplos;<br>II-desenvolvimento em paralelo para o modelo, visualizador e controle - possível/impossível;<br>III-uso em pequenas aplicações - aconselhável/ desaconselhável em razão do custo/benefício.<br><br>Respectivamente as propriedades I, II e III, as características corretas em negrito são:",
+  "options": [
+  { "text": "facilidade, possível e desaconselhável."},
+  { "text": "facilidade, impossível e aconselhável."},
+  { "text": "dificuldade, possível e aconselhável."},
+  { "text": "dificuldade, impossível e desaconselhável."},
+  { "text": "dificuldade, possível e desaconselhável."}
+], "Resposta": "facilidade, possível e desaconselhável.", "imagem":"" },
+
+
+{
+  "question": "Quais são os benefícios para a utilização do MVC no processo de desenvolvimento:",
+  "options": [
+  { "text": "Segurança, Organização, Eficiência, Tempo, Transformação."},
+  { "text": "Insegurança, Organização, Eficiência."},
+  { "text": "Eficiência, Desorganização, Tempo, Transformação."},
+  { "text": "Segurança, Ineficiência, Transformação."},
+  { "text": "Todos acima"}
+], "Resposta": "Segurança, Organização, Eficiência, Tempo, Transformação.", "imagem":"" }
+
+
+
+  ]
+  
