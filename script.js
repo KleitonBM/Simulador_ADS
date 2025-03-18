@@ -80,8 +80,8 @@ let allQuestions = [];
 
             // Exibe a imagem da pergunta, se houver
             let questionImage = document.getElementById("question-image");
-            if (q.image) {
-                questionImage.src = q.image;
+            if (q.imagem) {
+                questionImage.src = q.imagem;
                 questionImage.style.display = "block";
             } else {
                 questionImage.style.display = "none";

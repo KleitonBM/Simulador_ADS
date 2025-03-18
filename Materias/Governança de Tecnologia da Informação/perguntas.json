@@ -1,16 +1,291 @@
 [
 {
+  "question": "Conforme Turban e Volonino (2013, p. 365), a governança de Tl esta' preocupada com a garantia de que os nvestimentos organizacionals em TI agreguem total valor à organização.<BR><BR>Para que a TI agregue total valor, três objetivos devem ser cumpridos:<BR><BR>A TI deve estar _________________ à direção de às estratégias de negócios<BR>Os riscos principais têm de ser identificados e ____________.<BR>O cumprimento das leis, das regras da indústria e das _____________________, deve, ser demonstrados.<BR><BR>As palavras que completam a frase acima corretamente são respectivamente:",
+  "options": [
+    { "text": "subordinada; delineados; empresas" },
+    { "text": "mitigada; potencializados; prefeituras" },
+    { "text": "Alinhada; eliminados; diretorias" },
+    { "text": "subordinada; eliminados; organizações." },
+    { "text": "totalmente alinhada; controlados; agências reguladoras"}
+  ],
+  "Resposta": "totalmente alinhada; controlados; agências reguladoras"
+},
+
+{
+  "question": " O gerenciamento de serviços de TI tem como objetivo a entrega e o suporte de serviços de Tl focados nas necessidades dos clientes e alinhados à estratégia de negócio da organização. Esta visa alcançar custos e desempenho desejados pelo cliente, por meio de acordos de nível de serviço estabelecidos internamente entre a área de TI e as demais áreas envolvidas na cadeia do serviço. MAGALHÃES, L. et al. Gerenciamento de Serviços de TI na Prática: Uma abordagem com base na ITIL. Paulo: Novatec, 2007 (adaptado). A partir das informações do texto, avalie as asserções a seguir e a relação proposta entre elas.<br><br>I. O acordo de nível de serviço é um contrato rmado entre o provedor de serviços de TI e seus clientes, que incluem detalhes de quais serviços serão fornecidos.<br><br>PORQUE<br><br>II. Os serviços devem ser monitorados quanto ao desempenho e disponibilidade no nível em que for acordado entre as partes. A respeito dessas asserções, assinale a opção correta.   ",
+  "options": [
+    { "text": "As asserções I e II são proposições verdadeiras, mas a II não é uma justicativa correta da I." },
+    { "text": "A asserção I é uma proposição falsa, e a ll é uma proposição verdadeira." },
+    { "text": "As asserções I e II são proposições verdadeiras, e a ll é uma justicativa correta da I." },
+    { "text": "As asserções I e II são proposições falsas." },
+    { "text": "A asserção I é uma proposição verdadeira, e a ll é uma proposição falsa."}
+  ],
+  "Resposta": "As asserções I e II são proposições verdadeiras, mas a II não é uma justicativa correta da I."
+},
+{
+  "question": "A lei Sarbanes-Oxley (SOX), publicada em agosto de 2002, após escândalos nanceiros acontecidos em companhias americanas abertas nos Estados Unidos, objetiva proteger os investidores, no mercado de capital americano, de fraudes contábeis e nanceiras. Entre os diversos controles que essa lei regula, destacam-se aqueles que devem garantir a integridade de informações contábeis e nanceiras. Tal crise despertou a importância da temática Governança de Tecnologia da Informação (TI) para as organizações, de modo a serem considerados requisitos legais a troca de informações entre parceiros estratégicos das organizações e a formalização de uma política de segurança da informação, entre outros. Desta forma, cabe destacar que o objetivo da Governança de Tl em uma organização é alinhar a Tl aos requisitos de negócio, de modo a garantir a continuidade dos serviços prestados, bem como a minimização da exposição do negócio aos riscos de Tl.<br><br>A respeito desse contexto, avalie as armações a seguir.<br><br>I. O atendimento a marcos de regulação (compliance) implicam, para a área de Tl, que os sistemas de informação transacionais de uma organização, geradores de fatos contábeis e nanceiros, possibilitem o acesso e a emissão de relatórios de resultados.<br>II. A segurança da informação deve ser focada prioritariamente na proteção da infraestrutura de servidores que armazenam as informações transacionais, como contábeis e nanceiras.<br>III. A integração tecnológica entre liais de uma organização, ou seja, entre elos de uma cadeia de distribuição, bem como a gestão de clientes altamente sosticados, ou seja, entre elementos que ultrapassam as fronteiras da organização, devem ser consideradas no momento de se alinhar a TI aos requisitos de negócio.<br>IV. Em grandes organizações brasileiras e multinacionais, a implementação de 'centro de serviços compartilhados' visa centralizar diversas áreas de negócio, assim como determinadas operações e/ou serviços de TI. ",
+  "options": [
+    { "text": "II, III e IV" },
+    { "text": "I, III e IV" },
+    { "text": "I e III" },
+    { "text": "I e II" },
+    { "text": "II e IV"}
+  ],
+  "Resposta": "I, III e IV"
+},
+{
+  "question": "Qual é o principal produto do processo de alinhamento estratégico para a área de TI? ",
+  "options": [
+    { "text": "O ITIL" },
+    { "text": "O PETI" },
+    { "text": "O COSO" },
+    { "text": "O Planejamento Estratégico Corporativo" },
+    { "text": "O COBIT"}
+  ],
+  "Resposta": "O PETI"
+},
+
+{
+  "question": "Existem sete tipos corriqueiros de risco de negócios que usualmente são úteis de serem endereçados na agenda da governança corporativa. Assinale a opção que traz corretamente esses riscos.",
+  "options": [
+    { "text": "Risco de insolvência, risco de crédito, risco de mercado, Risco de isolamento, risco de adequação, risco de conformidade e risco de segurança e fraude" },
+    { "text": "Risco de isolamento, risco de adequação, risco de mediação, risco de moderação, risco de inadimplência, risco de fraude e risco de anuência" },
+    { "text": "Risco de insolvência, risco de crédito, risco de mercado, risco nanceiro, risco de reputação, risco operacional racional" },
+    { "text": "Risco econômico, risco de conformidade, risco de segurança e fraude, risco nanceiro, risco de reputação, risco operacional e risco de competição/conforto" },
+    { "text": "Risco econômico, risco de conformidade, risco de segurança e fraude, Risco de isolamento, risco de adequação, risco de mediação e risco de moderação"}
+  ],
+  "Resposta": "Risco econômico, risco de conformidade, risco de segurança e fraude, risco nanceiro, risco de reputação, risco operacional e risco de competição/conforto"
+},
+{
   "question": "",
   "options": [
-    { "text": "" },
-    { "text": "" },
-    { "text": "" },
-    { "text": "" },
-    { "text": ""}
+    { "text": "Os marcos de regulação são definidos pelos conselhos das organizações, não levando em conta as regulações políticas." },
+    { "text": "O ambiente de negócio é definido por clientes mais exigentes e conscientes, não levando em conta as políticas internas." },
+    { "text": "A integração tecnológica é definida pela integração entre hardware e software, não levando em conta seus fabricantes." },
+    { "text": "A segurança da informação é denida pela Política da Segurança da Informação, não levando em conta cargos e salários." },
+    { "text": "A TI como prestadora de serviços representa os profissionais de informática, não levando em conta hardware e software."}
+  ],
+  "imagem":"./Img_perguntas/Governaça_1.png",
+  "Resposta": "A segurança da informação é denida pela Política da Segurança da Informação, não levando em conta cargos e salários."
+},
+{
+  "question": "A Seção 302 da Sarbanes-Oxley (Sox) determina que os executivos sêniores certiquem pessoalmente, por escrito, que as demonstrações nanceiras da empresa cumprem os requisitos de divulgação e apresentam as operações e a condição nanceira do emissor em todos os aspectos materiais de forma justa. Os signatários dessas demonstrações nanceiras assumem signicativo ônus por eventual imprecisão na informação certicada. Fonte: elaborado pelo autor. Com base nesse texto e no material estudado, qual ônus é assumido pelos executivos em questão?",
+  "options": [
+    { "text": "Indenização à Receita Federal." },
+    { "text": "Penalidades criminais." },
+    { "text": "Audiências em CPI do Senado." },
+    { "text": "Trabalhos comunitários." },
+    { "text": "Demissão por justa causa."}
+  ],
+  "Resposta": "Penalidades criminais."
+},
+{
+  "question": "Uma boa gestão de TI se faz com o devido alinhamento estratégico com o negócio, sua missão, valores e objetivo. A boa denicação de indicadores e métricas são essenciais para vericarmos se estamos no caminho certo. Assinale dentre as alternativas abaixo aquela que seria um bom indicador de excelência operacional e nível de serviço.  ",
+  "options": [
+    { "text": "Curva S do projeto" },
+    { "text": "Razão de terceiros sobre o total de pessoal empregado" },
+    { "text": "Índice de disponibilidade de aplicações e serviços." },
+    { "text": "Cumprimento das demandas no portfólio de TI" },
+    { "text": "Índice de satisfação do cliente."}
+  ],
+  "Resposta": "Índice de disponibilidade de aplicações e serviços."
+},
+
+{
+  "question": "Para Fernandes e Abreu (2012, P. 10), a dependência do negócio em relação à TI caracteriza o tipo de TI que se têm na organização,<br><br>I-Diz-se que a TI está exercendo um papel de mudança na organização quando ela tem baixo impacto nas operações chaves e alto impacto nas estratégias chaves;<br><br>PORQUE<br><br>Il- Quando a TI tem baixo impacto nas operações chaves e baixo impacto nas estratégias chaves, diz-se que ela está executando apenas tarefas de suporte",
+  "options": [
+    { "text": "I e falsa e II é verdadeira." },
+    { "text": "I e II são verdadeiras, mas a II não é justificativa da I." },
+    { "text": "I e II são falsas." },
+    { "text": "I e II são verdadeiras e a II é uma justificativa da I." },
+    { "text": "I é uma proposição verdadeira, e a ll é uma proposição falsa."}
+  ],
+  "Resposta": "I e II são verdadeiras, mas a II não é justificativa da I."
+},
+
+
+{
+  "question": "Em organizações que apresentam um grau de governança corporativa mais avançado, a governança de TI tem grande interação com sistemas de controle interno e de gestão de riscos corporativos Dependendo do negócio, existem vários marcos reguladores.<br><br>I- As leis e acordos que norteiam o compliance de TI em uma organização trazem muitas informações e abrangem todos os aspectos do negócio, principalmente, da cultura da empresa.<br>PORQUE<br>II- Eles sempre têm como objetivo livrar a empresa de implicações financeiras causadas por desfalques financeiros ou descumprimento das normas vigentes.<br><br>Marque a afirmativa a seguir que está correta:",
+  "options": [
+    { "text": "I e II são verdadeiras, mas a II não é justificativa da I." },
+    { "text": "I é uma proposição verdadeira, e a ll é uma proposição falsa." },
+    { "text": "I e II são verdadeiras e a II é uma justificativa da I." },
+    { "text": "I e II são falsas." },
+    { "text": "I e falsa e II é verdadeira."}
+  ],
+  "Resposta": "I e II são verdadeiras, mas a II não é justificativa da I."
+},
+{
+  "question": "São alguns dos objetivos das fases de implementação do projeto de governança de Tl em uma organização:<br><br>I- Definir as regras para que todos os envolvidos façam e cumpram;<br>Il- Estipular a infraestrutura necessária, seja de dados ou de telefonia;<br>Ill- Delinear o nível de serviço a ser percorrido pela TI em consonância com os objetivos organizacionais;<br>IV- Promover a mudança nos marcos regulatórios que regem o compliance na organização;<br>V- Balizar as diretrizes referentes à segurança e níveis exigidos.<br><br>Assinale a seguir, a alternativa correta sobre as afirmativas acima.",
+  "options": [
+    { "text": "Apenas I está correta." },
+    { "text": "Todas estão corretas." },
+    { "text": "Só a IV não está correta." },
+    { "text": "Todas estão incorretas." },
+    { "text": "Apenas a V está correta."}
   ],
   "Resposta": ""
+},
+
+{
+  "question": "Normalmente, as áreas de TI sofrem o problema de credibilidade perante as unidades de negócio. Portanto, a comunicação, além de ser imperativa para a tomada de decisão, também é um meio de a Tl fazer o seu marketing e mudar essa percepção. A divulgação de indicadores é uma das formas de melhorar a credibilidade das áreas de TI.<br>Marque a alternativa a seguir que melhor relaciona tais indicadores: ",
+  "options": [
+    { "text": "Custos dos serviços; disciplina orçamentária; orçamento dos fornecedores." },
+    { "text": "Retorno do investimentos dos projetos; Indice de satisfação dos usuários; fndice de conformidade com regulamentos externos e internos." },
+    { "text": "Maturidade dos processos de Tl; governança dos clientes; indice de conformidade com regulamentos externos e internos." },
+    { "text": "Percentual de uso das redes sociais; quantidade de dados armazenados; indice de disponibilidade da aplicações e serviços de Tl" },
+    { "text": "Disciplina orçamentária; indice de satisfação dos concorrentes; tempo de resposta médio das aplicações da empresa"}
+  ],
+  "Resposta": "Retorno do investimentos dos projetos; Indice de satisfação dos usuários; fndice de conformidade com regulamentos externos e internos."
+},
+
+{
+  "question": "Conforme Fernandes e Abreu (2012, p 8). O senso comum considera que a principal razão de a governança de TI existir, na verdade, diz respeito à transparência na administração. Porém, devemos lembrar que a governança abrange praticamente todas as operações dentro de um universo corporativo.<br>Marque a alternativa que traz os fatores motivadores da governança em TI",
+  "options": [
+    { "text": "dependência do negócio em relação a TI; Marcos de regulação e Ti como definadora das estratégias corporativas" },
+    { "text": "TI como definadora das estratégias corporativas e Marcos de regulação" },
+    { "text": "TI como prestadora de serviços; Integração tecnológica; Segurança da informação; dependência do negócio em relação a TI; Marcos de regulação e Ambiente de negócios." },
+    { "text": "Segurança da informação; dependência do negócio em relação a TI e Ti como uma atividade fim do negócio" },
+    { "text": "TI como uma atividade fim do negócio, Ti como definadora das estratégias corporativas; Integração tecnológica e Segurança da informação;"}
+  ],
+  "Resposta": "TI como prestadora de serviços; Integração tecnológica; Segurança da informação; dependência do negócio em relação a TI; Marcos de regulação e Ambiente de negócios."
+},
+
+{
+  "question": "Em relação aos domínios e componentes da governança de TI. O domínio responsável pela criação do Portfólio de TI é:<br><br>Assinale a alternativa correta.Todas estão corretas.",
+  "options": [
+    { "text": "O domínio de gestão de valor e desempenho." },
+    { "text": "O domínio de inovação tecnológica." },
+    { "text": "O domínio de alinhamento estratégico e compliance." },
+    { "text": "O domínio de decisão, compromisso, priorização e alocação de recursos." },
+    { "text": "O domínio de estrutura, processos, operação e gestão."}
+  ],
+  "Resposta": "O domínio de decisão, compromisso, priorização e alocação de recursos."
+},
+
+{
+  "question": "A governança empresarial é um sistema pelo qual as entidades são dirigidas e controladas. Os problemas referentes à governança não podem ser resolvidos sem a TI, uma vez que o negócio é altamente dependente da tecnologia. A governança empresarial deve, portanto, dirigir e contribuir para o estabelecimento da governança de TI. São fatores que indicam problemas de Governança de T em uma organização:<br><br>I - Perda ou baixo desempenho dos negócios por causa da Tl e aumento dos custos de Tl; <br>II - Baixo retorno comercial dos investimentos de Tl e perda de dados;<br>III- Fracasso de projetos de TI e Problemas na prestação de serviços terceirizados,.<br>IV-Desempenho de TI abaixo dos níveis acordados de serviço e duplicação/sobreposição entre iniciativas, projetos ou desperdício de recursos;<br>V- Insuficiência de recursos de TI e pessoal com competências inadequadas, cansaço ou insatisfeito;<br>VI- TI deixando de atender às necessidades de negócios ou entregando tarde demais e entregas da Tl com estouro de orçamento<br><br>Marque a seguir opção correta sobre as afirmativas acima.",
+  "options": [
+    { "text": "Todas estão incorretas." },
+    { "text": "Aenas I, IV e V estão corretas." },
+    { "text": "Apenas a I e IV estão corretas." },
+    { "text": "Todas estão corretas." },
+    { "text": "I, II, III e IV estão cortetas."}
+  ],
+  "Resposta": "Todas estão corretas."
+},
+
+{
+  "question": "Marque a opção a seguir que contempla as áreas definidas da etapa “alinhamento estratégico e compliance” da Governança de TI:",
+  "options": [
+    { "text": "Infraestrutura de TI; capacidade; processos financeiros." },
+    { "text": "Arquitetura de TI; arquitetura física; capacidade." },
+    { "text": "Princípios de TI, gestão da demanda; necessidades de aplicações." },
+    { "text": "Sourcing; plano de TI; orçamentação." },
+    { "text": "Finanças; mineração de dados; IA."}
+  ],
+  "Resposta": "Princípios de TI, gestão da demanda; necessidades de aplicações."
+},
+{
+  "question": "O ciclo da governança de TI possui quatro grandes etapas.<br>Assinale a alternativa que traz as etapas corretas e na ordem em que devem ocorrer.",
+  "options": [
+    { "text": "Etapa de alinhamento estratégico; etapa de decisão; etapa para estrutura e processos; e, por fim uma etapa para a gestão do valor e desempenho." },
+    { "text": "Etapa de alinhamento estratégico; etapa para estrutura e processos; etapa de decisão; e, por fim uma etapa para a gestão do valor e desempenho." },
+    { "text": "Etapa para estrutura e processos; etapa de alinhamento estratégico; etapa de decisão; e, por fim uma etapa para a gestão do valor e desempenho" },
+    { "text": "Etapa de decisão; Etapa de alinhamento estratégico; etapa para estrutura e processos; e, por  fim uma etapa para a gestão do valor e desempenho." },
+    { "text": "Etapa para estrutura e processos; etapa para a gestão do valor e desempenho; etapa de alinhamento estratégico; e, por fim uma etapa de decisão."}
+  ],
+  "Resposta": "Etapa de alinhamento estratégico; etapa de decisão; etapa para estrutura e processos; e, por fim uma etapa para a gestão do valor e desempenho."
+},
+{
+  "question": "O planejamento da Governança em Tecnologia da Informação é uma etapa importantíssima para se obter uma boa governança de TI.<br>Marque a opção que NÃO relaciona algum dos principais objetivos do processo de planejamento da governança de TI.",
+  "options": [
+    { "text": "antecipação de tendências." },
+    { "text": "melhoria da performance da área de TI." },
+    { "text": "compliance das necessidades dos clientes com as dos fornecedores" },
+    { "text": "comprometimento da alta administração." },
+    { "text": "aumento do nível de satisfação dos usuários"}
+  ],
+  "Resposta": "compliance das necessidades dos clientes com as dos fornecedores"
+},
+{
+  "question": "Quando a TI tem alto impacto nas operações chaves (presente) e alto impacto nas estratégias chaves (futuro), diz-se que a TI é ________________ para o negócio.<br>Marque a alternativa que preenche corretamente o espaço em branco.",
+  "options": [
+    { "text": "Tática" },
+    { "text": "Motivadora" },
+    { "text": "Estratégica" },
+    { "text": "Operacional" },
+    { "text": "Gerencial"}
+  ],
+  "Resposta": "Estratégica"
+},
+{
+  "question": "Uma boa gestão de TI se faz com o devido alinhamento estratégico com o negócio, sua missão, valores e objetivo.<br>A boa definicação de indicadores e métricas são essenciais para verificarmos se estamos no caminho certo.<br>Assinale dentre as alternativas abaixo aquela que seria um bom indicador de excelência operacional e nível de serviço.",
+  "options": [
+    { "text": "Curva S do projeto" },
+    { "text": "Razão de terceiros sobre o total de pessoal empregado." },
+    { "text": "Índice de disponibilidade de aplicações e serviços." },
+    { "text": "Cumprimento das demandas no portfólio de TI" },
+    { "text": "Índice de satisfação do cliente."}
+  ],
+  "Resposta": "Índice de disponibilidade de aplicações e serviços."
+},
+
+{
+  "question": "Uma forma de poder gerir os contratos de outsourcing de forma a garantir a continuidade dos processos do negócio é:<br>Assinale a alternativa correta",
+  "options": [
+    { "text": "Denir um Acordo de Nível Operacional (ANO) e um Acordo de Nível de Serviço (ANS) para cada fornecedor externo." },
+    { "text": "Contratar serviços alternativos on demand." },
+    { "text": "Denir sistemas de contingência baseados em probabilidades" },
+    { "text": "Realizar a licitação de serviços por tomada de preço" },
+    { "text": "Internalizar as operações dos fornecedores."}
+  ],
+  "Resposta": "Denir um Acordo de Nível Operacional (ANO) e um Acordo de Nível de Serviço (ANS) para cada fornecedor externo."
+},
+
+{
+  "question": "Geralmente, um planejamento estatégico de tecnologia da informação, tem um horizonte temporal de duração de:",
+  "options": [
+    { "text": "2 a 3 anos" },
+    { "text": "10 a 15 anos" },
+    { "text": "3 a 5 anos" },
+    { "text": "7 a 10 anos" },
+    { "text": "5 a 7 anos"}
+  ],
+  "Resposta": "2 a 3 anos"
+},
+{
+  "question": "A governança de TI está relacionada ao modo como as empresas utilizam os recursos tecnológicos.<br>É a Governança de TI que determinará metodologias, técnicas e ações que devem ser aplicadas ao USO da tecnologia.<br>Alinhada ao negócio da empresa, ela também deve estar inserida nos processos ali executados.<br>São foco da Governança de TI: <br><br>I- O alinhamento da TI com os objetivos dos negócios da organização;<br>Il - A gerencia dos riscos de TI;<br>Ill- A gestão dos sistemas financeiros e contábeis;<br>IV - As operações da empresa,<br><br>Está(ão) correta(s) a(s) afirmativa(s)",
+  "options": [
+    { "text": "I somente" },
+    { "text": "I, II e II somente" },
+    { "text": "I e IV somente" },
+    { "text": "II somente" },
+    { "text": "I e II somente"}
+  ],
+  "Resposta": "I e II somente"
+},
+{
+  "question": "Para Audy e Brodbeck (2003, 69), diversas pesquisas apontam para a necessidade de alinhamento e integração entre Planejamento Estratégico do Negócio (PEN) e Planejamento Estratégico de TI (PETI). Sobre esse alinhamento pode-se dizer que:<br><br>I- Ele depende da interação da TI e com a alta administração;<br>II- Ele se faz necessário, pois é responsável por organizar todos os eixos de uma corporação diante dos objetivos que a regem;<br>|||- Muitas vezes ele está associado à cultura da empresa;<br>IV - A tecnologia deve ser aplicada conforme as necessidades e as diretrizes da empresa, desde que o intuito sempre seja melhorar seus processos;<br>V-ATI utilizada na empresa deve ser a mais avançada disponível no mercado.<br><br>Está(ão) correta(s) a(s) afirmativa(s):",
+  "options": [
+    { "text": "I, II, III, IV e V" },
+    { "text": "I e II somente" },
+    { "text": "I, II, III e iV somente" },
+    { "text": "I, II e III somente" },
+    { "text": "I e IV somente"}
+  ],
+  "Resposta": ""
+},
+{
+  "question": "Fundamentalmente, a governança de TI está preocupada com duas coisas:__________ para o negócio e_________de TI.<br>A primeira é impulsionada pelo alinhamento estratégico da TI ao negócio.<br>A segunda é motivada pela incorporação de responsabilidade na empresa.<br><br>Marque a seguir a opção que contém palavras que complementam o texto acima:",
+  "options": [
+    { "text": "a gestão corporativa; a governança empresarial" },
+    { "text": "a entrega de TI de valor; a mitigação de riscos." },
+    { "text": "a visão; a incorporação de serviços" },
+    { "text": "○ alinhamento; a gerencia de serviços" },
+    { "text": "impulsão; incorporação,"}
+  ],
+  "Resposta": "a entrega de TI de valor; a mitigação de riscos."
 }
-
-
   ]
   

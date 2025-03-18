@@ -37,6 +37,10 @@ body {
     margin-top: 3%;
 }
 
+.Controler h3 {
+    margin: 10px;
+}
+
 .Bt_Ação {
     margin-top: 30px;
     padding: 10px;
@@ -53,10 +57,12 @@ body {
     display: block;
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
+    margin-top: 10px;
+    margin: 15px 0;
     border: none;
     background: #f5f3f3;
     cursor: pointer;
+    border-radius: 3px;
     transition: 0.3s;
     text-align: left;
     font-size: 1rem;
@@ -122,10 +128,12 @@ body {
 }
 
 .imagem {
-    max-width: 100%;
+    max-width: 100vh;
+    max-height: 80vh;
     display: flex;
-    margin-top: 10px;
+    margin: 10px;
     justify-content: center;
+    padding: 10px;
 }
 
 #question-nav button.answered, 

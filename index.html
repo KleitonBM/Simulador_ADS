@@ -8,7 +8,7 @@
 </head>
 <body> 
    
-    <h2>Análise e Desenvolvimento de Sistemas</h2>
+    <h2>Escolha a Matéria</h2>
     <div class="container">
         <div class="materia-buttons">
             <h3>4º Semestre</h3>
@@ -16,8 +16,8 @@
 
             <button class="materia-btn" onclick="startQuiz('Arquitetura de Sistemas')">Arquitetura de Sistemas</button>
             <button class="materia-btn" onclick="startQuiz('Fundamentos de Redes de Computadores')">Fundamentos de Redes de Computadores</button>
-            <!--<button class="materia-btn" onclick="startQuiz('Governança de Tecnologia da Informação')">Governança de Tecnologia da Informação</button>
-             Adicione mais botões conforme necessário -->
+            <button class="materia-btn" onclick="startQuiz('Governança de Tecnologia da Informação')">Governança de Tecnologia da Informação</button>
+            <!-- Adicione mais botões conforme necessário -->
         </div>
     </div>
 
@@ -25,7 +25,7 @@
 
     <script>
         function startQuiz(materia) {
-            window.location.href = `./Quiz.html?materia=${materia}`; // Redireciona para o quiz com a matéria selecionada
+            window.location.href = `quiz.html?materia=${materia}`; // Redireciona para o quiz com a matéria selecionada
         }
     </script>
 </body>
