@@ -25,7 +25,13 @@
                 <img id="question-image" src="" class="imagem" >
             </div>
             <div id="options" class="options"></div>
-            <textarea id="dissertative-container"  rows="5" placeholder="Escreva sua resposta aqui..."></textarea>
+
+            <div id="dissertative-container" >
+                <textarea id="resposta-dissertativa" id rows="10" placeholder="Escreva sua resposta aqui..."></textarea>
+                <button onclick="finalizarProva()" class="Bt_Ação">Avaliar Via ChatGPT</button>
+                <p id="loading" style="display: none;">Avaliando resposta...</p>
+                <p id="feedback-ia"></p>
+            </div>
         </div>
        
         

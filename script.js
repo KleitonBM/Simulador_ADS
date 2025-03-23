@@ -4,12 +4,58 @@ let currentQuestion = 0;
 let score = 0;
 let answers = [];
 let essayQuestion = null;
-
-
-
 // Obtém a matéria selecionada da URL
 const urlParams = new URLSearchParams(window.location.search);
 const materia = urlParams.get('materia');
+const OPENAI_API_KEY = "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"; // Substitua pela sua chave da OpenAI
+
+async function avaliarRespostaDissertativa(resposta) {
+    const prompt = `Avalie a seguinte resposta para a questão: "${essayQuestion}". 
+    Dê um feedback objetivo e uma nota de 0 a 10.  
+    Resposta do aluno: "${resposta}"`;
+
+    try {
+        const response = await fetch("https://api.openai.com/v1/chat/completions", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${OPENAI_API_KEY}`
+            },
+            body: JSON.stringify({
+                model: "gpt-4", // Pode ser "gpt-3.5-turbo"
+                messages: [{ role: "user", content: prompt }],
+                max_tokens: 200
+            })
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`Erro na API: ${response.status} - ${errorText}`);
+        }
+
+        const data = await response.json();
+        return data.choices[0].message.content;
+    } catch (error) {
+        console.error("Erro ao avaliar resposta:", error);
+        return "Houve um problema ao avaliar sua resposta. Tente novamente mais tarde.";
+    }
+}
+
+
+// Chamar a função ao finalizar a prova
+async function finalizarProva() {
+    const respostaAluno = document.getElementById("resposta-dissertativa").value;
+    
+    if (respostaAluno.trim() != "") {
+        
+    document.getElementById("loading").style.display = "block"; // Mostrar um carregamento
+
+    const feedbackIA = await avaliarRespostaDissertativa(respostaAluno);
+
+    document.getElementById("feedback-ia").innerText = feedbackIA;
+    document.getElementById("loading").style.display = "none"; // Esconder o carregamento
+}
+}
 
 async function loadQuestions() {
     const questionsFile = `./Materias/${materia}/perguntas.json`; // Carrega o JSON da matéria selecionada

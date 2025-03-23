@@ -175,6 +175,13 @@ body {
     justify-content: flex-start;
 }
 
+.opção_questao p {
+
+    display: flex;
+    margin-top: 20px;
+
+
+}
 .opção_questao h2 {
     padding: 10px;
     font-size: 1.4rem;
