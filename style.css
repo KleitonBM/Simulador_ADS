@@ -15,6 +15,12 @@ body {
     width: 100%;
 }
 
+
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
 .container {
     width: 70%;
     background: white;
@@ -24,6 +30,15 @@ body {
     text-align: center;
     margin-left: 3%;
     margin-top: 3%;
+}
+
+.container h2{
+    margin-left: 0%;
+    font-size: 15px;
+}
+.container p{
+    margin-left: 1%;
+    text-align: left;
 }
 
 .Controler {
@@ -39,6 +54,62 @@ body {
 
 .Controler h3 {
     margin: 10px;
+    margin-left: 3%;
+    width: 100%;
+}
+
+
+.Controler_op{
+    display: flex;
+}
+
+.home-button {
+    position: fixed;
+    top: 10px; /* Define a posição no topo */
+    left: 10px; /* Mantém na esquerda */
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition:  0.3s;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
+.home-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    position: relative;
+}
+
+.home-icon::before,
+.home-icon::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+.home-icon::before {
+    width: 14px;
+    height: 14px;
+    bottom: 0;
+    left: 3px;
+    border-radius: 2px;
+}
+
+.home-icon::after {
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(50% 0%, 100% 50%, 75% 50%, 75% 100%, 25% 100%, 25% 50%, 0% 50%);
 }
 
 .Bt_Ação {
@@ -79,6 +150,7 @@ body {
 
 #question-nav button {
     margin: 5px;
+    text-align: justify;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -175,3 +247,6 @@ body {
         padding: 8px;
     }
 }
+
+.correct { color: green; font-weight: bold; }
+.wrong { color: red; font-weight: bold; }

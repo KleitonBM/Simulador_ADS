@@ -1,176 +1,222 @@
 let allQuestions = [];
-        let selectedQuestions = [];
-        let currentQuestion = 0;
-        let score = 0;
-        let answers = [];
-        let essayQuestion = null;
+let selectedQuestions = [];
+let currentQuestion = 0;
+let score = 0;
+let answers = [];
+let essayQuestion = null;
 
-        // Obtém a matéria selecionada da URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const materia = urlParams.get('materia');
 
-        async function loadQuestions() {
-            const questionsFile = `./Materias/${materia}/perguntas.json`; // Carrega o JSON da matéria selecionada
 
-            try {
-                const response = await fetch(questionsFile);
-                allQuestions = await response.json();
-                await loadEssayQuestion();
-                startQuiz();
-            } catch (error) {
-                console.error("Erro ao carregar perguntas:", error);
-            }
-        }
+// Obtém a matéria selecionada da URL
+const urlParams = new URLSearchParams(window.location.search);
+const materia = urlParams.get('materia');
 
-        async function loadEssayQuestion() {
-            try {
-                const response = await fetch(`./Materias/${materia}/temas.json`);
-                const themes = await response.json();
-                essayQuestion = themes[Math.floor(Math.random() * themes.length)];
-            } catch (error) {
-                console.error("Erro ao carregar temas dissertativos:", error);
-            }
-        }
+async function loadQuestions() {
+    const questionsFile = `./Materias/${materia}/perguntas.json`; // Carrega o JSON da matéria selecionada
 
-        function startQuiz() {
-            document.getElementById("dissertative-container").classList.add("hidden");
-            document.getElementById("bt_restart").classList.add("hidden");
-            selectedQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
+    try {
+        const response = await fetch(questionsFile);
+        allQuestions = await response.json();
+        await loadEssayQuestion();
+        startQuiz();
+    } catch (error) {
+        console.error("Erro ao carregar perguntas:", error);
+    }
+}
 
-            // Embaralha as respostas apenas no início
-            selectedQuestions.forEach(question => {
-                question.options = shuffleArray(question.options);
-            });
+async function loadEssayQuestion() {
+    try {
+        const response = await fetch(`./Materias/${materia}/temas.json`);
+        const themes = await response.json();
+        essayQuestion = themes[Math.floor(Math.random() * themes.length)];
+    } catch (error) {
+        console.error("Erro ao carregar temas dissertativos:", error);
+    }
+}
 
-            currentQuestion = 0;
-            score = 0;
-            answers = new Array(selectedQuestions.length + 1).fill(null); // +1 para a dissertativa
-            generateNavigation();
-            loadQuestion();
-        }
+function goHome() {
+    window.location.href = "./index.html";
+}
 
-        function generateNavigation() {
-            let nav = document.getElementById("question-nav");
-            nav.innerHTML = "";
-            selectedQuestions.forEach((_, index) => {
-                let btn = document.createElement("button");
-                btn.textContent = index + 1;
-                btn.id = `nav-${index}`;
-                btn.onclick = () => loadQuestion(index);
-                nav.appendChild(btn);
-            });
+function startQuiz() {
+    document.getElementById("dissertative-container").classList.add("hidden");
+    document.getElementById("bt_restart").classList.add("hidden");
+    selectedQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
 
-            // Adiciona botão para questão dissertativa
-            let essayBtn = document.createElement("button");
-            essayBtn.textContent = "Dissertativa";
-            essayBtn.id = "nav-essay";
-            essayBtn.classList.add("dissertative-btn");
-            essayBtn.onclick = () => loadEssayQuestionUI();
-            nav.appendChild(essayBtn);
-        }
+    // Embaralha as respostas apenas no início
+    selectedQuestions.forEach(question => {
+        question.options = shuffleArray(question.options);
+    });
 
-        function loadQuestion(index = 0) {
-            currentQuestion = index;
-            let q = selectedQuestions[currentQuestion];
-            
-            document.getElementById("question").textContent = q.question;
-            document.getElementById("question").innerHTML = q.question.replace(/\n/g, "<br>");
-            document.getElementById("dissertative-container").classList.add("hidden");
-            document.getElementById("options").classList.remove("hidden");
+    currentQuestion = 0;
+    score = 0;
+    answers = new Array(selectedQuestions.length + 1).fill(null); // +1 para a dissertativa
+    generateNavigation();
+    loadQuestion();
+}
 
-            // Exibe a imagem da pergunta, se houver
-            let questionImage = document.getElementById("question-image");
-            if (q.imagem) {
-                questionImage.src = q.imagem;
-                questionImage.style.display = "block";
-            } else {
-                questionImage.style.display = "none";
-            }
+function generateNavigation() {
+    let nav = document.getElementById("question-nav");
+    nav.innerHTML = "";
+    selectedQuestions.forEach((_, index) => {
+        let btn = document.createElement("button");
+        btn.textContent = index + 1;
+        btn.id = `nav-${index}`;
+        btn.onclick = () => loadQuestion(index);
+        nav.appendChild(btn);
+    });
 
-            let optionsDiv = document.getElementById("options");
-            optionsDiv.innerHTML = "";
-            
-            q.options.forEach(option => {
-                let btn = document.createElement("button");
-                btn.textContent = option.text;
-                btn.onclick = () => checkAnswer(option.text, btn);
-                
-                if (answers[currentQuestion] && answers[currentQuestion].selected === option.text) {
-                    btn.classList.add("selected");
-                }
+    // Adiciona botão para questão dissertativa
+    let essayBtn = document.createElement("button");
+    essayBtn.textContent = "Dissertativa";
+    essayBtn.id = "nav-essay";
+    essayBtn.classList.add("dissertative-btn");
+    essayBtn.onclick = () => loadEssayQuestionUI();
+    nav.appendChild(essayBtn);
 
-                optionsDiv.appendChild(btn);
-            });
+    let Respostas_Buton = document.createElement("button");
+    Respostas_Buton.textContent = "Resposta";
+    Respostas_Buton.id = "nav-Resposta";
+    Respostas_Buton.classList.add("dissertative-btn");
+    Respostas_Buton.classList.add("hidden");
+    Respostas_Buton.onclick = () => loadRespostaQuestionUI();
+    nav.appendChild(Respostas_Buton);
 
-            updateNavigation();
-        }
+}
 
-        function loadEssayQuestionUI() {
-            currentQuestion = selectedQuestions.length; // Define índice da questão dissertativa
-            document.getElementById("question").textContent = essayQuestion;
-            document.getElementById("options").classList.add("hidden");
-            document.getElementById("Img_t").classList.add("hidden");
-            document.getElementById("dissertative-container").classList.remove("hidden");
-            updateNavigation();
-        }
 
-        function checkAnswer(option, btn) {
-            let isCorrect = option === selectedQuestions[currentQuestion].Resposta;
-            answers[currentQuestion] = { question: selectedQuestions[currentQuestion].question, selected: option, correct: isCorrect, correctAnswer: selectedQuestions[currentQuestion].Resposta };
-            if (isCorrect) score++;
-            document.getElementById(`nav-${currentQuestion}`).classList.add("answered");
-            
-            document.querySelectorAll("#options button").forEach(button => button.classList.remove("selected"));
+
+function loadRespostaQuestionUI(){
+    currentQuestion = selectedQuestions.length+1; // Define índice da questão dissertativa
+    document.getElementById("question").textContent = essayQuestion;
+    document.getElementById("result-container").classList.remove("hidden");
+    document.getElementById("quiz-container").classList.add("hidden");
+    updateNavigation();
+}
+
+function loadEssayQuestionUI() {
+    currentQuestion = selectedQuestions.length; // Define índice da questão dissertativa
+    document.getElementById("question").textContent = essayQuestion;
+    document.getElementById("options").classList.add("hidden");
+    document.getElementById("Img_t").classList.add("hidden");
+    document.getElementById("dissertative-container").classList.remove("hidden");
+    document.getElementById("result-container").classList.add("hidden");
+    document.getElementById("quiz-container").classList.remove("hidden");
+    updateNavigation();
+}
+
+
+function loadQuestion(index = 0) {
+    currentQuestion = index;
+    let q = selectedQuestions[currentQuestion];
+    
+    document.getElementById("question").textContent = q.question;
+    document.getElementById("question").innerHTML = q.question.replace(/\n/g, "<br>");
+    document.getElementById("dissertative-container").classList.add("hidden");
+    document.getElementById("options").classList.remove("hidden");
+    document.getElementById("result-container").classList.add("hidden");
+    document.getElementById("quiz-container").classList.remove("hidden");
+
+    // Exibe a imagem da pergunta, se houver
+    let questionImage = document.getElementById("question-image");
+    if (q.imagem) {
+        questionImage.src = q.imagem;
+        questionImage.style.display = "block";
+    } else {
+        questionImage.style.display = "none";
+    }
+
+    let optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
+    
+    q.options.forEach(option => {
+        let btn = document.createElement("button");
+        btn.textContent = option.text;
+        btn.onclick = () => checkAnswer(option.text, btn);
+        
+        if (answers[currentQuestion] && answers[currentQuestion].selected === option.text) {
             btn.classList.add("selected");
+        }
 
-            if (answers.filter(a => a !== null).length === selectedQuestions.length + 1) {
-                showResults();
+        optionsDiv.appendChild(btn);
+    });
+
+    updateNavigation();
+}
+
+
+
+function checkAnswer(option, btn) {
+    let isCorrect = option === selectedQuestions[currentQuestion].Resposta;
+    answers[currentQuestion] = { question: selectedQuestions[currentQuestion].question, selected: option, correct: isCorrect, correctAnswer: selectedQuestions[currentQuestion].Resposta };
+    if (isCorrect) score++;
+    document.getElementById(`nav-${currentQuestion}`).classList.add("answered");
+    
+    document.querySelectorAll("#options button").forEach(button => button.classList.remove("selected"));
+    btn.classList.add("selected");
+
+    if (answers.filter(a => a !== null).length === selectedQuestions.length + 1) {
+        showResults();
+    }
+}
+
+function showResults() {
+    let list = document.getElementById("answers-list");
+    list.innerHTML = "";
+    
+    answers.forEach((a, index) => {
+        if (!a) {
+            answers[index] = { ...selectedQuestions[index], selected: "Não respondida", correct: false, correctAnswer: selectedQuestions[index]?.Resposta };
+        }
+    });
+
+    answers.forEach((a, index) => {
+        if (index<10) {
+            let item = document.createElement("h6");
+            item.innerHTML = `${index + 1} - ${a.question}<br><br>Sua resposta: <span class='${a.correct ? "correct" : "wrong"}'>${a.selected}</span>`;
+            
+            if (!a.correct) {
+                item.innerHTML += ` <br> Resposta correta: <span class='correct'>${a.correctAnswer}</span>`;
             }
-        }
-
-        function showResults() {
-            document.getElementById("quiz-container").classList.add("hidden");
-            document.getElementById("bt_start").classList.add("hidden");
-            document.getElementById("result-container").classList.remove("hidden");
-            document.getElementById("bt_restart").classList.remove("hidden");
-
-            answers.forEach((a, index) => {
-                if (!a) {
-                    answers[index] = { ...selectedQuestions[index], selected: "Não respondida", correct: false, correctAnswer: selectedQuestions[index]?.Resposta };
-                }
-            });
-
-            document.getElementById("score").textContent = `Sua nota: ${score} de ${selectedQuestions.length}`;
-            let list = document.getElementById("answers-list");
-            list.innerHTML = "";
-            answers.forEach(a => {
-                let item = document.createElement("li");
-                item.textContent = `${a.question} - Sua resposta: ${a.selected} ${a.correct ? "✔" : `✘ (Resposta correta: ${a.correctAnswer})`}`;
-                item.style.color = a.correct ? "green" : "red";
-                list.appendChild(item);
-            });
-        }
-
-        function restartQuiz() {
-            document.getElementById("dissertative-container").classList.add("hidden");
-            document.getElementById("result-container").classList.add("hidden");
-            document.getElementById("quiz-container").classList.remove("hidden");
-            document.getElementById("bt_start").classList.remove("hidden");
-            startQuiz();
-        }
-
-        function updateNavigation() {
-            document.querySelectorAll("#question-nav button").forEach((btn, index) => {
-                btn.classList.toggle("active", index === currentQuestion);
-            });
-        }
-
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
+            if (index<9) {
+                item.innerHTML += `<br><br>-------------------------------------------------------------------------------------------------------------------<br><br>`
             }
-            return array;
-        }
+            
+            item.style.cursor = "pointer";
+            item.onclick = () => loadQuestion(index);
+            list.appendChild(item);
+    }
+    });
+    
+    document.getElementById("score").textContent = `Sua nota: ${score} de ${selectedQuestions.length}`;
+    document.getElementById("bt_start").classList.add("hidden");
+    document.getElementById("bt_restart").classList.remove("hidden");
+    document.getElementById("nav-Resposta").classList.remove("hidden");
+    loadRespostaQuestionUI();
+    //document.getElementById("quiz-container").classList.add("hidden");
+    //document.getElementById("result-container").classList.remove("hidden");
+}
 
-        window.onload = loadQuestions();
+function restartQuiz() {
+    document.getElementById("dissertative-container").classList.add("hidden");
+    document.getElementById("result-container").classList.add("hidden");
+    document.getElementById("quiz-container").classList.remove("hidden");
+    document.getElementById("bt_start").classList.remove("hidden");
+    startQuiz();
+}
+
+function updateNavigation() {
+    document.querySelectorAll("#question-nav button").forEach((btn, index) => {
+        btn.classList.toggle("active", index === currentQuestion);
+    });
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+window.onload = loadQuestions();
