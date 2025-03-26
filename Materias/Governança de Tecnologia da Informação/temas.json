@@ -1,8 +1,14 @@
 [
-    "Dentro do Domínio de Governança de TI chamado 'Alinhamento Estratégico e Compliance' possuímos uma componente chamada 'Necessidades de aplicações' que diz respeito às aplicações de TI que são necessárias para atender à continuidade e às estratégias do negócio. Elas Determinam também quais aplicações deverão ser mantidas, melhoradas, substituídas e implantadas. Nesse contexto, cite três exemplos de aplicações que poderiam ser utilizadas por uma rede de supoermercados, por exemplo:",
-    "O que é PETI?",
-    "O que são Princípios de TI?",
-    "Defina Missão, Visão e Valores para um Planejamento Estratégico de TI (PETI)",
-    "Plano de Tecnologia da Informação consiste no principal produto do processo de alinhamento estratégico e deve contemplar muitas informações sobre a gestão e funcionamento da TI:"
+    {"question":"Dentro do Domínio de Governança de TI chamado 'Alinhamento Estratégico e Compliance' possuímos uma componente chamada 'Necessidades de aplicações' que diz respeito às aplicações de TI que são necessárias para atender à continuidade e às estratégias do negócio. Elas Determinam também quais aplicações deverão ser mantidas, melhoradas, substituídas e implantadas. Nesse contexto, cite três exemplos de aplicações que poderiam ser utilizadas por uma rede de supoermercados, por exemplo:",
+            "Resposta": "Resposta discursiva:<br><br>Escaloamento controla a entrada e saída de mercadorias, gerenciando o estoque e destacando produtos de maior e menor saída para orientar investimentos. Melhorias incluem organização dos setores, etiquetas corretas e sinalização.<br>Além disso, panfletos online podem divulgar promoções, e um sistema de segurança deve proteger a empresa contra invasões e hackers."},
     
+    {"question":"O que é PETI?",
+            "Resposta":"Resposta discursiva:<br><br>O Plano Estratégico de Tecnologia da Informação (PETI) é um documento que define a direção e as prioridades da área de TI em alinhamento com os objetivos estratégicos da organização. Ele estabelece metas, ações, recursos necessários e indicadores de desempenho para garantir que a TI suporte as necessidades do negócio, melhore a eficiência operacional e promova inovação tecnológica."},
+    {"question":"O que são Princípios de TI?",
+            "Resposta":"Resposta discursiva:<br><br>Os Princípios de TI são diretrizes fundamentais que orientam a gestão, o desenvolvimento e o uso da tecnologia da informação dentro de uma organização. Eles ajudam a garantir que a TI esteja alinhada com os objetivos estratégicos do negócio, promovendo eficiência, segurança e inovação."},    
+    
+    {"question":"Defina Missão, Visão e Valores para um Planejamento Estratégico de TI (PETI)",
+            "Resposta":"Resposta discursiva:<br><br>Missão: Garantir que a Tecnologia da Informação suporte e impulsione os objetivos estratégicos da organização, fornecendo soluções inovadoras, seguras e eficientes.<br> Visão: Ser referência em inovação e governança de TI, promovendo a transformação digital e agregando valor ao negócio com tecnologia moderna e sustentável.<br> Valores: Alinhamento estratégico, inovação, segurança da informação, eficiência operacional, transparência, sustentabilidade e foco no usuário."},
+    {"question":"Plano de Tecnologia da Informação consiste no principal produto do processo de alinhamento estratégico e deve contemplar muitas informações sobre a gestão e funcionamento da TI:<br>Cite 3 componentes que devem ser contempladas no PETI",
+            "Resposta":"Resposta discursiva:<br><br>Governança de TI, Arquitetura de TI  e Plano de Investimentos em TI"}
 ]

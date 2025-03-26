@@ -1,6 +1,10 @@
 [
-    "O que é uma arquitetura de sistemas?",
-    "Cite duas formas de facilitarmos o reuso de código em nossos projetos.",
-    "Explique o que é o padrão arquitetural MVC"
-    
+    {"question": "O que é uma arquitetura de sistemas?", 
+                "Resposta": "Resposta discursiva:<br><br>A arquitetura de sistemas é um subgrupo da Engenharia de Software responsável pelos componentes que irão compor o sistema e os requisitos não-funcionais. Ela é que irá definir sobre o reuso de componentes no desenvolvimento do software, visando a maior qualidade do código, segurança, confiabilidade e eficiência.  "},
+    {"question": "Cite duas formas de facilitarmos o reuso de código em nossos projetos.", 
+                "Resposta": "Respota discursiva:<br><br>1 -  A utilização de nomenclaturas mais genéricas, o que traz mais conabilidade, -credibilidade e referência para o nosso código.<br>2 - O uso de bibliotecas e frameworks pois, por serem soluções já utilizadas e testadas anteriormente, trazem também maior conança, produtividade e desenvolvimento ágil para nossos projetos."},
+    {"question": "Explique o que é o padrão arquitetural MVC", 
+                "Resposta": "Resposta discursiva:<br><br>O padrão MVC realiza a comunicação entre o usuário e o software, dividindo-a em três camadas: Model (dados), Program(lógica) e View(interface), sendo a função de cada uma: <br>Model - Gerencia o sistema d edados e as operações obtidas pela view; <br>Program - Manipula os dados armazenados em model; <br>View - É a interface, recebe dados e se comunica com o usuário."},
+    {"question": "Uma forma muito adotada para o desenvolvimento de sistemas é a partir da denição de componentes. Observe a representação de um componente genérico a seguir:<br>Escreva um parágrado que justique a utilização das componentes em desenvolvimento de sistemas. Cite duas vantagens em adotar essa estratégia e comente sobre as interfaces requires e provides.", 
+                "Resposta":"Resposta discursiva: <br><br>requires - dene os serviços dependentes do componente para a sua execução. providesdene os serviços que são fornecidos para outros componentes. vantagens: a interface provides pode ser reutilizado, pois não atende a uma funcionalidade especíca. a interface requires, por ter suas dependências claras, facilita no relacionamento com o sistema."}
 ]

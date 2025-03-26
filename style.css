@@ -63,6 +63,11 @@ body {
     display: flex;
 }
 
+#Correta {
+    margin-top: auto; /* Empurra para o rodapé */
+    text-align: justify;
+}
+
 .home-button {
     position: fixed;
     top: 10px; /* Define a posição no topo */
@@ -79,6 +84,8 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition:  0.3s;
 }
+
+
 
 .home-button:hover {
     background-color: #0056b3;

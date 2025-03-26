@@ -142,12 +142,15 @@ function loadRespostaQuestionUI(){
 
 function loadEssayQuestionUI() {
     currentQuestion = selectedQuestions.length; // Define índice da questão dissertativa
-    document.getElementById("question").textContent = essayQuestion;
+    document.getElementById("question").innerHTML = essayQuestion.question;
+    document.getElementById("Correta_dado").innerHTML = essayQuestion.Resposta;
     document.getElementById("options").classList.add("hidden");
     document.getElementById("Img_t").classList.add("hidden");
     document.getElementById("dissertative-container").classList.remove("hidden");
     document.getElementById("result-container").classList.add("hidden");
     document.getElementById("quiz-container").classList.remove("hidden");
+    document.getElementById("Correta_dado").classList.remove("correct");
+    document.getElementById("Correta_dado").classList.remove("wrong");
     updateNavigation();
 }
 
@@ -155,6 +158,22 @@ function loadEssayQuestionUI() {
 function loadQuestion(index = 0) {
     currentQuestion = index;
     let q = selectedQuestions[currentQuestion];
+    let Res = document.getElementById(`nav-${currentQuestion}`);
+    if (Res.classList.contains("answered")){
+        document.getElementById("Correta_dado").classList.remove("hidden");
+
+         if (answers[currentQuestion].selected === q.Resposta) {
+            document.getElementById("Correta_dado").innerHTML = `Resposta Correta: ${q.Resposta}`
+            document.getElementById("Correta_dado").classList.remove("wrong")
+            document.getElementById("Correta_dado").classList.add("correct")
+        }else{
+            document.getElementById("Correta_dado").innerHTML = `Escolha Incorreta<br>Resposta Correta: ${q.Resposta}`
+            document.getElementById("Correta_dado").classList.remove("correct")
+            document.getElementById("Correta_dado").classList.add("wrong")
+        };
+    }else{
+        document.getElementById("Correta_dado").innerHTML = '';
+    };
     
     document.getElementById("question").textContent = q.question;
     document.getElementById("question").innerHTML = q.question.replace(/\n/g, "<br>");
@@ -191,11 +210,23 @@ function loadQuestion(index = 0) {
 }
 
 
-
 function checkAnswer(option, btn) {
     let isCorrect = option === selectedQuestions[currentQuestion].Resposta;
     answers[currentQuestion] = { question: selectedQuestions[currentQuestion].question, selected: option, correct: isCorrect, correctAnswer: selectedQuestions[currentQuestion].Resposta };
-    if (isCorrect) score++;
+    
+    if (isCorrect) {
+        score++
+        document.getElementById("Correta_dado").innerHTML = `Resposta Correta: ${selectedQuestions[currentQuestion].Resposta}`
+        document.getElementById("Correta_dado").classList.remove("wrong")
+        document.getElementById("Correta_dado").classList.add("correct")
+        
+    }else{
+       
+        document.getElementById("Correta_dado").innerHTML = `Escolha Incorreta<br>Resposta Correta: ${selectedQuestions[currentQuestion].Resposta}`
+        document.getElementById("Correta_dado").classList.remove("correct")
+        document.getElementById("Correta_dado").classList.add("wrong")
+        score--
+    };
     document.getElementById(`nav-${currentQuestion}`).classList.add("answered");
     
     document.querySelectorAll("#options button").forEach(button => button.classList.remove("selected"));
