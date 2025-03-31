@@ -124,7 +124,7 @@
     { "text": "Todas estão incorretas." },
     { "text": "Apenas a V está correta."}
   ],
-  "Resposta": ""
+  "Resposta": "Só a IV não está correta."
 },
 
 {
@@ -270,11 +270,11 @@
   "options": [
     { "text": "I, II, III, IV e V" },
     { "text": "I e II somente" },
-    { "text": "I, II, III e iV somente" },
+    { "text": "I, II, III e IV somente" },
     { "text": "I, II e III somente" },
     { "text": "I e IV somente"}
   ],
-  "Resposta": ""
+  "Resposta": "I, II, III e IV somente"
 },
 {
   "question": "Fundamentalmente, a governança de TI está preocupada com duas coisas:__________ para o negócio e_________de TI.<br>A primeira é impulsionada pelo alinhamento estratégico da TI ao negócio.<br>A segunda é motivada pela incorporação de responsabilidade na empresa.<br><br>Marque a seguir a opção que contém palavras que complementam o texto acima:",
