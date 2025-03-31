@@ -115,18 +115,7 @@
     { "text": "cabo de fibra ótica de plástico"}
   ],
   "Resposta": "Nenhuma das respostas indicadas"
-},
-{
-  "question": "",
-  "options": [
-    { "text": "" },    
-    { "text": "" }, 
-    { "text": "" }, 
-    { "text": "" }, 
-    { "text": ""}
-  ],
-  "Resposta": ""
-},
+},  
 {
   "question": "Que tipo de conexão com a Internet seria melhor para uma residência em uma área remota sem cobertura de celular ou conectividade cabeada? ",
   "options": [
@@ -180,7 +169,7 @@
     { "text": "48" }, 
     { "text": "96"}
   ],
-  "Resposta": ""
+  "Resposta": "64"
 },
 {
   "question": "Qual é o protocolo usado para transferir páginas da web de um servidor para um dispositivo cliente?",
@@ -281,7 +270,7 @@
     { "text": "Nenhuma das alternativas indicadas" }, 
     { "text": "É um endereço físico atribuído a uma placa de rede pelo fabricante"}
   ],
-  "Resposta": ""
+  "Resposta": "É um endereço físico atribuído a uma placa de rede pelo fabricante"
 },
 {
   "question": "Qual protocolo é usado para atribuir automaticamente endereços IP aos hosts?",
