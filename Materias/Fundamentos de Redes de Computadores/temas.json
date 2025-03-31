@@ -4,6 +4,8 @@
     {"question":"Ao investigar um problema de conexão à internet em um computador configurado com IP estático, você viu o seguinte:<br><br>IP: 192.168.23.45<br>Máscara: 255.255.255.0 <br>DNS 1: 8.8.8.8 DNS 2: 8.8.4.4<br>Gateway: 192.168.32.1 <br><br>Por que esse computador não consegue acessar a internet?",
              "Resposta": "Resposta Discursiva:<br><br> Porque o IP do computador e o gateway estão em redes diferentes. Para corrigir o problema basta ajustar o IP do computador para a mesma rede do Gateway."},
     {"question": "Qual a importância do SSH? É possível proteger as conexões SSH com chaves pública/privada?",
-            "Resposta": "Resposta Discursiva:<br><br> Ele é fundamental para autenticação e comunicação segura do acesso remoto entre computadores. Sim, é possivel, ele utiliza o metodo de chaves publica e privada.  "}
+            "Resposta": "Resposta Discursiva:<br><br> Ele é fundamental para autenticação e comunicação segura do acesso remoto entre computadores. Sim, é possivel, ele utiliza o metodo de chaves publica e privada.  "},
+    {"question": "Qual a importância de um servidor DHCP em uma rede privada?",
+            "Resposta": "O servidor DHCP é essencial em redes privadas porque automatiza a atribuição de endereços IP, evitando conflitos, otimizando o uso de IPs e facilitando o gerenciamento da rede. Ele também configura máscara de sub-rede, gateway e DNS de forma centralizada, garantindo conectividade eficiente."}
 
 ]
