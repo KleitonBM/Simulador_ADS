@@ -1,0 +1,178 @@
+[
+  {
+    "question": "Qual das alternativas abaixo melhor descreve o conceito de DevOps?",
+    "options": [
+      { "text": "Uma metodologia exclusivamente voltada para desenvolvedores." },
+      { "text": "Uma abordagem que integra desenvolvimento e operações para melhorar a entrega de software." },
+      { "text": "Um conjunto de ferramentas para automatizar testes de software." },
+      { "text": "Um novo modelo de linguagem de programação para infraestrutura." },
+      { "text": "A substituição completa das metodologias ágeis nas empresas." }
+    ],
+    "Resposta": "Uma abordagem que integra desenvolvimento e operações para melhorar a entrega de software."
+  },
+  {
+    "question": "Qual dos princípios abaixo NÃO faz parte dos fundamentos do DevOps?",
+    "options": [
+      { "text": "Automação dos processos." },
+      { "text": "Colaboração entre equipes de desenvolvimento e operações." },
+      { "text": "Foco exclusivo na equipe de desenvolvimento." },
+      { "text": "Monitoramento contínuo e feedback." },
+      { "text": "Entrega contínua e integração contínua." }
+    ],
+    "Resposta": "Foco exclusivo na equipe de desenvolvimento."
+  },
+  {
+    "question": "Sobre a cultura DevOps, é correto afirmar que:",
+    "options": [
+      { "text": "Ela reduz a necessidade de colaboração entre as equipes, tornando os processos mais independentes." },
+      { "text": "Ela promove ciclos de desenvolvimento mais longos para reduzir riscos." },
+      { "text": "Ela incentiva a automação, colaboração e feedback contínuo para otimizar entregas de software." },
+      { "text": "Ela substitui todas as metodologias ágeis em uso." },
+      { "text": "Ela desconsidera a importância da segurança na entrega de software." }
+    ],
+    "Resposta": "Ela incentiva a automação, colaboração e feedback contínuo para otimizar entregas de software."
+  },
+  {
+    "question": "Qual dos seguintes benefícios é um dos principais objetivos da adoção do DevOps?",
+    "options": [
+      { "text": "Aumentar o tempo necessário para implantar novas funcionalidades." },
+      { "text": "Diminuir a comunicação entre equipes para evitar conflitos." },
+      { "text": "Reduzir falhas de implantação e melhorar a recuperação em caso de erros." },
+      { "text": "Eliminar completamente a necessidade de testes." },
+      { "text": "Substituir engenheiros de software por automação completa." }
+    ],
+    "Resposta": "Reduzir falhas de implantação e melhorar a recuperação em caso de erros."
+  },
+  {
+    "question": "O que significa o conceito de 'Infraestrutura como Código' (IaC) dentro do DevOps?",
+    "options": [
+      { "text": "O uso de linguagens de programação para escrever novos aplicativos empresariais." },
+      { "text": "A prática de gerenciar e provisionar infraestrutura por meio de código em vez de processos manuais." },
+      { "text": "A substituição de toda a infraestrutura física por soluções completamente virtuais." },
+      { "text": "A eliminação da necessidade de operações de TI na empresa." },
+      { "text": "A implementação de código-fonte aberto em todas as aplicações da organização." }
+    ],
+    "Resposta": "A prática de gerenciar e provisionar infraestrutura por meio de código em vez de processos manuais."
+  },
+  {
+    "question": "São vantagens do uso de DevOps:<br><br>I-Implantação mais rápida;<br>II-Maior colaboração entre equipes;<br>III-Elimina totalmente a necessidade de testes;<br>IV-Monitoramento contínuo;<br>V-Automação de processos;<br><br>É correto o que se afirma em:",
+    "options": [
+      { "text": "I, II, IV e V"},
+      { "text": "I, III, e V"},
+      { "text": "I, II e III"},
+      { "text": "II, III e IV"},
+      { "text": "II, IV e V"}
+    ],
+    "Resposta": "I, II, IV e V."
+  },
+  {
+    "question": "Quais são as principais práticas do DevOps?",
+    "options": [
+      { "text": "Integração contínua, entrega contínua, automação e monitoramento." },
+      { "text": "Adoção de metodologias ágeis sem colaboração." },
+      { "text": "Substituição de operações manuais por código sem revisão." },
+      { "text": "Remoção de todas as fases de testes." },
+      { "text": "Automação isolada sem feedback contínuo." }
+    ],
+    "Resposta": "Integração contínua, entrega contínua, automação e monitoramento."
+  },
+  {
+    "question": "Quais são os principais benefícios da prática de automação no DevOps?",
+    "options": [
+      { "text": "Redução de erros manuais, maior eficiência e menor tempo de entrega." },
+      { "text": "Aumento da complexidade da infraestrutura e menor previsibilidade." },
+      { "text": "Diminuição da segurança e aumento dos riscos operacionais." },
+      { "text": "Maior tempo de execução dos processos e menos colaboração." },
+      { "text": "Redução da qualidade do software entregue." }
+    ],
+    "Resposta": "Redução de erros manuais, maior eficiência e menor tempo de entrega."
+  },
+  {
+    "question": "Qual é um dos principais objetivos da prática de integração contínua no DevOps?",
+    "options": [
+      { "text": "Permitir que cada desenvolvedor trabalhe isoladamente sem integrar código com frequência." },
+      { "text": "Automatizar a fusão de código de diferentes desenvolvedores para detectar problemas rapidamente." },
+      { "text": "Evitar o uso de repositórios de código para manter a segurança." },
+      { "text": "Reduzir a colaboração entre as equipes de desenvolvimento e operações." },
+      { "text": "Executar implantações sem qualquer tipo de teste prévio." }
+    ],
+    "Resposta": "Automatizar a fusão de código de diferentes desenvolvedores para detectar problemas rapidamente."
+  },
+  {
+    "question": "Quais são os principais desafios enfrentados na adoção do DevOps?",
+    "options": [
+      { "text": "Resistência à mudança cultural e falta de colaboração entre equipes." },
+      { "text": "Automação eficiente e ciclos de feedback rápido." },
+      { "text": "Redução do tempo de entrega e maior confiabilidade." },
+      { "text": "Aprimoramento da segurança e melhor gestão de infraestrutura." },
+      { "text": "Facilidade de adoção e ausência de barreiras tecnológicas." }
+    ],
+    "Resposta": "Resistência à mudança cultural e falta de colaboração entre equipes."
+  },
+  {
+    "question": "São ferramentas amplamente utilizadas em DevOps:<br><br>I-Jenkins;<br>II-Docker;<br>III-SQL Server;<br>IV-Kubernetes;<br>V-Git;<br><br>É correto o que se afirma em:",
+    "options": [
+      { "text": "I, II, IV e V" },
+      { "text": "I, III e V" },
+      { "text": "II, III e IV" },
+      { "text": "I, II, III, IV e V" },
+      { "text": "II, IV e V" }
+    ],
+    "Resposta": "I, II, IV e V."
+  },
+  {
+    "question": "O que é 'Entrega Contínua' dentro do DevOps?",
+    "options": [
+      { "text": "O processo de garantir que cada mudança no código seja automaticamente implantada em produção sem validação." },
+      { "text": "Uma abordagem que garante que o software esteja sempre pronto para implantação, mas com a opção de validação manual antes da entrega final." },
+      { "text": "Uma estratégia que elimina totalmente a necessidade de testes automatizados." },
+      { "text": "O uso de servidores dedicados apenas para testes locais sem integração ao ambiente de produção." },
+      { "text": "Uma prática que evita qualquer tipo de rollback em caso de falhas." }
+    ],
+    "Resposta": "Uma abordagem que garante que o software esteja sempre pronto para implantação, mas com a opção de validação manual antes da entrega final."
+  },
+  {
+    "question": "Quais dos seguintes elementos fazem parte da cultura DevOps?<br><br>I-Automatização de processos;<br>II-Monitoramento contínuo;<br>III-Falta de comunicação entre equipes;<br>IV-Feedback rápido e iterativo;<br>V-Infraestrutura manual;<br><br>É correto o que se afirma em:",
+    "options": [
+      { "text": "I, II e IV" },
+      { "text": "I, III e V" },
+      { "text": "II, III e IV" },
+      { "text": "I, II, III, IV e V" },
+      { "text": "II, IV e V" }
+    ],
+    "Resposta": "I, II e IV."
+  },
+  {
+    "question": "No contexto do DevOps, qual das alternativas melhor descreve o conceito de 'Observabilidade'?",
+    "options": [
+      { "text": "A capacidade de monitorar logs de aplicações, métricas e rastreamentos para entender o comportamento do sistema." },
+      { "text": "O uso de firewalls para proteger o ambiente de produção." },
+      { "text": "A análise apenas de falhas de hardware em servidores locais." },
+      { "text": "A redução da visibilidade das operações para evitar vazamentos de informação." },
+      { "text": "A implementação de backups manuais de código-fonte." }
+    ],
+    "Resposta": "A capacidade de monitorar logs de aplicações, métricas e rastreamentos para entender o comportamento do sistema."
+  },
+  {
+    "question": "Qual das seguintes afirmações sobre o uso de contêineres no DevOps é correta?",
+    "options": [
+      { "text": "Os contêineres permitem empacotar aplicações e suas dependências, garantindo consistência entre diferentes ambientes." },
+      { "text": "Os contêineres eliminam totalmente a necessidade de servidores físicos." },
+      { "text": "Os contêineres só podem ser usados em ambientes de desenvolvimento, não em produção." },
+      { "text": "O uso de contêineres impossibilita a automação de implantações." },
+      { "text": "Os contêineres aumentam a dependência entre serviços, tornando-os mais difíceis de escalar." }
+    ],
+    "Resposta": "Os contêineres permitem empacotar aplicações e suas dependências, garantindo consistência entre diferentes ambientes."
+  },
+  {
+    "question": "Sobre a relação entre DevOps e segurança (DevSecOps), é correto afirmar que:",
+    "options": [
+      { "text": "DevSecOps integra segurança desde o início do ciclo de desenvolvimento, prevenindo vulnerabilidades antes da implantação." },
+      { "text": "A segurança deve ser tratada apenas no final do desenvolvimento, para evitar atrasos." },
+      { "text": "A adoção de DevSecOps torna a automação de processos desnecessária." },
+      { "text": "DevSecOps reduz a necessidade de monitoramento contínuo." },
+      { "text": "A implementação de DevSecOps desacelera o ciclo de desenvolvimento sem benefícios reais." }
+    ],
+    "Resposta": "DevSecOps integra segurança desde o início do ciclo de desenvolvimento, prevenindo vulnerabilidades antes da implantação."
+  }
+]
