@@ -6,5 +6,8 @@
     {"question": "Explique o que é o padrão arquitetural MVC", 
                 "Resposta": "Resposta discursiva:<br><br>O padrão MVC realiza a comunicação entre o usuário e o software, dividindo-a em três camadas: Model (dados), Program(lógica) e View(interface), sendo a função de cada uma: <br>Model - Gerencia o sistema d edados e as operações obtidas pela view; <br>Program - Manipula os dados armazenados em model; <br>View - É a interface, recebe dados e se comunica com o usuário."},
     {"question": "Uma forma muito adotada para o desenvolvimento de sistemas é a partir da denição de componentes. Observe a representação de um componente genérico a seguir:<br>Escreva um parágrado que justique a utilização das componentes em desenvolvimento de sistemas. Cite duas vantagens em adotar essa estratégia e comente sobre as interfaces requires e provides.", 
-                "Resposta":"Resposta discursiva: <br><br>requires - dene os serviços dependentes do componente para a sua execução. providesdene os serviços que são fornecidos para outros componentes. vantagens: a interface provides pode ser reutilizado, pois não atende a uma funcionalidade especíca. a interface requires, por ter suas dependências claras, facilita no relacionamento com o sistema."}
+                "Resposta":"Resposta discursiva: <br><br>requires - dene os serviços dependentes do componente para a sua execução. providesdene os serviços que são fornecidos para outros componentes. vantagens: a interface provides pode ser reutilizado, pois não atende a uma funcionalidade especíca. a interface requires, por ter suas dependências claras, facilita no relacionamento com o sistema."},
+    {"question": "API Gateway", 
+                "Resposta":"Um API Gateway é um ponto de entrada que processa e gerencia as chamadas de API. Ele pode ser usado para controlar o acesso a serviços e APIs"}
+
 ]
