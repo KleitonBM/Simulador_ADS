@@ -63,7 +63,7 @@
       { "text": "II, III e IV"},
       { "text": "II, IV e V"}
     ],
-    "Resposta": "I, II, IV e V."
+    "Resposta": "I, II, IV e V"
   },
   {
     "question": "Quais são as principais práticas do DevOps?",
@@ -118,7 +118,7 @@
       { "text": "I, II, III, IV e V" },
       { "text": "II, IV e V" }
     ],
-    "Resposta": "I, II, IV e V."
+    "Resposta": "I, II, IV e V"
   },
   {
     "question": "O que é 'Entrega Contínua' dentro do DevOps?",
@@ -140,7 +140,7 @@
       { "text": "I, II, III, IV e V" },
       { "text": "II, IV e V" }
     ],
-    "Resposta": "I, II e IV."
+    "Resposta": "I, II e IV"
   },
   {
     "question": "No contexto do DevOps, qual das alternativas melhor descreve o conceito de 'Observabilidade'?",
