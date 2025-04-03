@@ -1,6 +1,6 @@
 [
     {"question": "Oque e Retry e Fallback?", 
-                "Resposta": "Retry reexecuta uma operação que falhou devido a erros temporários, como falhas de rede. Fallback fornece uma alternativa caso a operação continue falhando, como retornar dados em cache ou uma resposta padrão."},
+                "Resposta": "Resposta 1º Opção<br> Retry reexecuta uma operação que falhou devido a erros temporários, como falhas de rede. Fallback fornece uma alternativa caso a operação continue falhando, como retornar dados em cache ou uma resposta padrão.<br>Resposta 2º Opção: Retry e fallback são padrões de resiliência que ajudam a lidar com erros de comunicação e falhas"},
     {"question": "API Gateway", 
                 "Resposta":"Um API Gateway é um ponto de entrada que processa e gerencia as chamadas de API. Ele pode ser usado para controlar o acesso a serviços e APIs"}
 ]
