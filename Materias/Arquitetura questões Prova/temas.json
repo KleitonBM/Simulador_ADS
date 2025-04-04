@@ -2,5 +2,8 @@
     {"question": "Oque e Retry e Fallback?", 
                 "Resposta": "Resposta 1º Opção<br> Retry reexecuta uma operação que falhou devido a erros temporários, como falhas de rede. Fallback fornece uma alternativa caso a operação continue falhando, como retornar dados em cache ou uma resposta padrão.<br>Resposta 2º Opção: Retry e fallback são padrões de resiliência que ajudam a lidar com erros de comunicação e falhas"},
     {"question": "API Gateway", 
-                "Resposta":"Um API Gateway é um ponto de entrada que processa e gerencia as chamadas de API. Ele pode ser usado para controlar o acesso a serviços e APIs"}
+                "Resposta":"Um API Gateway é um ponto de entrada que processa e gerencia as chamadas de API. Ele pode ser usado para controlar o acesso a serviços e APIs"},
+    {"question": "A implementação de uma arquitetura de microsserviços em Python pode envolver vários desafios e vantagens específicas. Considere um cenário onde uma aplicação de e-commerce está sendo desenvolvida com serviços de catálogo de produtos, carrinho de compras e processamento de pedidos como microsserviços distintos. Descreva como o uso de Python pode facilitar a implementação desses serviços, destacando os aspectos de independência, escalabilidade e comunicação entre serviços. Inclua exemplos práticos de bibliotecas ou frameworks em Python que podem ser utilizados para este propósito.",
+                "Resposta": "Python facilita a implementação de microsserviços em e-commerce devido à sua simplicidade e vasta gama de bibliotecas. A independência dos serviços é garantida por frameworks como Flask e FastAPI para criação de APIs REST. A escalabilidade é aprimorada com Docker, Kubernetes e processamento assíncrono via Celery. A comunicação entre serviços pode ser feita por chamadas HTTP com requests ou via mensageria com RabbitMQ e Kafka, garantindo eficiência e flexibilidade na arquitetura distribuída."} 
+
 ]
