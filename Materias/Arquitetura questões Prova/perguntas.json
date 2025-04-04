@@ -1,277 +1,79 @@
 [
   {
-    "question": "Qual das alternativas abaixo melhor descreve o conceito de DevOps?",
+    "question": "É justo reconhecer que o célebre autor canadense Thomas Erl é um dos mais fervorosos defensores da Arquitetura Orientada a Serviços (SOA) – e, certamente, toda a paixão que ele nutre por essa vertente se deu a partir do claro entendimento das principais características conceituais envolvidas.<br>Fonte: criação do autor.<br>Marque a alternativa correta sobre as vantagens da SOA:",
     "options": [
-      { "text": "Uma metodologia exclusivamente voltada para desenvolvedores." },
-      { "text": "Uma abordagem que integra desenvolvimento e operações para melhorar a entrega de software." },
-      { "text": "Um conjunto de ferramentas para automatizar testes de software." },
-      { "text": "Um novo modelo de linguagem de programação para infraestrutura." },
-      { "text": "A substituição completa das metodologias ágeis nas empresas." }
+      { "text": "Garante consistência de dados em tempo real." },
+      { "text": "Evita a necessidade de qualquer forma de monitoramento." },
+      { "text": "Facilita a escalabilidade e a modularidade." },
+      { "text": "Simplifica a integração de serviços legados." },
+      { "text": "Depende de uma base de dados monolítica." }
     ],
-    "Resposta": "Uma abordagem que integra desenvolvimento e operações para melhorar a entrega de software."
+    "Resposta": "Facilita a escalabilidade e a modularidade."
   },
   {
-    "question": "Qual dos princípios abaixo NÃO faz parte dos fundamentos do DevOps?",
+    "question": "A aplicação dos padrões arquitetural MVC, MVP e MVVM varia de acordo com o contexto do projeto, a complexidade da aplicação e as tecnologias utilizadas. O padrão MVC (Model-View-Controller) é amplamente utilizado em algumas determinadas aplicações por suas distintas características.<br>Fonte: criação do autor.<br>Sobre a aplicação do padrão MVC, marque a alternativa correta a seguir.",
     "options": [
-      { "text": "Automação dos processos." },
-      { "text": "Colaboração entre equipes de desenvolvimento e operações." },
-      { "text": "Foco exclusivo na equipe de desenvolvimento." },
-      { "text": "Monitoramento contínuo e feedback." },
-      { "text": "Entrega contínua e integração contínua." }
+      { "text": "Facilita a colaboração entre equipes de front-end e back-end." },
+      { "text": "É ideal para aplicações desktop simples." },
+      { "text": "É raramente utilizado em aplicações web modernas." },
+      { "text": "Dificulta a manutenção independente dos componentes." },
+      { "text": "É incompatível com frameworks populares." }
     ],
-    "Resposta": "Foco exclusivo na equipe de desenvolvimento."
+    "Resposta": "Garantir o desempenho de um sistema de software é crucial para atender às expectativas dos usuários e manter a competitividade no mercado. Em arquiteturas de sistemas, diversos fatores influenciam o desempenho, incluindo tempo de resposta, taxa de transferência e capacidade de lidar com grandes volumes de dados.<br>Fonte: criação do autor.<br>Facilita a colaboração entre equipes de front-end e back-end."
   },
   {
-    "question": "Sobre a cultura DevOps, é correto afirmar que:",
+    "question": "Garantir o desempenho de um sistema de software é crucial para atender às expectativas dos usuários e manter a competitividade no mercado. Em arquiteturas de sistemas, diversos fatores influenciam o desempenho, incluindo tempo de resposta, taxa de transferência e capacidade de lidar com grandes volumes de dados.<br>Fonte: criação do autor.<br>Marque a alternativa a seguir que está correta sobre as práticas de otimização de desempenho:",
     "options": [
-      { "text": "Ela reduz a necessidade de colaboração entre as equipes, tornando os processos mais independentes." },
-      { "text": "Ela promove ciclos de desenvolvimento mais longos para reduzir riscos." },
-      { "text": "Ela incentiva a automação, colaboração e feedback contínuo para otimizar entregas de software." },
-      { "text": "Ela substitui todas as metodologias ágeis em uso." },
-      { "text": "Ela desconsidera a importância da segurança na entrega de software." }
+      { "text": "A otimização de código é desnecessária em arquiteturas distribuídas." },
+      { "text": "O tempo de resposta não é afetado pelo número de requisições simultâneas." },
+      { "text": "O balanceamento de carga reduz a latência para dados em repouso." },
+      { "text": "A computação in-memory é ideal para reduzir o tráfego de rede." },
+      { "text": "O uso de caching melhora o tempo de resposta em sistemas web." }
     ],
-    "Resposta": "Ela incentiva a automação, colaboração e feedback contínuo para otimizar entregas de software."
+    "Resposta": "O uso de caching melhora o tempo de resposta em sistemas web."
   },
   {
-    "question": "Qual dos seguintes benefícios é um dos principais objetivos da adoção do DevOps?",
+    "question": " implementação de projetos em Python utilizando as arquiteturas SOA, microsserviços e orientada a eventos envolve diversas etapas e técnicas, que todo bom profissional envolvido em projetos de sistemas informatizados precisa dominar.<br>Fonte: criação do autor.<br>Considere as afirmações a seguir sobre a implementação de projetos em Python utilizando essas arquiteturas. Marque V para verdadeiro e F para falso:<br>( ) O Flask é comumente utilizado para desenvolver APIs REST em uma arquitetura de microsserviços.<br>( ) Em SOA, cada serviço deve compartilhar a mesma base de dados para manter a consistência.<br>( ) O uso de bibliotecas de mensageria como Kafka é comum em arquiteturas orientadas a eventos para comunicação assíncrona.<br>Marque a alternativa a seguir que está correta em indicar quais das assertivas acima são verdadeiras e falsas.",
     "options": [
-      { "text": "Aumentar o tempo necessário para implantar novas funcionalidades." },
-      { "text": "Diminuir a comunicação entre equipes para evitar conflitos." },
-      { "text": "Reduzir falhas de implantação e melhorar a recuperação em caso de erros." },
-      { "text": "Eliminar completamente a necessidade de testes." },
-      { "text": "Substituir engenheiros de software por automação completa." }
+      { "text": "V - F - F" },
+      { "text": "F - F - V" },
+      { "text": "V - F - V" },
+      { "text": "V - V - F" },
+      { "text": "F - V - V" }
     ],
-    "Resposta": "Reduzir falhas de implantação e melhorar a recuperação em caso de erros."
+    "Resposta": "F - V - V"
   },
   {
-    "question": "O que significa o conceito de 'Infraestrutura como Código' (IaC) dentro do DevOps?",
+    "question": "No DevOps, a prática de monitoramento contínuo desempenha um papel de suma importância para garantir a estabilidade e o desempenho de aplicações em produção. Além disso, o uso de ferramentas como Prometheus e Grafana permite a visualização em tempo real das métricas, auxiliando no diagnóstico de falhas e na melhoria da performance.<br>Fonte: criação do autor.<br>A partir disso, veja as assertivas abaixo:<br>I. O monitoramento contínuo em DevOps ajuda a detectar falhas antes que impactem os usuários.<br>II. Ferramentas como Prometheus são utilizadas apenas para monitorar redes, sem integração com aplicações.<br>III. O Grafana permite a criação de dashboards personalizados para acompanhar métricas de desempenho.<br>Marque a alternativa a seguir que está correta em indicar quais das assertivas acima são verdadeiras.",
     "options": [
-      { "text": "O uso de linguagens de programação para escrever novos aplicativos empresariais." },
-      { "text": "A prática de gerenciar e provisionar infraestrutura por meio de código em vez de processos manuais." },
-      { "text": "A substituição de toda a infraestrutura física por soluções completamente virtuais." },
-      { "text": "A eliminação da necessidade de operações de TI na empresa." },
-      { "text": "A implementação de código-fonte aberto em todas as aplicações da organização." }
+      { "text": "Somente a I e II." },
+      { "text": "Somente a III." },
+      { "text": "I, II e III." },
+      { "text": "Somente a I e III." },
+      { "text": "Somente a II e III." }
     ],
-    "Resposta": "A prática de gerenciar e provisionar infraestrutura por meio de código em vez de processos manuais."
+    "Resposta": "Somente a I e III."
   },
   {
-    "question": "São vantagens do uso de DevOps:<br><br>I-Implantação mais rápida;<br>II-Maior colaboração entre equipes;<br>III-Elimina totalmente a necessidade de testes;<br>IV-Monitoramento contínuo;<br>V-Automação de processos;<br><br>É correto o que se afirma em:",
+    "question": "No DevOps, o feedback contínuo desempenha um papel crucial para a melhoria constante dos processos de desenvolvimento e operação. Essa, aliás, é revelando uma das maiores razões da grande popularidade da abordagem DevOps.<br>Fonte: Criação do autor.<br>Marque a alternativa correta, entre as que estão a seguir, sobre os benefícios do feedback contínuo no DevOps:",
     "options": [
-      { "text": "I, II, IV e V"},
-      { "text": "I, III, e V"},
-      { "text": "I, II e III"},
-      { "text": "II, III e IV"},
-      { "text": "II, IV e V"}
+      { "text": "No DevOps, o feedback contínuo substitui a necessidade de testes automatizados, pois os problemas são identificados ao longo do tempo." },
+      { "text": "O feedback contínuo promove uma cultura na qual apenas a equipe de operações é responsável por reportar falhas e sugerir melhorias." },
+      { "text": "O feedback contínuo ajuda a identificar problemas rapidamente, promovendo ajustes rápidos e melhorias contínuas no software." },
+      { "text": "O feedback contínuo só é relevante após a implementação do software em produção, quando se pode medir o desempenho." },
+      { "text": "O feedback contínuo é utilizado apenas durante o desenvolvimento inicial do código, pois após a implantação o software já está otimizado." }
     ],
-    "Resposta": "I, II, IV e V"
+    "Resposta": "O feedback contínuo ajuda a identificar problemas rapidamente, promovendo ajustes rápidos e melhorias contínuas no software."
   },
   {
-    "question": "Quais são as principais práticas do DevOps?",
+    "question": "No DevOps, a colaboração contínua entre equipes de desenvolvimento e operações é essencial para o sucesso da metodologia. A responsabilidade compartilhada e o feedback constante promovem a rápida identificação de problemas e garantem que o software atenda aos padrões de qualidade e segurança.<br>Fonte: criação do autor.<br>Considere as afirmações a seguir sobre colaboração e responsabilidade no DevOps. Marque V para verdadeiro e F para falso:<br>( ) A responsabilidade compartilhada no DevOps significa que a mesma equipe que desenvolve o software é responsável por sua operação em produção, promovendo maior cuidado com o código<br>( ) No DevOps, o feedback contínuo só é relevante após a fase de desenvolvimento, quando o software já está em produção<br>( ) A comunicação entre as equipes de desenvolvimento e operações é um dos pilares do DevOps, garantindo uma visão unificada do ciclo de vida do software.<br>Marque a alternativa a seguir que está correta em indicar quais das assertivas acima são verdadeiras e falsas.",
     "options": [
-      { "text": "Integração contínua, entrega contínua, automação e monitoramento." },
-      { "text": "Adoção de metodologias ágeis sem colaboração." },
-      { "text": "Substituição de operações manuais por código sem revisão." },
-      { "text": "Remoção de todas as fases de testes." },
-      { "text": "Automação isolada sem feedback contínuo." }
+      { "text": "V - F - F" },
+      { "text": "F - V - V" },
+      { "text": "V - F - V" },
+      { "text": "V - V - F" },
+      { "text": "F - F - V" }
     ],
-    "Resposta": "Integração contínua, entrega contínua, automação e monitoramento."
-  },
-  {
-    "question": "Quais são os principais benefícios da prática de automação no DevOps?",
-    "options": [
-      { "text": "Redução de erros manuais, maior eficiência e menor tempo de entrega." },
-      { "text": "Aumento da complexidade da infraestrutura e menor previsibilidade." },
-      { "text": "Diminuição da segurança e aumento dos riscos operacionais." },
-      { "text": "Maior tempo de execução dos processos e menos colaboração." },
-      { "text": "Redução da qualidade do software entregue." }
-    ],
-    "Resposta": "Redução de erros manuais, maior eficiência e menor tempo de entrega."
-  },
-  {
-    "question": "Qual é um dos principais objetivos da prática de integração contínua no DevOps?",
-    "options": [
-      { "text": "Permitir que cada desenvolvedor trabalhe isoladamente sem integrar código com frequência." },
-      { "text": "Automatizar a fusão de código de diferentes desenvolvedores para detectar problemas rapidamente." },
-      { "text": "Evitar o uso de repositórios de código para manter a segurança." },
-      { "text": "Reduzir a colaboração entre as equipes de desenvolvimento e operações." },
-      { "text": "Executar implantações sem qualquer tipo de teste prévio." }
-    ],
-    "Resposta": "Automatizar a fusão de código de diferentes desenvolvedores para detectar problemas rapidamente."
-  },
-  {
-    "question": "Quais são os principais desafios enfrentados na adoção do DevOps?",
-    "options": [
-      { "text": "Resistência à mudança cultural e falta de colaboração entre equipes." },
-      { "text": "Automação eficiente e ciclos de feedback rápido." },
-      { "text": "Redução do tempo de entrega e maior confiabilidade." },
-      { "text": "Aprimoramento da segurança e melhor gestão de infraestrutura." },
-      { "text": "Facilidade de adoção e ausência de barreiras tecnológicas." }
-    ],
-    "Resposta": "Resistência à mudança cultural e falta de colaboração entre equipes."
-  },
-  {
-    "question": "São ferramentas amplamente utilizadas em DevOps:<br><br>I-Jenkins;<br>II-Docker;<br>III-SQL Server;<br>IV-Kubernetes;<br>V-Git;<br><br>É correto o que se afirma em:",
-    "options": [
-      { "text": "I, II, IV e V" },
-      { "text": "I, III e V" },
-      { "text": "II, III e IV" },
-      { "text": "I, II, III, IV e V" },
-      { "text": "II, IV e V" }
-    ],
-    "Resposta": "I, II, IV e V"
-  },
-  {
-    "question": "O que é 'Entrega Contínua' dentro do DevOps?",
-    "options": [
-      { "text": "O processo de garantir que cada mudança no código seja automaticamente implantada em produção sem validação." },
-      { "text": "Uma abordagem que garante que o software esteja sempre pronto para implantação, mas com a opção de validação manual antes da entrega final." },
-      { "text": "Uma estratégia que elimina totalmente a necessidade de testes automatizados." },
-      { "text": "O uso de servidores dedicados apenas para testes locais sem integração ao ambiente de produção." },
-      { "text": "Uma prática que evita qualquer tipo de rollback em caso de falhas." }
-    ],
-    "Resposta": "Uma abordagem que garante que o software esteja sempre pronto para implantação, mas com a opção de validação manual antes da entrega final."
-  },
-  {
-    "question": "Quais dos seguintes elementos fazem parte da cultura DevOps?<br><br>I-Automatização de processos;<br>II-Monitoramento contínuo;<br>III-Falta de comunicação entre equipes;<br>IV-Feedback rápido e iterativo;<br>V-Infraestrutura manual;<br><br>É correto o que se afirma em:",
-    "options": [
-      { "text": "I, II e IV" },
-      { "text": "I, III e V" },
-      { "text": "II, III e IV" },
-      { "text": "I, II, III, IV e V" },
-      { "text": "II, IV e V" }
-    ],
-    "Resposta": "I, II e IV"
-  },
-  {
-    "question": "No contexto do DevOps, qual das alternativas melhor descreve o conceito de 'Observabilidade'?",
-    "options": [
-      { "text": "A capacidade de monitorar logs de aplicações, métricas e rastreamentos para entender o comportamento do sistema." },
-      { "text": "O uso de firewalls para proteger o ambiente de produção." },
-      { "text": "A análise apenas de falhas de hardware em servidores locais." },
-      { "text": "A redução da visibilidade das operações para evitar vazamentos de informação." },
-      { "text": "A implementação de backups manuais de código-fonte." }
-    ],
-    "Resposta": "A capacidade de monitorar logs de aplicações, métricas e rastreamentos para entender o comportamento do sistema."
-  },
-  {
-    "question": "Qual das seguintes afirmações sobre o uso de contêineres no DevOps é correta?",
-    "options": [
-      { "text": "Os contêineres permitem empacotar aplicações e suas dependências, garantindo consistência entre diferentes ambientes." },
-      { "text": "Os contêineres eliminam totalmente a necessidade de servidores físicos." },
-      { "text": "Os contêineres só podem ser usados em ambientes de desenvolvimento, não em produção." },
-      { "text": "O uso de contêineres impossibilita a automação de implantações." },
-      { "text": "Os contêineres aumentam a dependência entre serviços, tornando-os mais difíceis de escalar." }
-    ],
-    "Resposta": "Os contêineres permitem empacotar aplicações e suas dependências, garantindo consistência entre diferentes ambientes."
-  },
-  {
-    "question": "Sobre a relação entre DevOps e segurança (DevSecOps), é correto afirmar que:",
-    "options": [
-      { "text": "DevSecOps integra segurança desde o início do ciclo de desenvolvimento, prevenindo vulnerabilidades antes da implantação." },
-      { "text": "A segurança deve ser tratada apenas no final do desenvolvimento, para evitar atrasos." },
-      { "text": "A adoção de DevSecOps torna a automação de processos desnecessária." },
-      { "text": "DevSecOps reduz a necessidade de monitoramento contínuo." },
-      { "text": "A implementação de DevSecOps desacelera o ciclo de desenvolvimento sem benefícios reais." }
-    ],
-    "Resposta": "DevSecOps integra segurança desde o início do ciclo de desenvolvimento, prevenindo vulnerabilidades antes da implantação."
-  },
-  {
-        "question": "A integração contínua (CI) e a entrega contínua (CD) são algumas das práticas fundamentais no DevOps. Elaspermitem que o código seja testado, integrado e implantado de forma automatizada e regular, garantindomaior eficiência e rapidez nas entregas.<br>Fonte: Criação do autor.<br>Marque a alternativa correta, entre as que estão a seguir, sobre CI/CD no DevOps:",
-        "options": [
-            { "text": "Substitui a automação do monitoramento contínuo." },
-            { "text": "Elimina completamente a necessidade de revisões." },
-            { "text": "Não inclui integração de mudanças no código." },
-            { "text": "É uma ferramenta exclusiva das operações." },
-            { "text": "Automatiza testes e implantação de novas versões." }
-        ],
-        "Resposta": "Automatiza testes e implantação de novas versões."
-    },
-    {
-        "question": "Uma startup de tecnologia está expandindo rapidamente e precisa garantir que suas aplicações emcontêineres sejam gerenciadas de forma escalável e resiliente. A equipe de operações decide utilizar oKubernetes para orquestrar esses contêineres, mas ainda há dúvidas sobre como o Kubernetes pode ajudarna prática – se é que pode.<br>Fonte: Criação do autor.<br>Diante dessa situação, marque a alternativa a seguir com a afirmação correta sobre o Kubernetes:",
-        "options": [
-            { "text": "Requer intervenção manual para escalar contêineres em caso de aumento de demanda." },
-            { "text": "Garante a recuperação automática de contêineres com falhas e o escalonamento baseado na demanda." },
-            { "text": "Apenas orquestra contêineres em servidores locais, não sendo adequado para infraestruturas em nuvem." },
-            { "text": "Não oferece funcionalidades de balanceamento de carga entre contêineres." },
-            { "text": "Funciona apenas com contêineres Docker, sendo incompatível com outras plataformas de conteinerização." }
-        ],
-        "Resposta": "Garante a recuperação automática de contêineres com falhas e o escalonamento baseado na demanda."
-    },
-    {
-        "question": "Durante a implementação de um pipeline CI/CD, um desenvolvedor está configurando uma integraçãoautomatizada com ferramentas de monitoramento para garantir que possíveis falhas no sistema sejamdetectadas e notificadas rapidamente. Seguindo um conselho de um membro experiente da equipe, eleresolve estudar a alternativa oferecida pela solução PagerDuty.<br>Fonte: Criação do autor.<br>Considerando essa situação, marque a alternativa correta, a seguir, sobre o uso integrado do Prometheus como PagerDuty:<br>Escolha uma",
-        "options": [
-            { "text": "Requer que os alertas sejam manualmente disparados pela equipe de operações em caso de falhas." },
-            { "text": "Limita-se a coletar métricas de infraestrutura, sem oferecer integrações com ferramentas de notificação." },
-            { "text": "Não suporta integração com ferramentas de gestão de incidentes em nuvem." },
-            { "text": "Permite que alertas automáticos sejam enviados à equipe correta quando uma falha é detectada." },
-            { "text": "Não permite personalização das notificações enviadas para diferentes equipes ou escalonamentos automáticos." }
-        ],
-        "Resposta": "Permite que alertas automáticos sejam enviados à equipe correta quando uma falha é detectada."
-    },
-    {
-        "question": "Um jovem gestor de projetos foi desafiado pelo executivo a quem se reporta a melhorar a eficiência de seustimes na entrega de software. Para isso, o gestor decidiu adotar ferramentas CI/CD e métodos DevOps, a fimde automatizar o pipeline de desenvolvimento e entrega. No entanto, ele ainda está em dúvida sobre qual dasseguintes práticas será a mais eficiente para garantir implantações seguras e rápidas, minimizando os riscosde falhas em produção<br>Fonte: Criação do autor.<br>Considerando o cenário descrito, marque a opção que contém a prática mais indicada para atender àsnecessidades do gestor:",
-        "options": [
-            { "text": "Execução de backups manuais antes de cada implantação." },
-            { "text": "Monitoramento dos servidores apenas após a liberação em produção." },
-            { "text": "Redirecionamento do tráfego para todos os usuários sem testes em um ambiente isolado." },
-            { "text": "Implementação de blue-green deployments para lançamentos seguros." },
-            { "text": "Uso de teste manual após cada commit no repositório." }
-        ],
-        "Resposta": "Implementação de blue-green deployments para lançamentos seguros."
-    },
-    {
-        "question": "A adoção do DevOps nas organizações promove uma transformação significativa no ciclo de vida dosoftware,integrando desenvolvimento e operações em um fluxo contínuo. Um dos aspectos mais importantes dessametodologia é o uso de automação para acelerar processos.<br>Fonte: Criação do autor.<br>Considerando o texto acima, marque a alternativa correta sobre a automação no DevOps entre as que estãoa seguir:",
-        "options": [
-            { "text": "Reduz erros humanos e acelera entregas." },
-            { "text": "Garante que as operações não precisam de ajustes." },
-            { "text": "Substitui por completo o papel dos desenvolvedores." },
-            { "text": "É responsável apenas pelo monitoramento." },
-            { "text": "Elimina totalmente a necessidade de testes." }
-        ],
-        "Resposta": "Reduz erros humanos e acelera entregas."
-    },
-    {
-        "question": "O princípio 'Você constrói, você executa' é fundamental para a cultura DevOps. Com essa premissa, uma novaresponsabilidade surge para os desenvolvedores, relacionada diretamente ao ciclo de vida do software, desdeo desenvolvimento até a operação.<br>Fonte: Criação do autor.<br>Considerando isso, é correto afirmar que 'Você constrói, você executa'. Marque a alternativa correta a seguir:",
-        "options": [
-            { "text": "Foca exclusivamente na criação de novos códigos." },
-            { "text": "Apenas os operadores executam o código." },
-            { "text": "Implica que os desenvolvedores monitoram o código na produção." },
-            { "text": "Define que o desenvolvedor cria, mas não mantém." },
-            { "text": "Isola desenvolvedores das falhas em produção." }
-        ],
-        "Resposta": "Implica que os desenvolvedores monitoram o código na produção."
-    },
-    {
-        "question": "Uma equipe de desenvolvimento está enfrentando desafios com a consistência e a escalabilidade de suainfraestrutura em um ambiente de nuvem. O time de operações está sobrecarregado com a configuraçãomanual de servidores e a gestão de diferentes ambientes para desenvolvimento, testes e produção. Pararesolver esses problemas, a equipe decidiu adotar a prática de Infraestrutura como Código (IaC) com aferramenta Terraform.<br>Fonte: Criação do autor.<br>Diante dessa decisão, marque a alternativa a seguir que contém uma das principais vantagens de usar IaCcom Terraform:",
-        "options": [
-            { "text": "A redução da necessidade de versionamento das configurações de infraestrutura." },
-            { "text": "A execução de scripts manuais para configurar a infraestrutura em cada ambiente de produção." },
-            { "text": "Automação e reprodutibilidade da infraestrutura em diferentes ambientes." },
-            { "text": "A eliminação da necessidade de integração com pipelines de CI/CD." },
-            { "text": "A possibilidade de realizar backups manuais da configuração dos servidores." }
-        ],
-        "Resposta": "Automação e reprodutibilidade da infraestrutura em diferentes ambientes."
-    },
-    {
-        "question": "No atual paradigma que impera na indústria de TI, o conceito de feedback contínuo no DevOps mostra-seabsolutamente essencial para a melhoria contínua do software e para a rápida adaptação às mudanças demercado e necessidades dos usuários.<br>Fonte: Criação do autor.<br>Marque a alternativa correta, entre as que estão a seguir, sobre o feedback contínuo no DevOps:",
-        "options": [
-            { "text": "Permite ajustes rápidos com base em dados reais." },
-            { "text": "Elimina completamente falhas no ciclo de desenvolvimento." },
-            { "text": "Apenas desenvolvedores têm acesso ao feedback." },
-            { "text": "Substitui a necessidade de testes e monitoramento." },
-            { "text": "Só ocorre no final do desenvolvimento." }
-        ],
-        "Resposta": "Permite ajustes rápidos com base em dados reais."
-    },
-    {
-        "question": "No âmbito de DevOps, o uso de contêineres e ferramentas de orquestração como Docker e Kubernetes mostra-se absolutamente essencial para que se possa garantir a portabilidade e escalabilidade dasaplicações em diferentes ambientes.<br>I. O Docker permite que as aplicações sejam executadas de forma consistente em diferentes ambientes,eliminando discrepâncias de configuração.<br>II. O Kubernetes é responsável por automatizar a criação, destruição e escalabilidade de contêineres em umainfraestrutura de TI distribuída.<br>III. Com o Docker, os contêineres podem ser orquestrados de maneira automatizada para balanceamento decarga e recuperação de falhas sem a necessidade de ferramentas adicionais.<br>Fonte: Criação do autor.<br>Sobre isso, marque a alternativa a seguir que contém a resposta correta:",
-        "options": [
-            { "text": "Somente a I." },
-            { "text": "Somente I e III." },
-            { "text": "Somente I e II." },
-            { "text": "Somente a II." },
-            { "text": "Somente II e III." }
-        ],
-        "Resposta": "Somente I e III."
-    }
+    "Resposta": "V - F - V"
+  }
 ]
