@@ -1,0 +1,476 @@
+[
+  {
+    "question": "Qual das seguintes afirmações é verdadeira sobre o modelo de Software como Serviço (SaaS)?",
+    "options": [
+      { "text": "SaaS não oferece flexibilidade em termos de escalabilidade para empresas." },
+      { "text": "SaaS elimina a necessidade de qualquer tipo de suporte técnico ou atualizações." },
+      { "text": "SaaS requer que os usuários instalem e mantenham software em seus dispositivos locais" },
+      { "text": "SaaS permite acesso a aplicativos via internet, normalmente através de um navegador web" },
+      { "text": "SaaS é sinônimo de software open source." }
+    ],
+    "Resposta": "SaaS permite acesso a aplicativos via internet, normalmente através de um navegador web"
+  },
+  {
+    "question": " Qual das seguintes afirmações é verdadeira sobre a Tríade CIA (Confidencialidade, Integridade e Disponibilidade) na Segurança da Informação?",
+    "options": [
+      { "text": "Integridade se refere à garantia de que os dados estão disponíveis quando necessários" },
+      { "text": "Confidencialidade se refere à proteção dos dados contra acesso não autorizado." },
+      { "text": "Disponibilidade se refere à capacidade de verificar a origem dos dados" },
+      { "text": "Integridade assegura que os dados estejam criptografados durante a transmissão" },
+      { "text": "Confidencialidade garante que os dados não sejam alterados sem autorização" }
+    ],
+    "Resposta": "Confidencialidade se refere à proteção dos dados contra acesso não autorizado."
+  }
+ ,
+  {
+    "question": "Qual das seguintes afirmações é verdadeira sobre o algoritmo de hash MD5? ",
+    "options": [
+      { "text": "O MD5 gera hashes diferentes para inputs idênticos" },
+      { "text": "O MD5 é um algoritmo de hash que produz um valor de 128 bits." },
+      { "text": "O MD5 é considerado seguro e amplamente recomendado para novas aplicações de segurança" },
+      { "text": "O MD5 pode ser revertido para obter os dados originais" },
+      { "text": "O MD5 é usado para criptografar dados confidenciais de forma segura" }
+    ],
+    "Resposta": "O MD5 é um algoritmo de hash que produz um valor de 128 bits."
+  }
+ ,
+  {
+    "question": "Qual das seguintes práticas é mais eficaz para se proteger contra ataques Man-in-the-Middle (MitM)?",
+    "options": [
+      { "text": "Desativar todas as atualizações de software para evitar interrupções" },
+      { "text": "Usar apenas redes Wi-Fi públicas, pois são mais convenientes" },
+      { "text": "Compartilhar senhas e informações pessoais apenas em redes sociais." },
+      { "text": "Confiar em conexões HTTP em vez de HTTPS para maior velocidade" },
+      { "text": "Utilizar uma VPN (Virtual Private Network) ao acessar redes não confiáveis." }
+    ],
+    "Resposta": "Utilizar uma VPN (Virtual Private Network) ao acessar redes não confiáveis."
+  }
+ ,
+  {
+    "question": "Qual das seguintes afirmações sobre VPN (Virtual Private Network) é correta?",
+    "options": [
+      { "text": "VPNs criptografam o tráfego de internet, protegendo os dados transmitidos entre o dispositivo do usuário e o servidor VPN." },
+      { "text": "VPNs impedem completamente qualquer tipo de monitoramento ou rastreamento online" },
+      { "text": "VPNs não podem ser usadas em redes públicas, apenas em redes privadas." },
+      { "text": "VPNs são usadas exclusivamente para acessar conteúdos restritos geograficamente." },
+      { "text": "VPNs garantem que o endereço IP original do usuário permaneça visível para todos os sites acessados." }
+    ],
+    "Resposta": "VPNs criptografam o tráfego de internet, protegendo os dados transmitidos entre o dispositivo do usuário e o servidor VPN."
+  }
+,
+  {
+    "question": "Qual das seguintes afirmações é verdadeira sobre ataques de phishing?",
+    "options": [
+      { "text": "Phishing é uma forma de malware que se instala automaticamente em dispositivos sem interação do usuário." },
+      { "text": "Phishing é uma técnica de ataque que compromete redes Wi-Fi para roubar dados." },
+      { "text": "Phishing envolve a criação de websites ou e-mails falsos que imitam entidades confiáveis para enganar os usuários." },
+      { "text": "Phishing só pode ser realizado através de e-mails" },
+      { "text": "Phishing não representa uma ameaça significativa para indivíduos, apenas para grandes organizações." }
+    ],
+    "Resposta": "Phishing envolve a criação de websites ou e-mails falsos que imitam entidades confiáveis para enganar os usuários."
+  }
+,
+  {
+    "question": "Conseguir manter a disponibilidade durante eventos disruptivos descreve quais dos princípios da alta disponibilidade?  ",
+    "options": [
+      { "text": "intolerância a falhas" },
+      { "text": "único ponto de falha" },
+      { "text": "tolerância a falhas" },
+      { "text": "Serviços que não são interrompidos" },
+      { "text": "resiliência do sistema" }
+    ],
+    "Resposta": "resiliência do sistema"
+  }
+,
+  {
+    "question": "No sistema operacional Linux, ao utilizar o comando MKDIR, o que ele cria?",
+    "options": [
+      { "text": "Arquivos de texto" },
+      { "text": "Arquivos binários." },
+      { "text": "Links simbólicos." },
+      { "text": "Diretórios (pastas)." },
+      { "text": "Arquivos comprimidos." }
+    ],
+    "Resposta": "Diretórios (pastas)."
+  }
+,
+  {
+    "question": "Em ambientes de nuvem pública, as ameaças diferem das de redes locais devido à natureza compartilhada dos recursos. Qual das alternativas abaixo representa uma ameaça significativa para ambientes de nuvem pública?",
+    "options": [
+      { "text": "Configuração de acesso exclusivo para administradores" },
+      { "text": "Monitoramento de tráfego para detectar atividades suspeitas" },
+      { "text": "Autenticação multifatorial para acesso seguro aos serviços na nuvem." },
+      { "text": "Atualização contínua dos sistemas operacionais dos servidores de nuvem" },
+      { "text": "Ataques de Engenharia Social que aproveitam as falhas do comportamento humano." }
+    ],
+    "Resposta": "Ataques de Engenharia Social que aproveitam as falhas do comportamento humano."
+  }
+,
+  {
+    "question": "Qual das alternativas abaixo é uma medida eficaz para evitar ataques de injeção SQL?",
+    "options": [
+      { "text": "Configurar o banco de dados para ignorar comandos SQL complexos." },
+      { "text": "Utilizar apenas senhas complexas para o banco de dados" },
+      { "text": "Limitar o número de usuários com acesso ao banco de dados." },
+      { "text": "Desativar a autenticação multifatorial no banco de dados" },
+      { "text": "Utilizar consultas preparadas e com validação rigorosa de dados de entrada." }
+    ],
+    "Resposta": "Utilizar consultas preparadas e com validação rigorosa de dados de entrada."
+  }
+,
+  {
+    "question": "Qual comando no Linux é utilizado para listar o conteúdo de um diretório mostrando as permissões dos arquivos e/ou diretórios?",
+    "options": [
+      { "text": "touch" },
+      { "text": "mv -l" },
+      { "text": "ls -l" },
+      { "text": "cp" },
+      { "text": "ls" }
+    ],
+    "Resposta": "ls -l"
+  }
+,
+  {
+    "question": "Engenharia social é uma técnica de ataque que explora a manipulação psicológica das vítimas para obter informações confidenciais. Qual das alternativas a seguir representa um exemplo clássico de ataque de engenharia social?",
+    "options": [
+      { "text": "Um ransomware criptografa os dados de uma empresa e exige resgate." },
+      { "text": "Um hacker intercepta pacotes de dados usando um sniffer de rede." },
+      { "text": "Um atacante realiza um ataque DDoS para interromper o serviço de um site." },
+      { "text": "Um invasor usa força bruta para adivinhar senhas de uma conta." },
+      { "text": "Um atacante convence um funcionário a fornecer dados de acesso fingindo ser do departamento de TI." }
+    ],
+    "Resposta": "Um atacante convence um funcionário a fornecer dados de acesso fingindo ser do departamento de TI."
+  }
+  ,
+  {
+    "question": "Os ataques de amplificação e reflexão são usados para aumentar o impacto de um ataque DDoS, refletindo e ampliando o tráfego em direção ao alvo. Qual das alternativas a seguir descreve uma técnica de amplificação?",
+    "options": [
+      { "text": "Enviar comandos SQL maliciosos para explorar vulnerabilidades de banco de dados." },
+      { "text": "Enviar pacotes com endereços IP falsificados para um servidor DNS para gerar um grande volume de respostas." },
+      { "text": "Interceptar pacotes de dados por meio de um ataque de sniffing." },
+      { "text": "Invadir diretamente o servidor-alvo com um número limitado de pacotes." },
+      { "text": "Desativar temporariamente o firewall de um sistema." }
+    ],
+    "Resposta": "Enviar pacotes com endereços IP falsificados para um servidor DNS para gerar um grande volume de respostas."
+  }
+,
+  {
+    "question": "Um ataque SYN Flood consiste em sobrecarregar um sistema com solicitações de conexão. Qual a técnica utilizada nesse ataque?  ",
+    "options": [
+      { "text": "Explorar vulnerabilidades de um banco de dados." },
+      { "text": "Reduzir a largura de banda do sistema alvo" },
+      { "text": "Enviar pacotes falsificados de resposta DNS." },
+      { "text": "Enviar pacotes SYN sem completar o handshake." },
+      { "text": "Interceptar dados por meio de um sniffer de rede" }
+    ],
+    "Resposta": "Enviar pacotes SYN sem completar o handshake."
+  }
+,
+  {
+    "question": "Para mitigar tanto ameaças internas quanto externas, é importante adotar práticas de segurança. Qual das alternativas a seguir descreve uma prática eficaz para minimizar os riscos associados às ameaças internas",
+    "options": [
+      { "text": "Utilizar apenas softwares de segurança de código aberto para reduzir custos." },
+      { "text": "Permitir que todos os colaboradores tenham acesso irrestrito a informações sigilosas para melhorar a produtividade." },
+      { "text": "Realizar campanhas de conscientização sobre segurança digital para todos os colaboradores da empresa." },
+      { "text": "Priorizar a segurança externa em detrimento da segurança interna" },
+      { "text": "Implementar uma política de rede aberta para garantir maior colaboração entre os departamentos." }
+    ],
+    "Resposta": "Realizar campanhas de conscientização sobre segurança digital para todos os colaboradores da empresa."
+  }
+,
+  {
+    "question": "Além do phishing, existem outras técnicas de engenharia social que visam obter informações confidenciais por meio da interação humana. Qual das alternativas a seguir representa outra forma de engenharia social?",
+    "options": [
+      { "text": "Atualização dos patches de segurança do sistema." },
+      { "text": "O uso do pretexto de uma ligação de 'suporte técnico' para convencer uma vítima a fornecer dados pessoais." },
+      { "text": "Ataque de negação de serviço para sobrecarregar um servidor." },
+      { "text": "Adoção de uma política de firewall para impedir ataques externos" },
+      { "text": "Implantação de um rootkit para obter acesso privilegiado ao sistema." }
+    ],
+    "Resposta": "O uso do pretexto de uma ligação de 'suporte técnico' para convencer uma vítima a fornecer dados pessoais."
+  }
+,
+  {
+    "question": "Qual é o principal objetivo da confidencialidade no contexto de segurança da informação?",
+    "options": [
+      { "text": "Impedir que os sistemas sejam atacados por vírus e malware" },
+      { "text": "Garantir que os dados sejam acessados apenas por usuários autorizados." },
+      { "text": "Manter a integridade dos dados, evitando qualquer modificação não autorizada." },
+      { "text": "Garantir que os dados sejam acessíveis a qualquer pessoa na rede" },
+      { "text": "Garantir que o sistema esteja sempre disponível para uso, mesmo durante falhas." }
+    ],
+    "Resposta": "Garantir que os dados sejam acessados apenas por usuários autorizados."
+  }
+,
+  {
+    "question": "Um ataque à tabela MAC de um switch visa encher a tabela de endereços MAC para forçar o switch a enviar todo o tráfego para todos os dispositivos da rede. Qual o nome desse tipo de ataque?",
+    "options": [
+      { "text": "Spoofing de IP." },
+      { "text": "Hijacking de rede." },
+      { "text": "Inundação de MAC." },
+      { "text": "Sniffing de pacotes." },
+      { "text": "Exploração de DNS" }
+    ],
+    "Resposta": "Inundação de MAC."
+  }
+,
+  {
+    "question": "Em ambientes de nuvem pública, as ameaças diferem das de redes locais devido à natureza compartilhada dos recursos. Qual das alternativas abaixo representa uma ameaça significativa para ambientes de nuvem pública?",
+    "options": [
+      { "text": "Ataques de Engenharia Social que aproveitam as falhas do comportamento humano." },
+      { "text": "Configuração de acesso exclusivo para administradores." },
+      { "text": "Atualização contínua dos sistemas operacionais dos servidores de nuvem." },
+      { "text": "Monitoramento de tráfego para detectar atividades suspeitas." },
+      { "text": "Autenticação multifatorial para acesso seguro aos serviços na nuvem" }
+    ],
+    "Resposta": "Ataques de Engenharia Social que aproveitam as falhas do comportamento humano."
+  }
+,
+  {
+    "question": "A integridade dos dados é um dos princípios fundamentais da segurança da informação. Qual das alternativas abaixo melhor descreve o conceito de integridade?",
+    "options": [
+      { "text": "Garantir que os dados não sejam alterados ou corrompidos de maneira não autorizada." },
+      { "text": "Garantir que os dados estejam disponíveis para os usuários quando necessário." },
+      { "text": "Garantir que os dados sejam acessíveis a qualquer momento, independentemente da rede." },
+      { "text": "Garantir que os dados sejam criptografados durante o armazenamento." },
+      { "text": "Garantir que os dados sejam armazenados de forma eficiente." }
+    ],
+    "Resposta": "Garantir que os dados não sejam alterados ou corrompidos de maneira não autorizada."
+  }
+,
+  {
+    "question": "Os ataques de spoofing são comuns na camada 2 e têm como objetivo enganar dispositivos de rede para redirecionar o tráfego de dados. Qual das alternativas abaixo descreve um exemplo de ataque de spoofing?",
+    "options": [
+      { "text": "Um invasor utiliza força bruta para decifrar senhas de acesso." },
+      { "text": "Um invasor força a conexão de um dispositivo remoto para comprometer os dados." },
+      { "text": "Um invasor altera o endereço MAC de seu dispositivo para assumir a identidade de outro na rede." },
+      { "text": "Um invasor criptografa os dados da rede com um ransomware." },
+      { "text": "Um invasor cria uma URL falsa para imitar o site de uma instituição financeira." }
+    ],
+    "Resposta": "Um invasor altera o endereço MAC de seu dispositivo para assumir a identidade de outro na rede."
+  }
+,
+  {
+    "question": "No contexto dos ataques de reflexão, qual dos serviços abaixo é comumente explorado para refletir e amplificar o tráfego enviado ao alvo?",
+    "options": [
+      { "text": "DNS" },
+      { "text": "SSH" },
+      { "text": "SMB" },
+      { "text": "FTP" },
+      { "text": "HTTPS" }
+    ],
+    "Resposta": "DNS"
+  }
+,
+  {
+    "question": "Qual das seguintes opções representa uma contramedida eficaz contra malware em uma rede corporativa?",
+    "options": [
+      { "text": "Implementar antivírus e ferramentas de monitoramento de rede para detectar e bloquear ameaças." },
+      { "text": "Usar senhas fáceis de lembrar para facilitar o acesso dos usuários." },
+      { "text": "Fornecer acesso irrestrito à rede para todos os funcionários." },
+      { "text": "Permitir o uso de dispositivos USB sem restrição para aumentar a produtividade." },
+      { "text": "Configurar todos os sistemas para não receber atualizações automáticas de segurança." }
+    ],
+    "Resposta": "Implementar antivírus e ferramentas de monitoramento de rede para detectar e bloquear ameaças."
+  }
+,
+  {
+    "question": "Usuários podem ser alvos de ameaças específicas devido a vulnerabilidades nas práticas de segurança digital. Qual das alternativas abaixo representa uma prática de segurança inadequada que pode facilitar ameaças e vulnerabilidades ao usuário? ",
+    "options": [
+      { "text": "Compartilhar senhas com colegas para facilitar o acesso rápido" },
+      { "text": "Utilizar autenticação multifatorial (MFA) para proteger contas." },
+      { "text": "Evitar a instalação de softwares desconhecidos ou suspeitos." },
+      { "text": "Configurar senhas únicas para cada conta." },
+      { "text": "Atualizar regularmente o sistema operacional e os aplicativos instalados." }
+    ],
+    "Resposta": "Compartilhar senhas com colegas para facilitar o acesso rápido"
+  }
+,
+  {
+    "question": "Qual das opções abaixo é uma consequência direta do envenenamento de cache DNS?",
+    "options": [
+      { "text": "Redirecionamento de usuários para sites maliciosos." },
+      { "text": "Redução da velocidade de download." },
+      { "text": "Acesso à rede por meio de SSH não autorizado" },
+      { "text": "Diminuição da largura de banda disponível na rede." },
+      { "text": "Bloqueio completo do acesso à internet." }
+    ],
+    "Resposta": "Redirecionamento de usuários para sites maliciosos."
+  }
+
+,
+  {
+    "question": "As ameaças internas são uma das principais preocupações na segurança de redes, pois envolvem ações de pessoas que têm acesso legítimo aos recursos internos de uma organização. Qual das alternativas a seguir descreve corretamente uma ameaça interna?  ",
+    "options": [
+      { "text": "A infecção por um malware que se espalha pela internet e afeta diversos dispositivos externos." },
+      { "text": "Um funcionário insatisfeito que usa suas credenciais para acessar dados sigilosos e vazar informações para fora da emrpesa." },
+      { "text": "A interceptação de pacotes de dados em uma rede pública por um hacker desconhecido." },
+      { "text": "Um phishing realizado por um hacker enviando e-mails maliciosos para funcionários de uma empresa." },
+      { "text": "Um ataque de DDoS (Distributed Denial of Service) realizado por hackers externos." }
+    ],
+    "Resposta": "Um funcionário insatisfeito que usa suas credenciais para acessar dados sigilosos e vazar informações para fora da emrpesa."
+  }
+,
+  {
+    "question": "O BitLocker é uma ferramenta de criptografia utilizada em sistemas Windows. Qual a principal função do BitLocker?  ",
+    "options": [
+      { "text": "Proteger a rede contra ataques DDoS." },
+      { "text": "Monitorar e corrigir falhas no sistema operacional." },
+      { "text": "Bloquear vírus e malware que tentem acessar o disco." },
+      { "text": "Impedir o acesso a arquivos através de senhas complexas." },
+      { "text": "Proteger todo o conteúdo de um disco rígido contra roubo ou acesso não autorizado aos dados." }
+    ],
+    "Resposta": "Proteger todo o conteúdo de um disco rígido contra roubo ou acesso não autorizado aos dados."
+  }
+
+,
+  {
+    "question": "Qual das alternativas abaixo representa uma característica comum de ataques de ransomware em relação ao comportamento do malware?   ",
+    "options": [
+      { "text": "O ransomware criptografa os dados e os remove permanentemente do sistema." },
+      { "text": "O ransomware criptografa os dados e ameaça expor informações confidenciais se o pagamentos não for realizado." },
+      { "text": "O ransomware apenas monitora a atividade do usuário sem interferir nos arquivos." },
+      { "text": "O ransomware permite acesso remoto contínuo para o atacante sem qualquer alteração nos dados." },
+      { "text": "O ransomware identifica e elimina automaticamente os arquivos de segurança." }
+    ],
+    "Resposta": ""
+  }
+  ,
+  {
+    "question": "Os tipos de ameaças cibernéticas estão em constante evolução, visando explorar vulnerabilidades em diferentes camadas da segurança de redes. Qual das alternativas abaixo descreve corretamente um exemplo de ameaça cibernética que compromete a confidencialidade dos dados?  ",
+    "options": [
+      { "text": "Man-in-the-Middle (MitM), que intercepta dados em trânsito sem autorização." },
+      { "text": "Phishing, onde um invasor tenta obter informações pessoais por meio de uma falsa identidade." },
+      { "text": "DDoS, que visa sobrecarregar e indisponibilizar um serviço online." },
+      { "text": "Ransomware, que criptografa dados e exige pagamento para sua liberação." },
+      { "text": "Malware, que se infiltra em sistemas para roubar ou destruir dados." }
+    ],
+    "Resposta": "Man-in-the-Middle (MitM), que intercepta dados em trânsito sem autorização."
+  }
+
+,
+  {
+    "question": "O ataque ARP Spoofing é uma técnica de ataque de camada 2 que explora a vulnerabilidade do protocolo ARP em redes locais. Qual das alternativas a seguir descreve o objetivo principal de um ataque de ARP Spoofing?   ",
+    "options": [
+      { "text": "Enganar dispositivos da rede para associar o endereço MAC do invasor ao endereço IP de um dispositivo confiável." },
+      { "text": "Interceptar a comunicação de um dispositivo de rede e alterar suas configurações de segurança." },
+      { "text": "Infectar dispositivos da rede com malware sem ser detectado." },
+      { "text": "Alterar o conteúdo de um website por meio de um ataque de cross-site scripting (XSS)" },
+      { "text": "Enviar um grande volume de dados para sobrecarregar o servidor alvo." }
+    ],
+    "Resposta": "Enganar dispositivos da rede para associar o endereço MAC do invasor ao endereço IP de um dispositivo confiável."
+  }
+  ,
+  {
+    "question": "O phishing é uma forma comum de engenharia social em que os atacantes tentam enganar usuários para roubar informações sensíveis. Qual das alternativas abaixo descreve uma abordagem típica de phishing?",
+    "options": [
+      { "text": "Enviar um e-mail falso, imitando uma instituição bancária, pedindo ao usuário que atualize suas informações de login." },
+      { "text": "Invadir um sistema usando credenciais comprometidas previamente adquiridas." },
+      { "text": "Enviar um vírus por meio de um arquivo em um dispositivo USB infectado." },
+      { "text": "Usar um scanner de rede para descobrir dispositivos vulneráveis." },
+      { "text": "Espionar a tela de uma vítima para capturar informações pessoais" }
+    ],
+    "Resposta": "Enviar um e-mail falso, imitando uma instituição bancária, pedindo ao usuário que atualize suas informações de login."
+  }
+,
+  {
+    "question": "O envenenamento do cache DNS é uma técnica usada para redirecionar os usuários para sites falsos. Como isso é feito?  ",
+    "options": [
+      { "text": "Alterando as configurações do servidor DNS, habilitando respostas recursivas." },
+      { "text": "Adicionando entradas IP incorretas na tabela de roteamento." },
+      { "text": "Injetando código malicioso em uma requisição ou resposta DNS." },
+      { "text": "Enviando muitas requisições falsas para o servidor DNS." },
+      { "text": "Alterando os endereços DNS para apontar para servidores maliciosos." }
+    ],
+    "Resposta": "Alterando os endereços DNS para apontar para servidores maliciosos."
+  }
+,
+  {
+    "question": "Qual é uma das consequências diretas de um ataque de falsificação DHCP?",
+    "options": [
+      { "text": "Redirecionamento do tráfego de rede para um servidor de controle do invasor." },
+      { "text": "Diminuição da quantidade de endereços IP disponíveis na rede." },
+      { "text": "Criptografia dos dados armazenados em dispositivos da rede." },
+      { "text": "Substituição de um firewall por outro firewall malicioso." },
+      { "text": "Interrupção de serviços de DNS da rede." }
+    ],
+    "Resposta": "Redirecionamento do tráfego de rede para um servidor de controle do invasor."
+  }
+,
+  {
+    "question": "A camada 2 do modelo OSI, conhecida como camada de enlace, é vulnerável a diversos tipos de ataques que comprometem a segurança de redes locais. Qual das alternativas a seguir representa um ataque típico de camada 2?",
+    "options": [
+      { "text": "SQL Injection, que explora falhas em bancos de dados SQL." },
+      { "text": "Phishing, que manipula usuários para roubar informações pessoais." },
+      { "text": "Ataque de interceptação (sniffing), onde o invasor captura pacotes na rede para obter informações confidenciais." },
+      { "text": "Engenharia social, que utiliza técnicas psicológicas para enganar usuários." },
+      { "text": "Ataque DDoS, que sobrecarrega servidores por meio de múltiplas solicitações" }
+    ],
+    "Resposta": "Ataque de interceptação (sniffing), onde o invasor captura pacotes na rede para obter informações confidenciais."
+  }
+,
+  {
+    "question": "No sistema operacional Windows, existem diferentes tipos de contas de usuário, como a conta de administrador e a conta padrão. Qual das alternativas abaixo descreve corretamente a principal diferença entre elas?  ",
+    "options": [
+      { "text": "A conta de administrador não pode modificar as configurações do sistema, mas a conta padrão pode." },
+      { "text": "A conta padrão tem privilégios elevados de controle sobre o sistema operacional, ao contrário da conta de administrador." },
+      { "text": "A conta padrão não pode instalar programas, mas a conta de administrador pode." },
+      { "text": "A conta de administrador tem acesso restrito a arquivos do sistema, enquanto a conta padrão tem acesso total." },
+      { "text": "A conta de administrador possui permissões para navegar por redes locais, enquanto a conta padrão não." }
+    ],
+    "Resposta": "A conta padrão não pode instalar programas, mas a conta de administrador pode."
+  }
+,
+  {
+    "question": "Alice e Bob estão usando uma assinatura digital para assinar um documento. Qual chave Alice deve usar para assinar o documento para que assim Bob possa ter certeza de que o documento veio da Alice?",
+    "options": [
+      { "text": "Chave privada de Bob." },
+      { "text": "Chave pública de Alice." },
+      { "text": "Nome de usuário e senha da Alice." },
+      { "text": "Chave pública de Bob." },
+      { "text": "Chave privada da Alice." }
+    ],
+    "Resposta": "Chave privada da Alice."
+  }
+,
+  {
+    "question": "Com o crescimento do uso da nuvem privada para armazenamento e processamento de dados corporativos, surgem ameaças específicas a esse ambiente. Qual das alternativas a seguir representa uma ameaça comum a uma nuvem privada?  ",
+    "options": [
+      { "text": "Implementação de uma política de acesso restrito aos dados." },
+      { "text": "Usuários remotos acessando a infraestrutura de uma organização e baixando dados confidenciais." },
+      { "text": "Criação de backups diários dos dados na nuvem." },
+      { "text": "" },
+      { "text": "" }
+    ],
+    "Resposta": "Usuários remotos acessando a infraestrutura de uma organização e baixando dados confidenciais."
+  }
+,
+  {
+    "question": "O ransomware é um tipo de malware que sequestra os dados de uma vítima por meio da criptografia, exigindo pagamento para restaurar o acesso. Qual das alternativas abaixo descreve uma prática eficaz para reduzir o impacto de um ataque de ransomware?  ",
+    "options": [
+      { "text": "Realizar backups regulares e armazená-los em um local seguro fora da rede." },
+      { "text": "Instalar um software de bloqueio de anúncios para evitar downloads indesejados" },
+      { "text": "Desativar o firewall da rede para facilitar o tráfego de dados." },
+      { "text": "Utilizar autenticação multifatorial apenas para o administrador de rede." },
+      { "text": "Evitar a utilização de qualquer tipo de criptografia nos dados corporativos." }
+    ],
+    "Resposta": "Realizar backups regulares e armazená-los em um local seguro fora da rede."
+  }
+,
+  {
+    "question": "Uma das práticas para mitigar ataques de reconhecimento na rede é ocultar informações sensíveis dos atacantes. Qual das alternativas a seguir ajuda a mitigar esse tipo de ataque?  ",
+    "options": [
+      { "text": "Permitir acessos remotos sem restrições." },
+      { "text": "Ativar a proteção contra ataques DDoS." },
+      { "text": "Configurar firewalls para bloquear tentativas de varredura de porta." },
+      { "text": "Implantar listas de controle de acesso (ACLs)." },
+      { "text": "Ativar o DAI para inspeção do protocolo ARP." }
+    ],
+    "Resposta": "Configurar firewalls para bloquear tentativas de varredura de porta."
+  }
+
+
+
+
+  
+]

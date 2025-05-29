@@ -1,0 +1,6 @@
+[
+    {"question": "Explique o que é a redundância N +1 e qual propriedade de segurança ela garante.", 
+                "Resposta": "A redundância N+1 consiste em adicionar uma unidade reserva às unidades essenciais de um sistema. Se uma unidade falhar, a reserva assume, garantindo a disponibilidade contínua, especialmente importante em sistemas críticos. Assim, a redundância N+1 assegura a resiliência e a alta disponibilidade do sistema."},
+    {"question": "Suponha que Alice deseja enviar a Bob um e-mail que contém informações importantes para a implantação de um novo produto. Alice quer ter a certeza de que o Bob saiba que mensagem veio dela (Alice) e utiliza o mecanismo de assinatura digital para enviar a mensagem. Após receber a mensagem de Alice, como Bob deverá decifrar a mensagem?", 
+                "Resposta":"Alice gera um par de chaves: pública e privada. Bob usa a chave pública de Alice para verificar a assinatura digital. Ele gera um hash da mensagem recebida e descriptografa a assinatura usando a chave pública de Alice, obtendo o hash original. Se os hashes forem iguais, a mensagem é autêntica e não foi alterada; caso contrário, a assinatura é inválida e a mensagem pode ter sido modificada."}
+]
