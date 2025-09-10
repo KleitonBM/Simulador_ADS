@@ -1,8 +1,0 @@
-[
-    {"question": "Descreva as etapas de um modelo cascata e cite as vantagens e desvantagens de implementar tal tipo de modelo de ciclo de vida para a contrução de software", 
-                "Resposta": "Etapas: Requisitos → Projeto → Implementação → Testes → Implantação → Manutenção.<br>Vantagens: Simples, organizado, bem estruturado, com controle rígido das fases.<br>Desvantagens: Feedback tardio, alto custo de correções, risco de não atender às reais necessidades do cliente."},
-    {"question": "Explique as diferenças entre os testes de aceitação do tipo alfa, beta e gama?  ", 
-                "Resposta": "O teste do tipo alfa é feito por desenvolvedores e colaboradores, o do tipo beta é realizado também por pessoas externas. O do tipo gama, o teste é realizado após aprovação do produto, com isso vai sendo coletados os dados com o feedback do usuário.   "},
-    {"question": "Descreva um tipo de teste de caixa branca. Introduza uma metodologia e/ou uma tecnologia necessária para implementar este tipo de teste.", 
-                "Resposta": "Podemos citar o teste de cobertura de código, ele é um metodo que mede a porcentagem de código executada, pode se utilizar a tecnologia JaCoCo, que mede a porcentagem de código executada em teste Java.  "}
-    ]
