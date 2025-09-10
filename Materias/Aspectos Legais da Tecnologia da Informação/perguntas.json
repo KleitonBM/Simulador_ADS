@@ -1,0 +1,302 @@
+[
+  {
+    "question": "A ANPD (Agência Nacional de Proteção aos Dados) é uma agência regulatória criada pela Medida Provisória nº 869, de 2018, que foi convertida na Lei nº 13.853, de 8 de julho de 2019, que por sua vez alterou a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais. Considere as assertivas a seguir sobre a ANPD:<br>I- Ela tem autonomia técnica e decisória;<br>II- Ela deve fiscalizar o tratamento de dados, porém não deve aplicar sanções em caso descumprimento à legislação, porque isto cabe ao Poder Judiciário;<br>III- Ela deve promover e elaborar estudos sobre as práticas nacionais e internacionais de proteção de dados pessoais e privacidade;<br>IV - Ela deve elaborar as diretrizes para a Politica Nacional de Proteção de Dados e Privatização dos Serviços de Comunicação de Dados.<br>Marque abaixo a alternativa INCORRETA sobre as formas de licenciamento de software no Brasil:",
+    "options": [
+      { "text": "Somente I e III estão corretas." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente a I, II e III estão corretas." },
+      { "text": "Somente II e IV estão corretas." },
+      { "text": "Somente I, III e IV estão corretas." }
+    ],
+    "Resposta": "Somente I e III estão corretas."
+  },
+  {
+    "question": "A responsabilidade civil e o dano moral, no contexto digital, são regulados pelo Código Civil (CC), Lei nº. 10.406, de 10 de janeiro de 2002, que estipula as premissas fundamentais. Sobre essa temática, considere as seguintes afirmações:<br>I- O dano moral é sempre mensurável monetariamente.<br>II-A responsabilidade civil subjetiva é aquela na qual não se analisa a conduta do agente.<br>III-A culpa é um elemento dispensável para a configuração da responsabilidade civil objetiva.<br>IV-A legislação brasileira não considera os atos ilícitos praticados no ambiente digital como causadores de danos morais.<br>V- A responsabilidade objetiva surge exclusivamente da análise da culpabilidade do agente pelo dano causado.<br>Marque abaixo a alternativa correta sobre as assertivas acima de acordo com a sua análise:",
+    "options": [
+      { "text": "Todas estão erradas." },
+      { "text": "Somente I, II e III estão corretas." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente II, III e V estão correta." },
+      { "text": "Somente a II e a III estão corretas." }
+    ],
+    "Resposta": "Todas estão erradas."
+  },
+  {
+    "question": "O Marco Civil da intemet é uma lei que protege a Neutralidade da Rede, garantindo que todos os usuários tenham acesso igualitário à internet. Marque a opção a seguir que está coerente com o princípio da neutralidade na internet de acordo com o Marco Civil da Internet.",
+    "options": [
+      { "text": "Os dados que trafegam na rede devem receber tratamento igualitário das empresas provedoras de acesso, sem diferenciação em relação à origem, ao destino, ao serviço, ao conteúdo ou ao dispositivo." },
+      { "text": "As empresas provedoras de acesso podem discriminar e bloquear aplicativos quando entenderem que tais aplicativos prejudicam os seus negócios." },
+      { "text": "As empresas prestadoras de serviços de internet podem cobrar de forma diferenciada o acesso a determinados conteúdos e aplicações, independentemente da velocidade de acesso ou do volume de banda utilizada." },
+      { "text": "Os provedores de acesso têm total liberdade para restringir ou bloquear o acesso de usuários a determinados sites conforme considerarem necessário." },
+      { "text": "A neutralidade na internet é um principio que não tem relação com os direitos fundamentais dos cidadãos." }
+    ],
+    "Resposta": "Os dados que trafegam na rede devem receber tratamento igualitário das empresas provedoras de acesso, sem diferenciação em relação à origem, ao destino, ao serviço, ao conteúdo ou ao dispositivo."
+  },
+  {
+    "question": "Na elaboração de um programa aplicativo, a preservação dos direitos autorais é fundamental para garantir a propriedade intelectual do criador. No que se refere ao Direito de Autor e às Patentes, pode-se afirmar que:<br>I O direito autoral protege obras intelectuais, como livros, músicas e softwares, garantindo ao autor o direito exclusivo de reprodução e distribuição. A patente, por outro lado, protege inovações técnicas, concedendo ao titular o direito. exclusivo de explorar comercialmente essa inovação por um periodo determinado.<br>II. O direito autoral requer um registro formal para a proteção da obra, por outro lado, para a patente, sua aprovação para proteção é automática.<br>III. O direito autoral garante proteção a obras criativas originais, enquanto a patente é direcionada a invenções que devem ser novas, ter atividade inventiva e aplicação industrial para serem patenteadas, ou seja, não podem ser óbvias para um especialista no assunto.<br>IV. O direito autoral oferece uma proteção de curto prazo, geralmente por um período até que se obtenha a patente. definitiva sobre o elemento produzido,<br>Marque a seguir a opção correta sobre as assertivas acima:",
+    "options": [
+      { "text": "I e II, apenas." },
+      { "text": "III e IV, apenas." },
+      { "text": "II e IV, apenas." },
+      { "text": "I e IV, apenas." },
+      { "text": "I e III, apenas." }
+    ],
+    "Resposta": "I e III, apenas."
+  },
+  {
+    "question": "A exposição dos dados de clientes de comércio eletrônico é um risco tanto para as empresas como para os seus próprios clientes. Quando isso acontece, há prejuízos tanto para as empresas como para seus consumidores. Sobre os riscos e as consequências da exposição de dados de consumidores, pode-se afirmar:<br>I- A exposição não autorizada de dados de clientes de uma empresa pode gerar indenizações gigantescas para ela.<br>II- Há responsabilidade pela exposição dos dados dos clientes de uma empresa a não ser que fique provado que tal exposição ocorreu devido a uma invasão por Hacker.<br>III- As práticas que podem trazer risco às empresas e aos seus clientes são sempre de responsabilidade da empresa.<br>IV- A preocupação pelas empresas de comércio eletrônico com o risco de vazamento ou furto de informações dos seus clientes deve ser proporcional ao tamanho do negócio.<br>Marque a seguir a opção correta sobre as assertivas acima:",
+    "options": [
+      { "text": "Apenas I e II estão corretas." },
+      { "text": "Apenas a III e IV estão corretas." },
+      { "text": "Apenas a IV está correta." },
+      { "text": "Apenas a II está correta." },
+      { "text": "Apenas a I está correta." }
+    ],
+    "Resposta": "Apenas a I está correta."
+  },
+  {
+    "question": "Ao desenvolver uma plataforma de e-commerce, você, como desenvolvedor, deverá assegurar a sua conformidade com o Código do Direito do Consumidor (CDC) para que a compra do cliente seja exitosa mas de forma legal, segura e transparente.. Dentre as diversas responsabilidades para cumprir com as normas do CDC, uma das práticas essenciais é garantir a clareza e a precisão das informações fornecidas aos consumidores sobre os produtos ou serviços oferecidos.<br>Marque a alternativa que indica uma das medidas obrigatórias para cumprir com as diretrizes do CDC",
+    "options": [
+      { "text": "Disponibilizar descrições detalhadas dos produtos, incluindo preço, características, prazo de entrega e politicas de troca, de forma clara e acessível." },
+      { "text": "Utilizar termos técnicos e linguagem complexa nas informações dos produtos para filtrar consumidores que não estejam familiarizados com esses termos." },
+      { "text": "Oferecer descontos exclusivos apenas para consumidores cadastrados, sem informar sobre essas vantagens aos demais clientes." },
+      { "text": "Atualizar constantemente as politicas de devolução de produtos, sem informar aos consumidores sobre essas mudanças." },
+      { "text": "E Ocultar algumas informações sobre os produtos para evitar confusão nos consumidores." }
+    ],
+    "Resposta": "Disponibilizar descrições detalhadas dos produtos, incluindo preço, características, prazo de entrega e politicas de troca, de forma clara e acessível."
+  },
+  {
+    "question": "A Revolução 4.0 demanda novas habilidades compatíveis com as novas tecnologias, tais como ____________, __________________ e ______________ na resolução de problemas nos escritórios, que também precisam ter ____________ com menos custos e buscar soluções tecnológicas para aprimorar _____________, uma vez que impactam o direito e a advocacia em si. Além disso, nesse contexto com novas tecnologias, está ocorrendo um incremento nos _______________<br>Marque a seguir a alternativa que contém as palavras que preenchem corretamente o texto acima:",
+    "options": [
+      { "text": "A Coordenação, agilidade, preços menores, computadores, a gestão, crimes." },
+      { "text": "Produtividade, eficiência e agilidade, plataformas digitais, serviços jurídicos, crimes cibernéticos." },
+      { "text": "Tomada de decisão, eficiência, durabilidade, redes de computadores, serviços advocatícios, crimes digitais." },
+      { "text": "Produtividade, eficiência, agilidade, redes de computadores, serviços advocatícios, fraudes digitais." },
+      { "text": "Coordenação, agilidade, eficiência, plataforma digitais, serviços em geral, crimes virtuais." }
+    ],
+    "Resposta": "Produtividade, eficiência e agilidade, plataformas digitais, serviços jurídicos, crimes cibernéticos."
+  },
+  {
+    "question": "O comércio eletrônico apresenta grandes vantagens em relação aos negócios físicos. Um dos benefícios é poder conhecer de forma quantitativa os hábitos de compra e o perfil dos clientes. Tudo o que é feito nesse mundo virtual é registrado e acumulado, virando uma grande fonte de informações. Todavia, esse cenário não apresenta apenas vantagens.<br>I- Ainda que o consumidor esteja resguardado pelo Código do Consumidor, o direito à privacidade não pode superar o interesse público.<br>PORQUE<br>II- As empresas devem manter dados dos seus usuários, para o caso de serem solicitados pela Justiça, em situações de usuários envolvidos em alguma demanda judicial e quando esses dados forem de interesse público.<br>Marque a afirmativa a seguir que está correta:",
+    "options": [
+      { "text": "I, II são verdadeiras e a Il é justificativa da I" },
+      { "text": "I, II são verdadeiras mas a Il não é justificativa da I" },
+      { "text": "I e Il são falsas." },
+      { "text": "I é falsa e Il é verdadeira." },
+      { "text": "I é verdadeira e Il é falsa." }
+    ],
+    "Resposta": "I, II são verdadeiras mas a Il não é justificativa da I"
+  },
+  {
+    "question": "Em abril de 2013, entrou em vigor a primeira lei brasileira específica para o ambiente virtual, a Lei nº 12.737/2012, com o apelido de 'Lei Carolina Dieckmann', que modifica o ______ para tipificar como infrações uma série de condutas no ambiente digital, em especial o ________________.<br> Marque a seguir a opção que contém palavras que complementam corretamente o texto acima.",
+    "options": [
+      { "text": "Código civil, acesso aos dados" },
+      { "text": "Código penal, vazamento dos dados" },
+      { "text": "Código de processo penal, vazamento de dados" },
+      { "text": "Código do trabalho, contrato trabalhista" },
+      { "text": "Código do consumidor, bullying" }
+    ],
+    "Resposta": "Código penal, vazamento dos dados"
+  },
+  {
+    "question": "A Pirataria de Software é a prática ilicita, caracterizada pela reprodução ou uso indevido de programas de computador, legalmente protegidos.<br>Q licenciamento de um software pode ser feito de diferentes formas.<br>Marque abaixo a alternativa INCORRETA sobre as formas de licenciamento de software no Brasil:",
+    "options": [
+      { "text": "Software gratuito disponivel sem pagamento para utilização com o código sempre aberto para modificações." },
+      { "text": "Software proprietário em que não é possível copiá-lo pois não se tem acesso ao código." },
+      { "text": "Software de código aberto que permite adaptação do código fonte conforme regras definidas por seu desenvolvedor original." },
+      { "text": "Sofiware open source que permite redistribuição, porém de acordo com regras estabelecidas pelo desenvolvedor original." },
+      { "text": "Software livre em que código é acessível permite-se redistribuição de cópias gratuitas ou pagas, desde que permaneça livre." }
+    ],
+    "Resposta": "Software gratuito disponivel sem pagamento para utilização com o código sempre aberto para modificações."
+  },
+  {
+    "question": "Em um estado democrático, os direitos fundamentais de liberdade são reconhecidos por meio da participação política, guiada por uma determinação de vontade autònoma de cada indivíduo.<br>I-A liberdade de expressão é garantida pela Carta Magna, em particular no que dizem os incisos IV e IX do art. 5º, no rol de direitos e garantias fundamentais.<br>PORQUE<br>II-A liberdade de expressão não pode ser utilizada com o objetivo de prospectar práticas criminosas, que estimulem situações de intolerância e ódio e que disseminem notícias inveridicas por meio da rede mundial de computadores.<br>Marque a seguir a opção correta sobre as afirmativas acima",
+    "options": [
+      { "text": "Afirmativas I e II são verdadeiras mas a Il não é justificativa da I" },
+      { "text": "Afirmativas I e II são verdadeiras e a Il é justificativa da I." },
+      { "text": "Afirmativas I e II são falsas;" },
+      { "text": "Afirmativa I é falsa e a Il é verdadeira." },
+      { "text": "Afirmativa II é falsa e a l é verdadeira." }
+    ],
+    "Resposta": "Afirmativas I e II são verdadeiras mas a Il não é justificativa da I"
+  },
+  {
+    "question": "Dentro de um enfoque digital, a responsabilidade civil e o dano moral seguem as premissas estipuladas no Código Civil (CC), Lei nº. 10.406, de 10 de janeiro de 2002. No art. 927 o CC estipula que o responsável pelos atos ilícitos que causaram danos a outra pessoa é obrigado, ou seja, é titular da obrigação de reparar tais danos. Sobre reparação de danos pode-se dizer:<br>I- Existe a obrigação de reparar o dano, independentemente de comprovação de culpa quando houver previsão legal;<br>II- Existe a obrigação de repara o dano quando a atividade habitualmente desenvolvida por quem causou o dano implicar, por sua natureza, risco para os direitos de outrem.<br>III- A reparação do dano é em dobro se o dano for decorrente de negligência ou impericia. <br>IV. A legislação civil vai direcionar os seus objetivos à reparação patrimonial, ou seja, quem tiver diminuído o seu patrimônio por uma ofensa causada por outra pessoa terá direito a receber uma indenização para repor aquilo que perdeu.<br>Assinale a seguir, a alternativa correta sobre as afirmativas acima:",
+    "options": [
+      { "text": "Todas estão corretas." },
+      { "text": "Só a III e a IV não são corretas." },
+      { "text": "Só a II não é correta." },
+      { "text": "Só a III Não é correta." },
+      { "text": "Só a I não é correta," }
+    ],
+    "Resposta": "Só a III Não é correta."
+  },
+  {
+    "question": "O princípio da ampla defesa e contraditório é a base do direito brasileiro o e não poderia ser relegado quando se tratar da produção de prova produzida por meio eletrônico. Sobre isso, pode-se dizer que:<br>I- É permitida a produção de prova por meio de documentos eletrônicos desde que haja forma de se verificar a autenticidade daqueles documentos.<br>PORQUE<br>II- O art. 369 do Código de Processo Civil concede às partes o direito de empregar todos os meios legais, bem como os moralmente legítimos, ainda que não especificados, para provar a verdade dos fatos.<br>Marque a afirmativa a seguir que está correta:",
+    "options": [
+      { "text": "I, II são verdadeiras e a II não é justificativa da I." },
+      { "text": "I e II são falsas." },
+      { "text": "I, II são verdadeiras e a Il é justificativa da I." },
+      { "text": "I é verdadeira e II é falsa." },
+      { "text": "I é falsa e Il é verdadeira," }
+    ],
+    "Resposta": "I, II são verdadeiras e a Il é justificativa da I."
+  },
+  {
+    "question": "Os direitos autorais e a propriedade intelectual podem ser visualizados em quase todas as atividades cotidianas, como produções artísticas, culturais ou científicas, ou mesmo industriais, como os modelos de utilidade e as invenções.<br>Analise as assertivas a seguir:<br>I-O direito autoral lida basicamente com a imaterialidade caracteristica da propriedade intelectual. ✓<br>II- O princípio da territorialidade aplicado aos direitos autorais e de propriedade intelectual é suficiente mesmo para as violações em países com mais tolerância nesse domínio.<br>III- É consenso geral que não há necessidade de atualização da Lei de Direitos Autorais com a ampliação do uso da internet..<br>IV-Percebe-se na lei de direitos autorais que certas obras protegidas estão excluídas dos direitos autorais porque passaram a caber em domínio público,<br>Marque abaixo a alternativa correta sobre as assertivas acima de acordo com a sua análise:",
+    "options": [
+      { "text": "Somente I e II estão corretas." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente I e IV estão corretas." },
+      { "text": "Somente a IV não está correta." },
+      { "text": "Somente a II e a III estão corretas." }
+    ],
+    "Resposta": "Somente I e IV estão corretas."
+  },
+  {
+    "question": "<br>I-O Código Penal, é um conjunto de normas jurídicas que tem por objetivo determinar e regulamentar os atos considerados pelo legislador como infrações penais. Ele foi criado pelo Decreto-Lei nº 2 848, de 7 de dezembro de 1940, e é um consenso geral dentro do Poder Judiciário e do Poder Legislativo que há uma necessidade urgente de reformá-lo completamente.<br>PORQUE<br>II- Os crimes digitais passaram a fazer parte do dia a dia das pessoas a partir do uso massivo da Internet pela população e pelas organizações. Como em todos os meios, há oportunidade de os indivíduos realizarem crimes contrariando a lei em busca de benefícios próprios.<br>Marque a afirmativa a seguir que está correta:",
+    "options": [
+      { "text": "I é falsa e II é verdadeira." },
+      { "text": "I, II são verdadeiras e a II é justificativa da I." },
+      { "text": "I e II são falsas." },
+      { "text": "I, II são verdadeiras mas a II não é justificativa da I." },
+      { "text": "I é verdadeira e II é falsa." }
+    ],
+    "Resposta": "I é falsa e II é verdadeira."
+  },
+  {
+    "question": "As auditorias de sistemas devem atuar nos sistemas de informação utilizados pelas organizações para detectar neles problemas que possam vir a causar danos a elas.<br>Sobre as auditorias de sistemas pode-se afirmar:<br>I É um processo todo planejado, com padrões a serem seguidos e obedecidos, principalmente na ética do profissional que irá executar o trabalho.<br>II- Ela faz o exame e auxilia as organizações a melhorarem seus processos relacionados aos Sistemas de Informação.<br>III- Ela é muito importante para as organizações, pois cada vez mais as empresas investem muito em sistemas computadorizados e precisam garantir que esses recursos sejam utilizados com segurança e que se tenha qualidade nas informações geradas.<br>IV - A falta de cultura dentro das organizações diminui a necessidade da realização das auditorias de sistemas.<br>Marque a opção correta sobre as assertivas acima:",
+    "options": [
+      { "text": "Todas estão certas." },
+      { "text": "Todas estão erradas." },
+      { "text": "Somente a I está errada." },
+      { "text": "Somente a II está errada." },
+      { "text": "Somente a IV está errada." }
+    ],
+    "Resposta": "Somente a IV está errada."
+  },
+  {
+    "question": "Sobre a ética nas redes sociais pode-se afirmar:<br>I-Como, hoje em dia o uso das redes sociais também tem caráter formativo e a ética é um valor importante na formação de caráter do ser humano, é fundamental ter ética durante o uso das redes sociais.<br>II-A ética deve estar presente o tempo todo quando utilizamos as redes sociais; <br>III-Ao ter uma postura ética nas redes sociais, o indivíduo deve discernir o que é bom do mau, o correto do incorreto, do justo do injusto e do adequado do inadequado.<br>IV-Para se adotar uma postura ética nas redes sociais o individuo deve ter consciência e responsabilidade.<br>Marque a seguir a opção CORRETA sobre as assertivas acima:",
+    "options": [
+      { "text": "Somente a IV não está certa." },
+      { "text": "Somente a II e a III não estão certas." },
+      { "text": "Todas estão certas." },
+      { "text": "Somente a II não está certa." },
+      { "text": "Somente al e a IV não estão certas." }
+    ],
+    "Resposta": "Todas estão certas."
+  },
+  {
+    "question": "Os crimes virtuais também são chamados de cyber crimes são __________ e ______ ocorridos no ambiente da rede de computadores considerados pela legislação penal como crimes ou ____. Essas infrações, normalmente são contra o ____ da pessoa ou empresa, ocasionando de alguma forma perdas ____ou _______, Além disso, encontramos também as infrações contra a _____ Individual e a _____ intelectual das pessoas ou organizações.<br>Marque a opção a seguir que possui as palavras que completam adequadamente o texto acima",
+    "options": [
+      { "text": "Atos, fatos, contravenções civis, capital, financeiro, materiais, liberdade, propriedade." },
+      { "text": "Marcos, atos, contravenções penais, inventário, financeiro, materiais, liberdade, propriedade." },
+      { "text": "Fatos, atos, contravenções penais, capital, financeiro, materiais, obscuridade, propriedade." },
+      { "text": "Fatos, atos, contravenções penais, patrimônio, financeiro, materiais, liberdade, propriedade." },
+      { "text": "Atos, marcos, contravenções penais, patrimonio, financeiro, morais, liberdade, propriedade." }
+    ],
+    "Resposta": "Fatos, atos, contravenções penais, patrimônio, financeiro, materiais, liberdade, propriedade."
+  },
+  {
+    "question": "O Brasil promulgou a Lei nº 12.965, conhecida como Marco Civil da Internet, que dispõe sobre principios, garantias, direitos e deveres para o uso da internet no Brasil. Essa disposição juridica traz, em seu art. 3º, os principios que norteiam a utilização da rede mundial de computadores.<br>Marque a opção a seguir que NÃO é um desses princípios",
+    "options": [
+      { "text": "A Responsabilização dos agentes de acordo com suas atividades, nos termos da lei." },
+      { "text": "Proteção da privacidade." },
+      { "text": "Liberdade dos modelos de negócios promovidos na internet, desde que não conflitem com os demais principios estabelecidos nesta Lei.." },
+      { "text": "Preservação da natureza participativa da rode" },
+      { "text": "Preservação e garantia da parcialidade de rede" }
+    ],
+    "Resposta": "Preservação e garantia da parcialidade de rede"
+  },
+  {
+    "question": "A ANPD tem como responsabilidade regular e fiscalizar o tratamento de dados feito pelas pessoas físicas e juridicas de direito público ou privado em todo o território nacional.<br>Estão entre suas atribuições estão:<br>I- Elaborar a Lei Nacional de Proteção de Dados;<br>II - Fiscalizar e aplicar sanções em caso de tratamento de dados realizado em descumprimento à legislação;<br>III- Disseminar entre a população as normas e as políticas públicas sobre proteção de dados pessoais e das medidas de segurança;<br>IV- Promover e elaborar estudos sobre as práticas nacionais e internacionais de proteção de dados pessoais e privacidade;<br>V-Estimular a adoção de padrões para serviços e produtos de tecnologia da informação.<br>Marque a seguir a opção correta sobre as afirmativas acima.",
+    "options": [
+      { "text": "Somente II e III estão corretas" },
+      { "text": "Somente II, III e IV estão corretas." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente IV e V estão corretas;" },
+      { "text": "Somente a III e IV estão corretas" }
+    ],
+    "Resposta": "Somente II, III e IV estão corretas."
+  },
+  {
+    "question": "Analise as situações a seguir, identifique em quais ocorre Pirataria de Software e marque a opção correta de acordo com a sua análise:<br>I-A empresa Legal SA fez cópias de um software adquirido legalmente para uso exclusivo na empresa e as forneceu para todos os seus funcionários para uso doméstico. <br>II- O empregado Lucas da empresa Legal SA copiou o seu software adquirido em seu nome para seu uso doméstico e está utilizando tal cópia na empresa. <br>III-A empresa Legal SA adquiriu um número de licenças de um software e, temporariamente, está usando uma licença a mais do que o número que ela contratou.<br>IV-Jorge, estudante de engenharia, adquiriu uma licença acadêmica de um software de projetos. Como ele não está usando mais tal licença ele a forneceu para que o seu irmão a usasse em sua empresa de engenharia.<br>V- João pagou por uma licença de um software, fez uma cópia de back-up, conforme orientação do fornecedor, e deu a sua cópia de back-up para uso de seu cunhado Jaime.",
+    "options": [
+      { "text": "Somente os casos i ell não são de pirataria." },
+      { "text": "Somente o caso III é de pirataria." },
+      { "text": "Todos os casos são de pirataria." },
+      { "text": "Somente o caso IV não é pirataria." },
+      { "text": "Somente o caso V não é pirataria" }
+    ],
+    "Resposta": "Todos os casos são de pirataria."
+  },
+  {
+    "question": "Os inúmeros conflitos éticos que os comportamentos têm gerado na sociedade 4.0 tém provocado a interpretação das legislações já existentes, para esse novo contexto, assim como o surgimento de novas normas específicas sobre o uso da informática na internet ou do mau uso dos dados privados.<br>Marque a opção a seguir que, dentro do contexto descrito acima, NÃO está compreendida dentre as normas que precisaram de novas interpretações ou das novas normas especificas.",
+    "options": [
+      { "text": "Marco Civil da Internet, Lei nº 12.965/2014, que garante, em seu artigo 3º, incisos II e III, respectivamente, a 'proteção à privacidade' e a 'proteção aos dados pessoais'." },
+      { "text": "Lei nº 12.737/2012, com o apelido de 'Lei Carolina Dieckmann', que modifica o Código Penal." },
+      { "text": "Artigo 5º inciso X da constituição de 1988, que determina serem invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas." },
+      { "text": "Artigo S' inciso XV da constituição de 1988, que diz ser livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens." },
+      { "text": "Artigo 19 da Declaração Universal dos Direitos das Nações Unidas." }
+    ],
+    "Resposta": "Artigo S' inciso XV da constituição de 1988, que diz ser livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens."
+  },
+  {
+    "question": "O conceito da palavra pirataria vem de pilhagem, que nada mais é do que um furto ou roubo da propriedade ou do resultado do trabalho de outra pessoa.<br>I- A pirataria do tipo 'software pré-instalado' se refere aos casos em que computadores e notebooks são vendidos com um ou mais software pré-instalados. É considerada pirataria<br>PORQUE<br>II- Os revendedores usam uma cópia legal previamente adquirida para instalar em várias máquinas que serão comercializadas.<br>Marque a seguir a alternativa correta sobre as assertivas acima:",
+    "options": [
+      { "text": "Afirmativas I e Il são falsas." },
+      { "text": "Afirmativas I e II são verdadeiras e a Il é justificativa da I" },
+      { "text": "Afirmativas I e II são verdadeiras mas a II não é justificativa da I" },
+      { "text": "Afirmativa I é verdadeira e a ll é falsa." },
+      { "text": "Afirmativa I é falsa e a Il é verdadeira." }
+    ],
+    "Resposta": "Afirmativas I e II são verdadeiras e a Il é justificativa da I"
+  },
+  {
+    "question": "Analise as afirmações a seguir classificando-as como V-Verdadeira ou F- Falsa e, a seguir, marque a opção com a respostas correta segundo a sua análise.<br>()- As patentes são utilizadas para proteger as invenções e garantir o desenvolvimento tecnológico de um país.<br>() Uma pessoa que não detém uma patente só pode explorá-la com a permissão do titular proprietário.<br>() O sistema de patentes é uma troca entre o Estado e o inventor. Nessa troca, o inventor apresenta uma invenção útil à sociedade enquanto o Estado oferece como recompensa um direito de exclusividade temporário, que é a patente.<br>()-No Brasil, o sistema de patentes se baseia na Constituição Federal.<br>() O sistema de patentes é o direito de impedir que terceiros explorem essa invenção sem consentimento do inventor.",
+    "options": [
+      { "text": "V-F-V-F-V." },
+      { "text": "F-V-F-V-F." },
+      { "text": "V-V-F-F-V." },
+      { "text": "V-V-V-V-V." },
+      { "text": "V-F-F-F-V." }
+    ],
+    "Resposta": "V-V-V-V-V."
+  },
+  {
+    "question": "Sobre a Lei Geral de Proteção de Dados (LGPD) pode-se afirmar que:<br>I- Ela foi promulgada para que o cidadão exerça, por meio da ANPD, controle sobre o tratamento que é dado aos seus dados pessoais.✓<br>II- Ela especifica o direito que o cidadão tem de saber exatamente quais dados estão sendo coletados, como eles serão tratados, por que motivo e quem está os compartilhando.<br>III - Ela descreve as competências da ANPD (Autoridade Nacional de Proteção de Dados).<br>IV- Ela foi criada para estabelecer os regulamentos relativos ao tratamento de tais dados tanto por organizações públicas e privadas quanto por outras pessoas físicas.<br>Marque a opção correta a seguir sobre as assertivas acima.:",
+    "options": [
+      { "text": "Somente a III está incorreta." },
+      { "text": "Somente a IV está incorreta." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente I e Il estão incorretas." },
+      { "text": "Somente III e IV estão incorretas." }
+    ],
+    "Resposta": "Todas estão corretas."
+  }
+  ,
+  {
+    "question": "Marque a opção a seguir que Não contém somente tipos de Crimes Virtuais:",
+    "options": [
+      { "text": "Injúria, perfil falso, discriminação racial." },
+      { "text": "Spam, ato obsceno, formulários falsos," },
+      { "text": "Calúnia, pedofilia, plagio." },
+      { "text": "Difamação, calúnia, ato obsceno." },
+      { "text": "Ato obsceno, divulgação de material público, crime de ódio." }
+    ],
+    "Resposta": "Ato obsceno, divulgação de material público, crime de ódio."
+  }
+  ,
+  {
+    "question": "A proteção dos direitos autorais e patenteáveis de software é um tema ainda em construção na doutrina jurídica. Sobre proteção de software pode-se dizer que:<br>I- A proteção do software enquanto propriedade intelectual, como visto, em um primeiro momento, assemelha-se à proteção de patentes e, em outro momento, com direitos autorais.<br>PORQUE<br>II- A mobilidade do software em relação ao hardware de origem, conforme as ciências computacionais evoluíram de um conceito de mercado baseado em aparelhos (hardware) para focar em aplicativos (software) que funcionam em aparelhos diversos.<br>Está Correta a afirmativa:",
+    "options": [
+      { "text": "I é verdadeira e a Il é falsa." },
+      { "text": "I e II são verdadeiras e a I não é consequência da II." },
+      { "text": "I e II são falsas." },
+      { "text": "I é falsa e a II é verdadeira." },
+      { "text": "I e II são verdadeiras e a l é consequência da II." }
+    ],
+    "Resposta": "I e II são verdadeiras e a l é consequência da II."
+  }
+  
+]
