@@ -154,7 +154,7 @@
     "Resposta": "Somente I e IV estão corretas."
   },
   {
-    "question": "<br>I-O Código Penal, é um conjunto de normas jurídicas que tem por objetivo determinar e regulamentar os atos considerados pelo legislador como infrações penais. Ele foi criado pelo Decreto-Lei nº 2 848, de 7 de dezembro de 1940, e é um consenso geral dentro do Poder Judiciário e do Poder Legislativo que há uma necessidade urgente de reformá-lo completamente.<br>PORQUE<br>II- Os crimes digitais passaram a fazer parte do dia a dia das pessoas a partir do uso massivo da Internet pela população e pelas organizações. Como em todos os meios, há oportunidade de os indivíduos realizarem crimes contrariando a lei em busca de benefícios próprios.<br>Marque a afirmativa a seguir que está correta:",
+    "question": "I-O Código Penal, é um conjunto de normas jurídicas que tem por objetivo determinar e regulamentar os atos considerados pelo legislador como infrações penais. Ele foi criado pelo Decreto-Lei nº 2 848, de 7 de dezembro de 1940, e é um consenso geral dentro do Poder Judiciário e do Poder Legislativo que há uma necessidade urgente de reformá-lo completamente.<br>PORQUE<br>II- Os crimes digitais passaram a fazer parte do dia a dia das pessoas a partir do uso massivo da Internet pela população e pelas organizações. Como em todos os meios, há oportunidade de os indivíduos realizarem crimes contrariando a lei em busca de benefícios próprios.<br>Marque a afirmativa a seguir que está correta:",
     "options": [
       { "text": "I é falsa e II é verdadeira." },
       { "text": "I, II são verdadeiras e a II é justificativa da I." },
@@ -231,26 +231,26 @@
     "Resposta": "Todos os casos são de pirataria."
   },
   {
-    "question": "Os inúmeros conflitos éticos que os comportamentos têm gerado na sociedade 4.0 tém provocado a interpretação das legislações já existentes, para esse novo contexto, assim como o surgimento de novas normas específicas sobre o uso da informática na internet ou do mau uso dos dados privados.<br>Marque a opção a seguir que, dentro do contexto descrito acima, NÃO está compreendida dentre as normas que precisaram de novas interpretações ou das novas normas especificas.",
+    "question": "Os inúmeros conflitos éticos que os comportamentos têm gerado na sociedade 4.0 têm provocado a interpretação das legislações já existentes, para esse novo contexto, assim como o surgimento de novas normas específicas sobre o uso da informática na internet ou do mau uso dos dados privados.<br>Marque a opção a seguir que, dentro do contexto descrito acima, NÃO está compreendida dentre as normas que precisaram de novas interpretações ou das novas normas especificas.",
     "options": [
       { "text": "Marco Civil da Internet, Lei nº 12.965/2014, que garante, em seu artigo 3º, incisos II e III, respectivamente, a 'proteção à privacidade' e a 'proteção aos dados pessoais'." },
       { "text": "Lei nº 12.737/2012, com o apelido de 'Lei Carolina Dieckmann', que modifica o Código Penal." },
       { "text": "Artigo 5º inciso X da constituição de 1988, que determina serem invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas." },
-      { "text": "Artigo S' inciso XV da constituição de 1988, que diz ser livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens." },
+      { "text": "Artigo 5º inciso XV da constituição de 1988, que diz ser livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens." },
       { "text": "Artigo 19 da Declaração Universal dos Direitos das Nações Unidas." }
     ],
-    "Resposta": "Artigo S' inciso XV da constituição de 1988, que diz ser livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens."
+    "Resposta": "Artigo 5º inciso XV da constituição de 1988, que diz ser livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens."
   },
   {
     "question": "O conceito da palavra pirataria vem de pilhagem, que nada mais é do que um furto ou roubo da propriedade ou do resultado do trabalho de outra pessoa.<br>I- A pirataria do tipo 'software pré-instalado' se refere aos casos em que computadores e notebooks são vendidos com um ou mais software pré-instalados. É considerada pirataria<br>PORQUE<br>II- Os revendedores usam uma cópia legal previamente adquirida para instalar em várias máquinas que serão comercializadas.<br>Marque a seguir a alternativa correta sobre as assertivas acima:",
     "options": [
       { "text": "Afirmativas I e Il são falsas." },
-      { "text": "Afirmativas I e II são verdadeiras e a Il é justificativa da I" },
+      { "text": "Afirmativas I e II são verdadeiras e a II é justificativa da I" },
       { "text": "Afirmativas I e II são verdadeiras mas a II não é justificativa da I" },
       { "text": "Afirmativa I é verdadeira e a ll é falsa." },
       { "text": "Afirmativa I é falsa e a Il é verdadeira." }
     ],
-    "Resposta": "Afirmativas I e II são verdadeiras e a Il é justificativa da I"
+    "Resposta": "Afirmativas I e II são verdadeiras e a II é justificativa da I"
   },
   {
     "question": "Analise as afirmações a seguir classificando-as como V-Verdadeira ou F- Falsa e, a seguir, marque a opção com a respostas correta segundo a sua análise.<br>()- As patentes são utilizadas para proteger as invenções e garantir o desenvolvimento tecnológico de um país.<br>() Uma pessoa que não detém uma patente só pode explorá-la com a permissão do titular proprietário.<br>() O sistema de patentes é uma troca entre o Estado e o inventor. Nessa troca, o inventor apresenta uma invenção útil à sociedade enquanto o Estado oferece como recompensa um direito de exclusividade temporário, que é a patente.<br>()-No Brasil, o sistema de patentes se baseia na Constituição Federal.<br>() O sistema de patentes é o direito de impedir que terceiros explorem essa invenção sem consentimento do inventor.",
@@ -290,13 +290,57 @@
   {
     "question": "A proteção dos direitos autorais e patenteáveis de software é um tema ainda em construção na doutrina jurídica. Sobre proteção de software pode-se dizer que:<br>I- A proteção do software enquanto propriedade intelectual, como visto, em um primeiro momento, assemelha-se à proteção de patentes e, em outro momento, com direitos autorais.<br>PORQUE<br>II- A mobilidade do software em relação ao hardware de origem, conforme as ciências computacionais evoluíram de um conceito de mercado baseado em aparelhos (hardware) para focar em aplicativos (software) que funcionam em aparelhos diversos.<br>Está Correta a afirmativa:",
     "options": [
-      { "text": "I é verdadeira e a Il é falsa." },
+      { "text": "I é verdadeira e a II é falsa." },
       { "text": "I e II são verdadeiras e a I não é consequência da II." },
       { "text": "I e II são falsas." },
       { "text": "I é falsa e a II é verdadeira." },
-      { "text": "I e II são verdadeiras e a l é consequência da II." }
+      { "text": "I e II são verdadeiras e a I é consequência da II." }
     ],
-    "Resposta": "I e II são verdadeiras e a l é consequência da II."
+    "Resposta": "I e II são verdadeiras e a I é consequência da II."
+  },
+  {
+    "question": "A ANPD (Agência Nacional de Proteção aos Dados) é uma agência regulatória criada pela Medida Provisória nº 869, de 2018, que foi convertida na Lei nº 13.853, de 8 de julho de 2019, que por sua vez alterou a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais. Considere as assertivas a seguir sobre a ANPD:<br>I- Ela tem autonomia técnica e decisória;<br>II - Ela deve fiscalizar o tratamento de dados, porém não deve aplicar sanções em caso descumprimento à legislação, porque isto cabe ao Poder Judiciário;<br>III - Ela deve promover e elaborar estudos sobre as práticas nacionais e internacionais de proteção de dados pessoais e privacidade;<br>IV - Ela deve elaborar as diretrizes para a Política Nacional de Proteção de Dados e Privatização dos Serviços de Comunicação de Dados.<br>Marque abaixo a alternativa INCORRETA sobre as formas de licenciamento de software no Brasil:",
+    "options": [
+      { "text": "Somente I e III estão corretas." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente a I, II e III estão corretas." },
+      { "text": "Somente II e IV estão corretas." },
+      { "text": "Somente I, III e IV estão corretas." }
+    ],
+    "Resposta": "Somente I e III estão corretas."
+  },
+  {
+    "question": "O Marco Civil da Internet é uma lei que protege a Neutralidade da Rede, garantindo que todos os usuários tenham acesso igualitário à internet. Marque a opção a seguir que está coerente com o principio da neutralidade na internet de acordo com o Marco Civil da Internet.",
+    "options": [
+      { "text": "Os dados que trafegam na rede devem receber tratamento igualitário das empresas provedoras de acesso, sem diferenciação em relação à origem, ao destino, ao serviço, ao conteúdo ou ao dispositivo." },
+      { "text": "As empresas provedoras de acesso podem discriminar e bloquear aplicativos quando entenderem que tais aplicativos prejudicam os seus negócios." },
+      { "text": "As empresas prestadoras de serviços de internet podem cobrar de forma diferenciada o acesso a determinados conteúdos e aplicações, independentemente da velocidade de acesso ou do volume de banda utilizada." },
+      { "text": "Os provedores de acesso têm total liberdade para restringir ou bloquear o acesso de usuários a determinados sites conforme considerarem necessário." },
+      { "text": "A neutralidade na internet é um principio que não tem relação com os direitos fundamentais dos cidadãos." }
+    ],
+    "Resposta": "Os dados que trafegam na rede devem receber tratamento igualitário das empresas provedoras de acesso, sem diferenciação em relação à origem, ao destino, ao serviço, ao conteúdo ou ao dispositivo."
+  },
+  {
+    "question": "A Pirataria de Software é a prática ilícita, caracterizada pela reprodução ou uso indevido de programas de computador, legalmente protegidos.<br>O licenciamento de um software pode ser feito de diferentes formas.<br>Marque abaixo a alternativa INCORRETA sobre as formas de licenciamento de software no Brasil:",
+    "options": [
+      { "text": "Software gratuito disponível sem pagamento para utilização com o código sempre aberto para modificações." },
+      { "text": "Software de código aberto que permite adaptação do código fonte conforme regras definidas por seu desenvolvedor original." },
+      { "text": "Software proprietário em que não é possível copiá-lo pois não se tem acesso ao código." },
+      { "text": "Software open source que permite redistribuição, porém de acordo com regras estabelecidas pelo desenvolvedor original." },
+      { "text": "Software livre em que código é acessível permite-se redistribuição de cópias gratuitas ou pagas, desde que permaneça livre." }
+    ],
+    "Resposta": "Software gratuito disponível sem pagamento para utilização com o código sempre aberto para modificações."
+  },
+  {
+    "question": "Marque a opção a seguir que Não contém somente tipos de Crimes Virtuais:",
+    "options": [
+      { "text": "Injúria, perfil falso, discriminação racial." },
+      { "text": "Spam, ato obsceno, formulários falsos." },
+      { "text": "Calúnia, pedofilia, plágio." },
+      { "text": "Difamação, calúnia, ato obsceno." },
+      { "text": "Ato obsceno, divulgação de material público, crime de ódio." }
+    ],
+    "Resposta": "Ato obsceno, divulgação de material público, crime de ódio."
   }
   
 ]
