@@ -341,6 +341,18 @@
       { "text": "Ato obsceno, divulgação de material público, crime de ódio." }
     ],
     "Resposta": "Ato obsceno, divulgação de material público, crime de ódio."
+  },
+  {
+    "question": "O Direito digital no Brasil vem sendo normatizado em várias áreas e aos poucos o Direito brasileiro vai se adequando ao novo modelo da sociedade digital. Vários avanços foram obtidos em diversos segmentos do Direito nos últimos 20 anos.<br>Observe as afirmativas abaixo e relacione-as com a Lei correspondente.<br>a) Cria tipos penais para combater a pornografia infantil e a pedofilia na Internet.<br>b) Regulamentou o processo judicial, permitindo que a tramitação de peças processuais, a comunicação de atos e a transmissão de peças processuais sejam feitas por meio eletrônico.<br>c) Lei que deu nova redação ao crime de violação de dispositivo informático, aumentou a pena máxima para 4 anos de reclusão e retirou da tipificação inicial a necessidade de violação de dispositivo de segurança.<br>d) Lei que regulamentou a guarda dos dados de conexão por parte dos provedores de conexão pelo prazo de 1 ano.<br>e) Estabeleceu direitos para os titulares de dados pessoais e definiu as bases legais para o tratamento desse tipo de dados.<br>( ) Lei nº 11.419/2006.<br>( ) Lei nº 13.709/2018.<br>( ) Lei nº 12.965/2014.<br>( ) Lei nº 14.155/2021.<br>( ) Lei nº 11.829/2008.<br>Assinale a opção que apresenta a sequência correta de associação de cima para baixo:",
+    "options": [
+      { "text": "b, e, d, a, c." },
+      { "text": "b, e, d, c, a" },
+      { "text": "a, e, d, c, b" },
+      { "text": "a, e, c, d, b" },
+      { "text": "a, c, d, e, b." }
+    ],
+    "Resposta": "b, e, d, c, a"
   }
   
 ]
+
