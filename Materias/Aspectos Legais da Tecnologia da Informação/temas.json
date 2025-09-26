@@ -8,7 +8,10 @@
     {"question": "diferença de direitos autorais e patente", 
                 "Resposta": "Direitos autorais protegem criações intelectuais artísticas e literárias (livros, músicas, softwares). Patentes protegem invenções e soluções técnicas inovadoras (máquinas, processos, produtos).Enquanto os direitos autorais surgem automaticamente com a criação, as patentes exigem registro formal"},
     {"question": "direito do consumidor para prestadores de serviços de tecnologia!<br>Como que o CDC protege o consumidor.", 
-                "Resposta": " o Código de Defesa do Consumidor garante que as empresas de tecnologia não tenham uma vantagem injusta sobre o consumidor, assegurando que os serviços sejam de qualidade, a comunicação seja clara e que o consumidor tenha seus direitos respeitados."}
+                "Resposta": " o Código de Defesa do Consumidor garante que as empresas de tecnologia não tenham uma vantagem injusta sobre o consumidor, assegurando que os serviços sejam de qualidade, a comunicação seja clara e que o consumidor tenha seus direitos respeitados."},
+    {"question": "Compare e contraste os conceitos de Informática Jurídica e Direito Digital, destacando suas principais características e como eles se complementam no contexto da sociedade da informação.", 
+                "Resposta": "Informatica juridica refere-se aos recursos tecnologicos usados no Judiciario, como o SAJ, certificados digitais e o E-Docs, que substitui processos fisicos por digitais. Ja o direito digital abrange as leis que regulam o uso da internet, incluindo a definição e punição dos crimes digitais."}
 
             ]
+
 
