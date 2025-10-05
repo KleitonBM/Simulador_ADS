@@ -1,0 +1,251 @@
+[
+  {
+    "question": "Analise as situações a seguir, identifique em quais ocorre Pirataria (Uso Não Autorizado) de Software e marque a opção correta de acordo com a sua análise:<br>I - A empresa Legal SA fez cópias de um software adquirido legalmente para uso exclusivo na empresa e as forneceu para todos os seus funcionários para uso doméstico.<br>II - O empregado Lucas da empresa Legal SA copiou o seu software adquirido em seu nome para seu uso doméstico e está utilizando tal cópia na empresa.<br>III – A empresa Legal SA adquiriu um número de licenças de um software e, temporariamente, está usando uma licença a mais do que o número que ela contratou.<br>IV – Jorge, estudante de engenharia, adquiriu uma licença acadêmica de um software de projetos. Como ele não está usando mais tal licença ele a forneceu para que o seu irmão a usasse em sua empresa de engenharia.<br>V - João pagou por uma licença de um software, fez uma cópia de back-up, conforme orientação do fornecedor, e  eu a sua cópia de back-up para uso de seu cunhado Jaime.",
+    "options": [
+      { "text": "Somente os casos I e II não são de pirataria." },
+      { "text": "Somente o caso III é de pirataria." },
+      { "text": "Todos os casos são de pirataria." },
+      { "text": "Somente o caso IV não é pirataria" },
+      { "text": "Somente o caso V não é pirataria" }
+    ],
+    "Resposta": "Todos os casos são de pirataria."
+  },
+  {
+    "question": "A ANPD (Agência Nacional de Proteção aos Dados) é uma agência regulatória criada pela Medida  provisória nº 869, de 2018, que foi convertida na Lei nº 13.853, de 8 de julho de 2019, que por sua vez alterou a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais. Considere as assertivas a seguir sobre a ANPD :<br>I – Ela tem autonomia técnica e decisória;<br>II – Ela deve fiscalizar o tratamento de dados, porém não deve aplicar sanções em caso descumprimento à legislação, porque isto cabe ao Poder Judiciário;<br>III – Ela deve promover e elaborar estudos sobre as práticas nacionais e internacionais de proteção de dados pessoais e privacidade;<br>IV – Ela deve elaborar as diretrizes para a Política Nacional de Proteção de Dados e Privatização dos Serviços de Comunicação de Dados.<br>Marque abaixo a alternativa correta sobre as assertivas acima:",
+    "options": [
+      { "text": "Somente I e III estão corretas." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente a I, II e III estão corretas." },
+      { "text": "Somente II e IV estão corretas" },
+      { "text": "Somente I, III e IV estão corretas." }
+    ],
+    "Resposta": "Somente I e III estão corretas."
+  },
+  {
+    "question": "Em um estado democrático, os direitos fundamentais de liberdade são reconhecidos por meio da participação política, guiada por uma determinação de vontade autônoma de cada indivíduo.<br>I - A liberdade de expressão é garantida pela Carta Magna, em particular no que dizem os incisos IV e IX do art. 5º, no rol de direitos e garantias fundamentais.<br>PORQUE<br>II - A liberdade de expressão não pode ser utilizada com o objetivo de prospectar práticas criminosas, que estimulem situações de intolerância e ódio e que disseminem notícias inverídicas por meio da rede mundial de computadores.<br>Marque a seguir a opção correta sobre as afirmativas acima",
+    "options": [
+      { "text": "Afirmativas I e II são verdadeiras mas a II não é justificativa da I ." },
+      { "text": "Afirmativas I e II são verdadeiras e a II é justificativa da I." },
+      { "text": "Afirmativas I e II são falsas;" },
+      { "text": "Afirmativa I é falsa e a II é verdadeira." },
+      { "text": "Afirmativa II é falsa e a I é verdadeira." }
+    ],
+    "Resposta": "Afirmativas I e II são verdadeiras mas a II não é justificativa da I ."
+  },
+  {
+    "question": "Um dos princípios fundamentais da LGPD que aborda indiretamente a soberania de dados é o princípio da finalidade. De acordo com esse princípio, o tratamento de dados pessoais deve ser realizado para propósitos legítimos, específicos e explícitos, sendo vedado o tratamento posterior dos dados de forma incompatível com esses propósitos.<br>Nesse sentido, assinale a alternativa que descreva a relevância da localização dos dados para a soberania de um país.",
+    "options": [
+      { "text": "A localização dos dados é relevante para garantir a disponibilidade dos dados" },
+      { "text": "A localização dos dados é relevante apenas para a privacidade dos usuários." },
+      { "text": "A localização dos dados pode afetar a jurisdição legal que se aplica a eles." },
+      { "text": "A localização dos dados pode afetar a velocidade de acesso aos mesmos." },
+      { "text": "A localização dos dados pode ser um acordo afirmado entre vários países" }
+    ],
+    "Resposta": "A localização dos dados pode afetar a jurisdição legal que se aplica a eles."
+  },
+  {
+    "question": "Considere o caso de uma empresa de tecnologia que é alvo de um ataque de intrusão em seu sistema computacional. Durante o ataque, os invasores conseguem acessar dados confidenciais dos clientes, incluindo informações pessoais e financeiras. Diante dessa situação, é necessário identificar o tipo de crime cibernético envolvido e propor medidas para mitigar os danos e fortalecer a segurança do sistema.<br>Nesse sentido, assinale a alternativa que descreve o tipo de crime cibernético apresentado no caso e uma medida eficaz para mitigá-lo.",
+    "options": [
+      { "text": "Crime de acesso não autorizado e mitigação através da implementação de criptografia de dados." },
+      { "text": "Crime de phishing e mitigação através da instalação de firewalls adicionais no servidor." },
+      { "text": "Crime de injeção de SQL e mitigação através da atualização regular de patches de segurança." },
+      { "text": "Crime de roubo de identidade e mitigação através da implementação de autenticação de dois fatores." },
+      { "text": "Crime de engenharia social e mitigação através da realização de auditorias de segurança regulares." }
+    ],
+    "Resposta": "Crime de roubo de identidade e mitigação através da implementação de autenticação de dois fatores."
+  },
+  {
+    "question": "Você, como consumidor, realizou uma compra online em um site de comércio eletrônico renomado. Durante o processo de finalização da compra, foi acrescentado automaticamente um seguro para o produto no valor de 10% do total da compra sem sua autorização prévia. Após a conclusão da compra, você identificou essa cobrança adicional não solicitada.<br>Nesse sentido, assinale a alternativa que indica a prática que é considerada de acordo com o Código de Defesa do Consumidor em relação a cobranças adicionais não autorizadas em compras online:",
+    "options": [
+      { "text": "Um caso de venda casada, proibida pelo CDC." },
+      { "text": "Responsabilidade do site, devendo ser ressarcido o valor ao consumidor." },
+      { "text": "Uma ação ética, visando à segurança do produto." },
+      { "text": "Inadimplência do consumidor, devendo arcar com a cobrança adicional." },
+      { "text": "Uma prática aceitável, considerando a proteção extra do produto." }
+    ],
+    "Resposta": "Um caso de venda casada, proibida pelo CDC."
+  },
+  {
+    "question": "A proteção dos direitos autorais e patenteáveis de software é um tema ainda em construção na doutrina jurídica. Sobre proteção de software pode-se dizer que:<br>I - A proteção do software enquanto propriedade intelectual, como visto, em um primeiro momento, assemelha-se à proteção de patentes e, em outro momento, com direitos autorais.<br>PORQUE<br>II - A mobilidade do software em relação ao hardware de origem, conforme as ciências computacionais evoluíram de um conceito de mercado baseado em aparelhos (hardware) para focar em aplicativos (software) que funcionam em aparelhos diversos.<br>Está Correto a afirmativa:",
+    "options": [
+      { "text": "I é verdadeira e a II é falsa." },
+      { "text": "I e II são verdadeiras e a I não é consequência da II ." },
+      { "text": "I e II são falsas." },
+      { "text": "I é falsa e a II é verdadeira." },
+      { "text": "I e II são verdadeiras e a I é consequência da II ." }
+    ],
+    "Resposta": "I e II são verdadeiras e a I é consequência da II ."
+  },
+  {
+    "question": "O comércio eletrônico apresenta grandes vantagens em relação aos negócios físicos. Um dos benefícios é poder conhecer de forma quantitativa os hábitos de compra e o perfil dos clientes. Tudo o que é feito nesse mundo virtual é registrado e acumulado, virando uma grande fonte de informações. Todavia, esse cenário não apresenta apenas vantagens.<br>I - Ainda que o consumidor esteja resguardado pelo Código do Consumidor, o direito à privacidade não pode superar o interesse público.<br>PORQUE<br>II - As empresas devem manter dados dos seus usuários, para o caso de serem solicitados pela Justiça, em situações de usuários envolvidos em alguma demanda judicial e quando esses dados forem de interesse público.<br>Marque a afirmativa a seguir que está correta:",
+    "options": [
+      { "text": "I, II são verdadeiras e a II é justificativa da I" },
+      { "text": "I, II são verdadeiras mas a II não é justificativa da I" },
+      { "text": "I e II são falsas." },
+      { "text": "I é falsa e II é verdadeira." },
+      { "text": "I é verdadeira e II é falsa." }
+    ],
+    "Resposta": "I, II são verdadeiras mas a II não é justificativa da I"
+  },
+  {
+    "question": "Após efetuar a compra de um novo aparelho eletrônico pela internet, ansioso para utilizá-lo, você recebe a encomenda e, ao abrir a embalagem, constata que o produto não possui todas as peças fundamentais para seu funcionamento adequado. O manual do usuário indica claramente que a ausência dessas peças compromete a funcionalidade do dispositivo. Ao entrar em contato com o fornecedor, você é informado de que não há previsão de entrega das peças faltantes e que não há opção de reembolso ou troca do produto.<br>Nesse sentido, assinale a alternativa que indica a responsabilidade do fornecedor diante de um produto que apresenta defeito ou falta de peças essenciais após a compra online.",
+    "options": [
+      { "text": "O consumidor é responsável por custear o envio do produto de volta ao fornecedor, o qual substituirá o produto por um novo ou pelo valor pago." },
+      { "text": "O fornecedor é isento de qualquer responsabilidade, já que o produto foi adquirido online." },
+      { "text": "O consumidor tem direito limitado a reparação ou substituição do produto." },
+      { "text": "O fornecedor deve, imediatamente, substituir o produto por um novo ou devolver o valor pago." },
+      { "text": "O fornecedor é obrigado a trocar o produto por um novo, mas se exime da restituição do valor pago." }
+    ],
+    "Resposta": "O fornecedor deve, imediatamente, substituir o produto por um novo ou devolver o valor pago."
+  },
+  {
+    "question": "O Marco Civil da Internet é uma lei que protege a Neutralidade da Rede, garantindo que todos os usuários tenham acesso igualitário à internet. Marque a opção a seguir que está coerente com o princípio da neutralidade na internet de acordo com o Marco Civil da Internet.",
+    "options": [
+      { "text": "Os dados que trafegam na rede devem receber tratamento igualitário das empresas provedoras de acesso, sem diferenciação em relação à origem, ao destino, ao serviço, ao conteúdo ou ao dispositivo." },
+      { "text": "As empresas provedoras de acesso podem discriminar e bloquear aplicativos quando entenderem que tais aplicativos prejudicam os seus negócios." },
+      { "text": "As empresas prestadoras de serviços de internet podem cobrar de forma diferenciada o acesso a determinados conteúdos e aplicações, independentemente da velocidade de acesso ou do volume de banda utilizada" },
+      { "text": "Os provedores de acesso têm total liberdade para restringir ou bloquear o acesso de usuários a determinados sites conforme considerarem necessário." },
+      { "text": "A neutralidade na internet é um princípio que não tem relação com os direitos fundamentais dos cidadãos." }
+    ],
+    "Resposta": "Os dados que trafegam na rede devem receber tratamento igualitário das empresas provedoras de acesso, sem diferenciação em relação à origem, ao destino, ao serviço, ao conteúdo ou ao dispositivo."
+  }
+  ,
+  {
+    "question": "Durante o processo histórico do Brasil, a construção das bases legais é marcada por momentos cruciais. Um desses marcos fundamentais foi a elaboração da primeira Constituição brasileira. Em meio a movimentos históricos e transformações políticas, essa Carta Magna inaugurou a trajetória legislativa do país.<br>Sobre as constituições já existentes no Brasil, podemos afirmar que a primeira foi:",
+    "options": [
+      { "text": "A Constituição de 1824." },
+      { "text": "A Constituição de 1888." },
+      { "text": "A Constituição de 1822." },
+      { "text": "A Constituição de 1891." },
+      { "text": "A Constituição de 1831." }
+    ],
+    "Resposta": "A Constituição de 1824."
+  },
+  {
+    "question": "Leia o trecho a seguir:<br>“são responsáveis por elaborar normas, acompanhar e avaliar os programas federais, formular e implementar as políticas para os diversos setores que representam, estabelecer estratégias, diretrizes e prioridades na aplicação dos recursos públicos” (FUNDATEC/RS-Dez./2023).<br>Assinale a alternativa que apresenta a esfera governamental a que se refere esta atribuição:",
+    "options": [
+      { "text": "Câmara dos Vereadores." },
+      { "text": "Unidades de Conservação Estaduais." },
+      { "text": "Tribunais da Justiça Federal." },
+      { "text": "Ministérios do Brasil.." },
+      { "text": "Assembleias Legislativas." }
+    ],
+    "Resposta": "Tribunais da Justiça Federal."
+  },
+  {
+    "question": "“[…] devemos fazer uma ressalva de que toda e qualquer remoção de conteúdo deva ser devidamente documentada com a denúncia formal realizada ao provedor, até para evitar que haja arbitrariedade e que a justificativa de suspensão e remoção de conteúdo acabe sendo distorcida e utilizada com finalidade de cercear a livre manifestação do pensamento, com Intuito inclusive político. Deve haver uma exigência de que seja garantido o devido processo legal, para que também uma denúncia infundada faça com que a vítima de censura também encontre guarida do Judiciário.”.<br>(PECK, Patricia. Direito digital. 5. ed. rev., atual. e ampl. São Paulo, SP: Saraiva, 2014, p.298).<br>Quando ocorre algum conflito de interesses dentro do ambiente virtual, como deverá ser a obrigatoriedade da retirada do conteúdo da internet?",
+    "options": [
+      { "text": "?Fundamentada a partir de medida judicial, arbitrada por um juíz e com direito a ampla defesa e contraditório." },
+      { "text": "Por meio de medida extrajudicial." },
+      { "text": "O indivíduo que se sentir lesado deve enviar um e-mail para o responsável pelo conteúdo e solicitar a retirada dele." },
+      { "text": "O terceiro lesado deve entrar em contato com o provedor solicitando a retirada do site do ar" },
+      { "text": "Nenhuma medida poderá ser tomada, pois não há leis que regulem esse tipo de situação.." }
+    ],
+    "Resposta": "?Fundamentada a partir de medida judicial, arbitrada por um juíz e com direito a ampla defesa e contraditório."
+  }
+ 
+ ,
+  {
+    "question": "Os princípios da LGPD (Lei Geral de Proteção de Dados) são diretrizes fundamentais que orientam o tratamento de dados pessoais no Brasil. Eles representam os valores e padrões éticos que devem nortear a coleta, o uso, o armazenamento e o compartilhamento de informações pessoais pelas organizações.<br>Nesse sentido, assinale a alternativa que apresenta o princípio da LGPD que estabelece que as empresas devem tomar medidas adequadas para garantir a segurança e privacidade dos dados pessoais que tratam.",
+    "options": [
+      { "text": "Princípio da finalidade." },
+      { "text": "Princípio da transparência." },
+      { "text": "Princípio da minimização de dados." },
+      { "text": "Princípio da responsabilidade." },
+      { "text": "Princípio da exatidão." }
+    ],
+    "Resposta": "Princípio da responsabilidade."
+  },
+  {
+    "question": "Ao desenvolver uma plataforma de e-commerce, você, como desenvolvedor, deverá assegurar a sua conformidade com o Código do Direito do Consumidor (CDC) para que a compra do cliente seja exitosa mas de forma legal, segura e transparente.. Dentre as diversas responsabilidades para cumprir com as normas do CDC, uma das práticas essenciais é garantir a clareza e a precisão das informações fornecidas aos consumidores sobre os produtos ou serviços oferecidos.<br>Marque a alternativa que indica uma das medidas obrigatórias para cumprir com as diretrizes do CDC.",
+    "options": [
+      { "text": "Disponibilizar descrições detalhadas dos produtos, incluindo preço, características, prazo de entrega e políticas de troca, de forma clara e acessível." },
+      { "text": "Utilizar termos técnicos e linguagem complexa nas informações dos produtos para filtrar consumidores que não estejam familiarizados com esses termos." },
+      { "text": "Oferecer descontos exclusivos apenas para consumidores cadastrados, sem informar sobre essas vantagens aos demais clientes." },
+      { "text": "Atualizar constantemente as políticas de devolução de produtos, sem informar aos consumidores sobre essas mudanças." },
+      { "text": "Ocultar algumas informações sobre os produtos para evitar confusão nos consumidores." }
+    ],
+    "Resposta": "Disponibilizar descrições detalhadas dos produtos, incluindo preço, características, prazo de entrega e políticas de troca, de forma clara e acessível."
+  },
+  {
+    "question": "Analise as afirmações a seguir classificando-as como V – Verdadeira ou F – Falsa e, a seguir, marque a opção com a respostas correta segundo a sua análise.<br>( ) - As patentes são utilizadas para proteger as invenções e garantir o desenvolvimento tecnológico de um país<br>( ) - Uma pessoa que não detém uma patente só pode explorá-la com a permissão do titular proprietário. <br>( ) - O sistema de patentes é uma troca entre o Estado e o inventor. Nessa troca, o inventor apresenta uma invenção útil à sociedade enquanto o Estado oferece como recompensa um direito de exclusividade temporário, que é a patente.( ) - No Brasil, o sistema de patentes se baseia na Constituição Federal.<br>( ) - O sistema de patentes é o direito de impedir que terceiros explorem essa invenção sem consentimento do inventor .",
+    "options": [
+      { "text": "V – F – V – F - V ." },
+      { "text": "F – V – F – V - F." },
+      { "text": "V – V – F – F - V." },
+      { "text": "V – V – V – V - V ." },
+      { "text": "V – F – F – F - V ." }
+    ],
+    "Resposta": "V – V – V – V - V ."
+  },
+  {
+    "question": "João, inconformado com o término do relacionamento amoroso, decide publicar em sua rede social vídeos de cenas de nudez e atos sexuais com Maria, que haviam sido gravados na constância do relacionamento e com o consentimento dela. João publicou tais vídeos com o objetivo de chantagear Maria para que ela permanecesse relacionando-se com ele. Maria não consentiu tal publicação e, visando à remoção imediata do conteúdo, notifica extrajudicialmente a rede social. A notificação foi recebida pelos administradores da rede social e continha todos os elementos que permitiam a identificação específica do material apontado como violador da intimidade.<br>Considerando o caso concreto, marque a opção a seguir em que é correto afirmar que:",
+    "options": [
+      { "text": "O provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por João se descumprir ordem judicial específica, de modo que o conteúdo sob exame só pode ser removido mediante decisão judicial, sendo ineficaz a notificação de Maria para fins de responsabilização do provedor" },
+      { "text": "O provedor de aplicações de internet será responsabilizado subsidiariamente pelos danos sofridos por Maria quando, após o recebimento de notificação, deixar de remover o conteúdo de forma diligente, no âmbito e nos limites técnicos do seu serviço" },
+      { "text": "Não haverá responsabilidade civil do provedor de aplicações de internet pelo fato de o conteúdo ter sido gerado por terceiro, incidindo o fato de terceiro como excludente do nexo de causalidade." },
+      { "text": "Somente João, autor da conduta de postar, pode ser responsabilizado civilmente pelos danos causados a Maria, respondendo mediante o regime objetivo de responsabilidade civil, considerando o grave dano à dignidade da pessoa humana e seus aspectos da personalidade, sobrelevando-se a importância de ampliação da tutela da mulher vítima do assédio sexual online." },
+      { "text": "O provedor de aplicações de internet responderá objetivamente pelos danos causados a Maria e, ainda, solidariamente com João, deflagrando-se o dever de indenizar a partir do imediato momento em que João postou o material ofensivo." }
+    ],
+    "Resposta": "O provedor de aplicações de internet será responsabilizado subsidiariamente pelos danos sofridos por Maria quando, após o recebimento de notificação, deixar de remover o conteúdo de forma diligente, no âmbito e nos limites técnicos do seu serviço"
+  } ,
+  {
+    "question": "O Direito digital no Brasil vem sendo normatizado em várias áreas e aos poucos o Direito brasileiro vai se adequando ao novo modelo da sociedade digital. Vários avanços foram obtidos em diversos segmentos do Direito nos últimos 20 anos.<br>Observe as afirmativas abaixo e relacione-as com a Lei correspondente.<br>a) Cria tipos penais para combater a pornografia infantil e a pedofilia na Internet.<br>b) Regulamentou o processo judicial, permitindo que a tramitação de peças processuais, a comunicação de atos e a transmissão de peças processuais sejam feitas por meio eletrônico.<br>c) Lei que deu nova redação ao crime de violação de dispositivo informático, aumentou a pena máxima para 4 anos de reclusão e retirou da tipificação inicial a necessidade de violação de dispositivo de segurança.<br>d) Lei que regulamentou a guarda dos dados de conexão por parte dos provedores de conexão pelo prazo de 1 ano.<br>e) Estabeleceu direitos para os titulares de dados pessoais e definiu as bases legais para o tratamento desse tipo de dados.<br>( ) Lei nº 11.419/2006.<br>( ) Lei nº 13.709/2018.<br>( ) Lei nº 12.965/2014.<br>( ) Lei nº 14.155/2021.<br>( ) Lei nº 11.829/2008.<br>Assinale a opção que apresenta a sequência correta de associação de cima para baixo:",
+    "options": [
+      { "text": "b, e, d, a, c." },
+      { "text": "b, e, d, c, a" },
+      { "text": "a, e, d, c, b" },
+      { "text": "a, e, c, d, b " },
+      { "text": "a, c, d, e, b." }
+    ],
+    "Resposta": "b, e, d, c, a"
+  },
+  {
+    "question": "No contexto do desenvolvimento de softwares e produções em meios eletrônicos, é essencial compreender o histórico das leis que regulam os direitos autorais e a proteção intelectual. Tanto a Lei do Software (Lei nº 9.609/1998) quanto a Lei dos Direitos Autorais (Lei nº 9.610/1998) desempenham papéis fundamentais nesse âmbito, garantindo a proteção legal das criações digitais e softwares.<br>Nesse sentido, assinale a alternativa que indica corretamente uma característica relevante do histórico das leis de direitos autorais e do software.",
+    "options": [
+      { "text": "A Lei dos Direitos Autorais não reconhece a proteção legal para obras digitais, limitando-se a obras convencionais." },
+      { "text": "A Lei do Software surgiu como uma resposta às demandas de proteção de direitos autorais específicos para programas de computador." },
+      { "text": "A Lei do Software se sobrepõe à Lei dos Direitos Autorais, anulando algumas das disposições desta última." },
+      { "text": "A Lei do Software foi promulgada antes da Lei dos Direitos Autorais, estabelecendo parâmetros mais amplos para a proteção de obras digitais." },
+      { "text": "A Lei dos Direitos Autorais deu ênfase exclusiva à proteção de softwares, excluindo outras formas de expressão intelectual." }
+    ],
+    "Resposta": "A Lei do Software surgiu como uma resposta às demandas de proteção de direitos autorais específicos para programas de computador."
+  },
+  {
+    "question": "O Marco Civil da Internet é uma legislação brasileira que estabelece direitos e deveres para usuários, provedores de internet e empresas que atuam no ambiente online. No contexto do comércio eletrônico, o Marco Civil da Internet influencia significativamente as transações comerciais realizadas na rede, buscando equilibrar a liberdade de expressão na internet com a proteção dos direitos dos usuários.<br>Diante do conteúdo apresentado, analise as afirmações a seguir:<br>I. Os provedores de conexão e de aplicações online não são responsáveis pelo conteúdo gerado por terceiros em suas plataformas.<br>II. De acordo com o Marco Civil da Internet no Brasil, os provedores de conexão não podem ser responsabilizados pelo conteúdo transmitido<br>III. O Marco Civil da Internet aborda indiretamente questões relacionadas ao comércio eletrônico, pois seu foco principal é a neutralidade da rede<br>IV. O Marco Civil é uma legislação voltada principalmente para a regulamentação do uso da internet no Brasil, sendo uma ferramenta exclusiva para a proteção de dados em transações eletrônicas<br>A respeito dessas afirmações, assinale a opção correta.",
+    "options": [
+      { "text": "II e III, apenas são verdadeiras." },
+      { "text": "I e III, apenas são verdadeiras." },
+      { "text": "Todas são verdadeiras." },
+      { "text": "III e IV, apenas são verdadeiras." },
+      { "text": "I e II, apenas são verdadeiras." }
+    ],
+    "Resposta": "I e II, apenas são verdadeiras."
+  },
+  {
+    "question": "Os direitos autorais e a propriedade intelectual podem ser visualizados em quase todas as atividades cotidianas, como produções artísticas, culturais ou científicas, ou mesmo industriais, como os modelos de utilidade e as invenções.<br>Analise as assertivas a seguir:<br>I - O direito autoral lida basicamente com a imaterialidade característica da propriedade intelectual.<br>II – O princípio da territorialidade aplicado aos direitos autorais e de propriedade intelectual é suficiente mesmo para as violações em países com mais tolerância nesse domínio.<br>III – É consenso geral que não há necessidade de atualização da Lei de Direitos Autorais com a ampliação do uso da internet.<br>IV – Percebe-se na lei de direitos autorais que certas obras protegidas estão excluídas dos direitos autorais porque passaram a caber em domínio público, <br>Marque abaixo a alternativa correta sobre as assertivas acima de acordo com a sua análise:",
+    "options": [
+      { "text": "Somente I e II estão corretas." },
+      { "text": "Todas estão corretas." },
+      { "text": "Somente I e IV estão corretas." },
+      { "text": "Somente a IV não está correta." },
+      { "text": "Somente a II e a III estão corretas." }
+    ],
+    "Resposta": "Somente I e IV estão corretas."
+  },
+  {
+    "question": "Os crimes virtuais também são chamados de cyber crimes são _______ e _____ ocorridos no ambiente da rede de computadores considerados pela legislação penal como crimes ou_____. Essas infrações, normalmente são contra o _____da pessoa ou empresa, ocasionando de alguma forma perdas _____ ou _______. Além disso, encontramos também as infrações contra a __________ individual e a ______ intelectual das pessoas ou organizações.<br>Marque a opção a seguir que possui as palavras que completam adequadamente o texto acima",
+    "options": [
+      { "text": "Atos, fatos, contravenções civis, capital, financeiro, materiais, liberdade, propriedade." },
+      { "text": "Marcos, atos, contravenções penais, inventário, financeiro, materiais, liberdade, propriedade." },
+      { "text": "Fatos, atos, contravenções penais, capital, financeiro, materiais, obscuridade, propriedade." },
+      { "text": "Fatos, atos, contravenções penais, patrimônio, financeiro, materiais, liberdade, propriedade." },
+      { "text": "Atos, marcos, contravenções penais, patrimônio, financeiro, morais, liberdade, propriedade." }
+    ],
+    "Resposta": "Fatos, atos, contravenções penais, patrimônio, financeiro, materiais, liberdade, propriedade."
+  }
+ 
+ 
+  
+]
+
