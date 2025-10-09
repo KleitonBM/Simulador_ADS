@@ -1,58 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+/* ============= BASE ============= */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
-    background: #f4f4f4;
-    width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #ffffff 0%, #203863 100%);
+  color: #222;
 }
 
-body h2 {
-    width: 95%;
-    height: 100%;
-    padding: 10px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    text-align: center;
-    margin-left: 3%;
-    margin-top: 3%;
-}
-.container {
-    width: 95%;
-    height: 100%;
-    background: white;
-    padding: 10px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-    margin-left: 3%;
-    margin-top: 3%;
+h3 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.63);
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
-/* Estilo dos botões de matéria */
-.materia-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+/* ============= SEÇÕES ============= */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.materia-btn {
-    background-color: #007bff;
-    color: white;
-    font-size: 18px;
-    padding: 15px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.secao {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 2rem 1rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.8s ease;
 }
 
+.recuperacao {
+  border: 1px solid rgba(146, 168, 209, 0.342);
+}
+
+/* ============= DIVISOR ANIMADO ============= */
+.divisor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #fff;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.divisor .linha {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #fff, transparent);
+  animation: growLine 2s infinite alternate;
+}
+
+@keyframes growLine {
+  from { transform: scaleX(0.6); opacity: 0.6; }
+  to { transform: scaleX(1); opacity: 1; }
+}
+
+/* ============= BOTÕES DAS MATÉRIAS ============= */
+.grid-botoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.grid-botoes button {
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.grid-botoes button:hover {
+  background-color: #92a8d1;
+  color: #fff;
+  transform: scale(1.04);
+}
+
+/* ============= SELECT CUSTOMIZADO ============= */
+.select {
+  position: relative;
+  max-width: 400px;
+  margin: 1.5rem auto;
+}
+
+.select-toggle {
+  width: 100%;
+  background: #fff;
+  color: #555;
+  padding: 0.9rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.select-toggle:hover {
+  background-color: #92a8d1;
+  color: #fff;
+}
+
+.select-options {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.25s ease;
+  z-index: 10;
+}
+
+.select.ativo .select-options {
+  transform: scaleY(1);
+}
+
+.select-options button {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.select-options button:hover {
+  background-color: #92a8d1;
+  color: #fff;
+}
+
+/* ============= ANIMAÇÕES ============= */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============= RESPONSIVIDADE ============= */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .secao {
+    padding: 1.5rem 1rem;
+  }
+
+  .grid-botoes button, .select-toggle {
+    font-size: 0.95rem;
+  }
+}
