@@ -1,0 +1,202 @@
+[
+  {
+    "question": "O que é computação ubíqua ou pervasiva?",
+    "options": [
+      { "text": "Desenvolvimento de sistemas em nuvem" },
+      { "text": "Integração da tecnologia na vida cotidiana de forma sutil e transparente" },
+      { "text": "Uso de inteligência artificial em dispositivos móveis" },
+      { "text": "Conexão de múltiplos dispositivos através de redes locais" },
+      { "text": "Programação de aplicativos de desktop" }
+    ],
+    "Resposta": "Integração da tecnologia na vida cotidiana de forma sutil e transparente"
+  },
+  {
+    "question": "Marque as diretrizes de interação com os usuários relacionadas aos padrões visuais no Android:",
+    "options": [
+      { "text": "Usabilidade, Animação, Padrão" },
+      { "text": "Animação e Modo escuro" },
+      { "text": "Estilo e Componentes, Portabilidade e Usabilidade" },
+      { "text": "Layout, Estilo, Leveza e Beleza" },
+      { "text": "Layout, Animação e Modo escuro" }
+    ],
+    "Resposta": "Usabilidade, Animação, Padrão"
+  },
+  {
+    "question": "Qual das seguintes armações melhor descreve a computação ubíqua?",
+    "options": [
+      { "text": "É uma forma de computação que se concentra em dispositivos de hardware grandes e visíveis." },
+      { "text": "É um conceito que descreve a integração da tecnologia na vida cotidiana de forma sutil e transparente, tornando-se tão integrada e invisível que é imperceptível ao usuário." },
+      { "text": "É uma forma de computação que requer a interação constante do usuário com interfaces físicas explícitas." },
+      { "text": "É um conceito que descreve a necessidade de a tecnologia ser visível e perceptível ao usuário em todos os momentos." },
+      { "text": "É uma forma de computação que se concentra apenas em dispositivos móveis." }
+    ],
+    "Resposta": "É um conceito que descreve a integração da tecnologia na vida cotidiana de forma sutil e transparente, tornando-se tão integrada e invisível que é imperceptível ao usuário."
+  },
+  {
+    "question": "Quando se trata do desenvolvimento para dispositivos móveis, os mais utilizados são:<br>I - Android Studio<br>II - Visual Studio Code<br>III – Atom.IO<br>IV - Zcode<br>V - IntelliG",
+    "options": [
+      { "text": "I e II somente" },
+      { "text": "I e III somente" },
+      { "text": "II e IV somente" },
+      { "text": "I, IV e V" },
+      { "text": "III, IV e V" }
+    ],
+    "Resposta": "I e II somente"
+  },
+  {
+    "question": "Paralelamente ao desenvolvimento de aplicativos nativos usando tecnologia hibrida, há a introdução dos Progressive Web Apps, que são:",
+    "options": [
+      { "text": "Uma aplicação Web que implementa certas especicações técnicas e, em versões mais atuais, sobretudo da plataforma Android, executa em um browser oculto." },
+      { "text": "Uma aplicação voltada para o progresso." },
+      { "text": "Uma aplicação web que visa vericar o progresso dos softwares no seu computador/dispositivo mobile." },
+      { "text": "Uma aplicação que serve para implementar um sistema de navegação o-line progressiva." },
+      { "text": "Todas as alternativas estão corretas" }
+    ],
+    "Resposta": "Uma aplicação Web que implementa certas especicações técnicas e, em versões mais atuais, sobretudo da plataforma Android, executa em um browser oculto."
+  },
+  {
+    "question": "",
+    "options": [
+      { "text": "" },
+      { "text": "" },
+      { "text": "" },
+      { "text": "" },
+      { "text": "" }
+    ],
+    "Resposta": ""
+  },
+  {
+    "question": "Dado o componente abaixo, avalie as armativas.<br><img src='./Img_perguntas/DSM1.png'><br>Avalie as seguintes asserções abaixo:<br>I- O hook useEect será executado sempre que um botão seja clicado<br>PORQUE<br>II- O valor do objeto mudou, muda a cada clique em qualquer botão pois a referência do objeto foi alterada em memória.<br>É correto o que se arfima em:",
+    "options": [
+      { "text": "As asserções I e II são proposições verdadeiras, e a II é uma justicativa correta da I." },
+      { "text": "As asserções I e II são proposições verdadeiras, mas a II não é uma justicativa correta da I." },
+      { "text": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa." },
+      { "text": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira." },
+      { "text": "As asserções I e II são proposições falsas" }
+    ],
+    "Resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justicativa correta da I."
+  },
+  {
+    "question": "Qual das seguintes opções é um sistema operacional comumente usado em dispositivos móveis?",
+    "options": [
+      { "text": "Windows 95" },
+      { "text": "Linux Ubuntu" },
+      { "text": "Android" },
+      { "text": "MS-DOS" },
+      { "text": "Debian" }
+    ],
+    "Resposta": "Android"
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é verdadeira sobre a API Fetch no React Native?",
+    "options": [
+      { "text": "A API Fetch é fornecida pelo React Native para facilitar as operações de rede." },
+      { "text": "A API Fetch é semelhante ao XMLHttpRequest e a outras APIs de rede populares." },
+      { "text": "Com o Fetch, você pode realizar solicitações HTTP, como GET, POST, PUT, DELETE, entre outras." },
+      { "text": "A API Fetch é baseada em promessas, permitindo o uso de .then() e .catch() para lidar com a resposta da solicitação" },
+      { "text": "A API Fetch só pode ser usada para realizar solicitações GET" }
+    ],
+    "Resposta": "A API Fetch só pode ser usada para realizar solicitações GET"
+  },
+  {
+    "question": "Dado o componente abaixo:<br>Foi gerado o número ímpar aleatório entre o número digitado no TextInput e 65.<br>O número é gerado após se clicar no botão.<br><img src='./Img_perguntas/DSMQ1.png'><br>Qual das opções abaixo apresenta o seguinte comportamento:<br>-verica se o que foi digitado é um número<br>-impede que se digite letras<br>-continua gerando um número aleatório entre o valor digitado e 65.",
+    "options": [
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ1A.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ1B.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ1C.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ1D.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ1E.png'>" }
+    ],
+    "Resposta": "OP - <br><img src='./Img_perguntas/DSMQ1A.png'>"
+  } ,
+  {
+    "question": "Avalie o componente abaixo:<br>Foi gerado o número ímpar aleatório entre o número digitado no TextInput e 65.<br>O número é gerado após se clicar no botão.<br><img src='./Img_perguntas/DSMQ2.png'><br>s opções abaixo apresenta o seguinte comportamento:<br>-Ao se clicar no botão, valor digitado no campo TextInput é removido<br>-Ao se clicar no campo TextInput este é limpo, cando pronto para receber o que for digitado<br>-O valor digitado é exibido no TextInput",
+    "options": [
+       { "text": "OP - <br><img src='./Img_perguntas/DSMQ2A.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ2B.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ2C.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ2D.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQ2E.png'>" }
+    ],
+    "Resposta": "OP - <br><img src='./Img_perguntas/DSMQ2A.png'>"
+  },
+  {
+    "question": "Dado o componente abaixo:<br><img src='./Img_perguntas/DSMQ3.png'><br>Ao se clicar no botão a tela A deveria ser carregada<br><img src='./Img_perguntas/DSMQ3.1.png'><br>Avalie o trecho de código acima.<br>Avalie as armativas abaixo:<br>I- A tela A não será exibida<br>PORQUE<br>II- Quem está no topo da Stack.Screen é a Tela B<br>É correto o que se arma em:",
+    "options": [
+       { "text": "As asserções I e II são proposições verdadeiras, e a II é uma justicativa correta da I" },
+      { "text": "As asserções I e II são proposições verdadeiras, mas a II não é uma justicativa correta da I." },
+      { "text": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa." },
+      { "text": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira." },
+      { "text": "As asserções I e II são proposições falsas." }
+    ],
+    "Resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justicativa correta da I"
+  },
+  {
+    "question": "Mockups podem ser desenvolvidos de diversas formas, segundo Mayhew (1999), existem quatro dimensões a serem consideradas quanto à delidade de um protótipo de interface do usuário, são elas:",
+    "options": [
+       { "text": "Detalhamento, Grau de funcionalidade, Similaridade de interação, Renamento estético." },
+      { "text": "Detalhamento, Modo escuro, Publicidade, Mockups" },
+      { "text": "Capacidade de ser criado por caneta e papel, Grau de funcionalidade, Beleza, Móvel" },
+      { "text": "Detalhamento, Similaridade de interação, Mockups, Capacidade de ser criado por caneta e papel" },
+      { "text": "Mockups, Capacidade de criação de software, Compatibilidade entre plataformas, Detalhamento" }
+    ],
+    "Resposta": "Detalhamento, Grau de funcionalidade, Similaridade de interação, Renamento estético."
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é verdadeira sobre Props (Adereços) no React?",
+    "options": [
+       { "text": "Props são parâmetros que podem ser usados para customizar componentes no momento de sua criação." },
+      { "text": "Props é uma abreviação de propriedades" },
+      { "text": "Um exemplo de prop é o ‘source’, que pode ser usado para controlar qual imagem um componente ‘Image’ mostra." },
+      { "text": "Props são usados para manter o estado interno de um componente." },
+      { "text": "A maioria dos componentes pode ser customizada com props diferentes." }
+    ],
+    "Resposta": "Props são usados para manter o estado interno de um componente."
+  },
+  {
+    "question": "O que é desenvolvimento para dispositivos móveis?",
+    "options": [
+       { "text": "Criação de aplicativos para computadores" },
+      { "text": "Criação de aplicativos ou softwares para smartphones, tablets e outros dispositivos móveis" },
+      { "text": "Criação de websites responsivos" },
+      { "text": "Desenvolvimento de jogos para consoles" },
+      { "text": "Desenvolvimento de sistemas operacionais" }
+    ],
+    "Resposta": "Criação de aplicativos ou softwares para smartphones, tablets e outros dispositivos móveis"
+  },
+  {
+    "question": "Qual das seguintes afirmações melhor descreve a diferença entre Progressive Web App (PWA) e Desenvolvimento híbrido?",
+    "options": [
+       { "text": "PWA e Desenvolvimento híbrido são a mesma coisa e não há diferenças entre eles." },
+      { "text": "PWA é acessado através de um navegador da web, enquanto o aplicativo híbrido é instalado no dispositivo móvel e é executado como um aplicativo nativo." },
+      { "text": "PWA é instalado no dispositivo móvel e é executado como um aplicativo nativo, enquanto o aplicativo híbrido é acessado através de um navegador da web." },
+      { "text": "PWA é uma solução mais pesada e lenta, enquanto o desenvolvimento híbrido é uma opção mais leve e rápida para aplicativos." },
+      { "text": "PWA e Desenvolvimento híbrido não podem ser usados para criar aplicativos móveis" }
+    ],
+    "Resposta": "PWA é acessado através de um navegador da web, enquanto o aplicativo híbrido é instalado no dispositivo móvel e é executado como um aplicativo nativo."
+  },
+  {
+    "question": "Qual das seguintes tecnologias é uma plataforma de desenvolvimento de aplicativos móveis que permite criar aplicativos nativos para iOS, Android e Windows usando uma única base de código em C#?",
+    "options": [
+       { "text": "React Native" },
+      { "text": "Ionic" },
+      { "text": "Xamarin" },
+      { "text": "PhoneGap" },
+      { "text": "Nenhuma das opções acima" }
+    ],
+    "Resposta": "Xamarin"
+  },
+  {
+    "question": "Mockups podem ser desenvolvidos de diversas formas, segundo Mayhew (1999), existem quatro dimensões a serem consideradas quanto à delidade de um protótipo de interface do usuário, são elas:",
+    "options": [
+       { "text": "Detalhamento, Grau de funcionalidade, Similaridade de interação, Renamento estético." },
+      { "text": "Detalhamento, Modo escuro, Publicidade, Mockups" },
+      { "text": "Capacidade de ser criado por caneta e papel, Grau de funcionalidade, Beleza, Móvel" },
+      { "text": "Detalhamento, Similaridade de interação, Mockups, Capacidade de ser criado por caneta e papel" },
+      { "text": "Mockups, Capacidade de criação de software, Compatibilidade entre plataformas, Detalhamento" }
+    ],
+    "Resposta": "Detalhamento, Grau de funcionalidade, Similaridade de interação, Renamento estético."
+  }
+  
+]
+

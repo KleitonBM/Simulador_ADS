@@ -1,0 +1,224 @@
+[
+  {
+    "question": "Depois das fitas, surgiram os discos, disquetes, e o famoso HD, também chamado de ‘Winchester’ - que na época tinha esse nome.<br> Com base no texto acima, avalie seguintes asserções e a relação proposta entre elas.<br>I: Qualquer dado armazenado num HD (Hard Disk) pode ser acessado de forma imediata<br>Porque<br>II: O acesso ao dado desejado é feito através da leitura sequencial.<br>A respeito dessas asserções, assinale a alternativa correta.",
+    "options": [
+      { "text": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa." },
+      { "text": "As asserções I e II são proposições verdadeiras, e a II é justificativa da I" },
+      { "text": "As asserções I e II são proposições verdadeiras, mas a II não é justificativa da I" },
+      { "text": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira." },
+      { "text": "As asserções I e II são proposições falsas." }
+    ],
+    "Resposta": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+  },
+  {
+    "question": "Adicionou-se um índice no campo de categorias da collection artigos.<br>Por baixo dos panos, o que esse índice fez?",
+    "options": [
+      { "text": "Ele criou uma nova estrutura no banco de dados, na qual os documentos estão ordenados por categorias, para que a busca possa ser feita por essa estrutura, sem alterar a coleção original de documentos" },
+      { "text": "Ele alterou a ordem dos documentos na memória para que eles ficassem ordenados por categorias." },
+      { "text": "Ele vai criar um novo campo indicando a sua ordem em relação aos outros." },
+      { "text": "O índice melhora o processamento do nosso computador por baixo dos panos para ele percorrer os documentos mais rápido." },
+      { "text": "O índice vai permitir a varredura completa da coleção." }
+    ],
+    "Resposta": "Ele criou uma nova estrutura no banco de dados, na qual os documentos estão ordenados por categorias, para que a busca possa ser feita por essa estrutura, sem alterar a coleção original de documentos"
+  },
+  {
+    "question": "Todo SGBD, Sistema Gerenciador de Banco de Dados, conforme Silberschatz et al. (1999, p. 23), possui características e devem seguir propriedades/comportamentos nas transações em Banco de Dados fundamentais conhecidas como (Atomicidade, Consistência, Isolamento e Durabilidade). <br>Já nos Bancos de Dados NoSQL, não se pode garantir todos esses comportamentos. Esse cenário é diferente, porque nem sempre é possível garantir 100% o “C” de Consistência. Essa ideia está totalmente relacionada ao teorema fundamental em que os modelos de Banco de Dados NoSQL estão alicerçados. Esse teorema chamado de CAP propõe que não é possível, em um sistema distribuído, trabalhar com os 3 componentes ao mesmo tempo, somente com dois. <br>Diante do contexto, a sigla CAP se refere a quais propriedades. Julgue as a�rmativas a seguir:<br>I. Consistência.<br>II. Disponibilidade.<br>III. Tolerância a Falhas.<br>IV. Escalabilidade.<br>Assinale a alternativa correta que aponta somente afirmações verdadeiras:",
+    "options": [
+      { "text": "II, III, IV somente." },
+      { "text": "I, II, IV somente " },
+      { "text": "I, II, III, somente." },
+      { "text": "I, III, IV, somente." },
+      { "text": "I, II, III e IV." }
+    ],
+    "Resposta": "I, II, III, somente."
+  },
+  {
+    "question": "A arquitetura Lambda, como um padrão, fornece as maneiras e os meios para executar computação distribuída altamente escalonável e de alto desempenho em grandes conjuntos de dados e ainda (eventualmente) fornecer dados consistentes com o processamento necessário, tanto em lote quanto em tempo quase real. A arquitetura Lambda define as maneiras e os meios para permitir a arquitetura escalável, em vários perfis de carga de dados em uma empresa, conforme KIRAN (2015).<br> Conforme MARZ (2015) & KIRAN (2015), toda arquitetura não deve depender de qualquer tecnologia. No contexto da Arquitetura Lambda, os componentes são vistos pelas camadas (layers), que são:",
+    "options": [
+      { "text": "batch layer, speed layer, serving layer" },
+      { "text": "flume layer, Kafka layer, streaming layer" },
+      { "text": "streaming layer, speed layer, batch layer" },
+      { "text": "speed layer, serving layer, batch layer, streaming layer" },
+      { "text": "serving layer, batch layer, service layer, streaming layer" }
+    ],
+    "Resposta": "batch layer, speed layer, serving layer"
+  },
+  {
+    "question": "Conforme VAISH & MISRA (2013), esse tipo de armazenamento de documentos permite a inserção, recuperação e manipulação de dados semiestruturados. A maioria dos bancos de dados disponíveis nesta categoria usa formatos como XML, JSON, BSON ou YAML, com acesso a dados normalmente por protocolo HTTP, usando API RESTful para interoperabilidade entre linguagens.<br>  Sobre o modelo de documentos é correto afirmar:<br>I-Dois registros podem ter conjuntos de campos ou colunas completamente diferentes.<br>II-Os registros podem ou não aderir a um esquema específico<br>III-Os registros devem aderir a um esquema específico<br>IV-Nem todos os campos podem ser indexados<br>V-Permite que existam relacionamentos em formato de grafos<br>É correto o que se afirma em:",
+    "options": [
+      { "text": "I e II somente" },
+      { "text": "I, II, IV, V somente" },
+      { "text": "I, III somente" },
+      { "text": "II, IV e V somente" },
+      { "text": "I, III e IV somente" }
+    ],
+    "Resposta": "I e II somente"
+  },
+  {
+    "question": "Diversas aplicações no mundo moderno precisam dar suporte há muitos usuários ao mesmo tempo. Desta forma os SGBD´s precisam além de suas diversas funções, garantir a confiabilidade das transações diárias, mesmo porque tudo ocorre de forma concorrente.<br>Neste contexto os SGDB modernos, usam a transação, que é uma unidade lógica de trabalho, determinada por uma sequência de operações, finalizada pela execução de uma operação COMMIT(confirmação de gravação em Banco de Dados) ou ROLLBACK (restaurar ação anterior). A transação deve possuir importantes propriedades, conhecidas pelas iniciais ACID.SILBERSCHATZ et al (1999),<br>Dentre elas, existe uma propriedade na qual a transação não pode violar as restrições de integridades previamente determinadas para o banco de dados.<br>Assinale a alternativa correta, que aponta esta propriedade:",
+    "options": [
+      { "text": "Consistência" },
+      { "text": "Atomicidade" },
+      { "text": "Isolamento" },
+      { "text": "Durabilidade" },
+      { "text": "Comunicação" }
+    ],
+    "Resposta": "Consistência"
+  },
+  {
+    "question": "Após ser realizada a migração de dados, deixou-se a coleção de artigos com documentos seguindo a estrutura abaixo:<br><img src='./Img_perguntas/DNRQ1.png'><br>No entanto, porque utilizamos o sub documento para guardar as informações do autor ao invés de um documento separado?",
+    "options": [
+      { "text": "Utilizamos um sub documento porque no MongoDB é uma boa prática trazer as informações necessárias em uma única consulta a um documento." },
+      { "text": "Porque um sub documento é a única maneira de modelar neste caso." },
+      { "text": "Porque cada autor só vai poder escrever um artigo, então guardamos diretamente nele." },
+      { "text": "Porque no MongoDB só é possível deixar as informações dentro do mesmo documento." },
+      { "text": "Além de sub documentos, pode-se modelar referenciando um documento externo também, o que tornaria uma consulta mais rápida." }
+    ],
+    "Resposta": "Utilizamos um sub documento porque no MongoDB é uma boa prática trazer as informações necessárias em uma única consulta a um documento."
+  },
+  {
+    "question": "Há componentes importantes na arquitetura de Data Lake Lambda. Conforme MARZ (2015) & KIRAN (2015), toda arquitetura não deve depender de qualquer tecnologia. No contexto da Arquitetura Lambda, os componentes são vistos pelas camadas (layers).<br>Diante desse contexto, analise as afirmativas a seguir:<br>I - Camada de processamento em Lote (batch layer): refere-se à aquisição de dados em tempos já passados. Exemplo: para períodos que já fecharam. São dados passados. As vendas do dia anterior serão processadas, além de crescerem constantemente em tamanho.<br>II - Camada de processamento tempo real (speed layer): aquisição e análise de dados em tempo real. Exemplo: cada clique de venda será processado. A cada segundo, verifica-se a temperatura do motor do carro. Fluxo constante de dados. Armazenar dados mutáveis. Menos em tamanho / volume. Visualizações em tempo real por um período especificado.<br>III - Camada de Serviço (serving layer): camada responsável pela visualização dos dados. Ou seja, onde serão expostas e mescladas as visualizações criadas pela camada de lote e velocidade para consulta por outros sistemas ou usuários.<br>IV – Camada de Interpolação: responsável pelo armazenamento dos dados em cache.Assinale a alternativa correta, que aponta somente afirmações verdadeiras:",
+    "options": [
+      { "text": "I, II, somente." },
+      { "text": "I, II, III somente." },
+      { "text": "I, III, III, V." },
+      { "text": "I e III, somente." },
+      { "text": "II e IV, somente." }
+    ],
+    "Resposta": "I, II, III somente."
+  },
+  {
+    "question": "Seja a collection inventario. Vários documentos são inseridos conforme abaixo.<br><img src='./Img_perguntas/DNRQ2.png'><br>A equipe de logística precisa verificar qual a maior e a menor altura dos itens disponíveis em cada unidade de medida. Eles decidem agrupar os itens pela unidade (tamanho.unidade) e, para cada unidade, encontrar a maior e a menor altura (tamanho.altura). Qual consulta atenderia melhor a essa necessidade?",
+    "options": [
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ2A.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ2B.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ2C.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ2D.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ2E.png'>" }
+    ],
+    "Resposta": "OP - <br><img src='./Img_perguntas/DNRQ2B.png'>"
+  },
+  {
+    "question": "Seja a collection inventario. Vários documentos são inseridos conforme abaixo.<br><img src='./Img_perguntas/DNRQ2.png'><br>O gerente de produtos quer saber quantos itens estão disponíveis em cada cor para identificar tendências de popularidade. Ele usa uma consulta para agrupar os documentos por cor e contar quantos itens existem de cada cor. Qual consulta correta permitirá ao gerente ver essa informação",
+    "options": [
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ3A.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ3B.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ3C.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ3D.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ3E.png'>" }
+    ],
+    "Resposta": "OP - <br><img src='./Img_perguntas/DNRQ3A.png'>"
+  },
+  {
+    "question": "Existem dezenas de bancos NOSQL porque existem dezenas de problemas de persistência de dados que o SQL tradicional não resolve. Simples assim. Claro, também temos algumas classificações entre eles, pois resolvem problemas em comum, geralmente com abordagens diferentes. É provável que isso seja cada vez mais frequente conforme estas ferramentas se tornem mais populares (pouco se ensina nas faculdades ainda, por exemplo). De acordo com o contexto tenho uma solução mais adequada. De qual conceito se está falando?:",
+    "options": [
+      { "text": "Persistência poliglota" },
+      { "text": "Modelo de documentos" },
+      { "text": "Modelo de Grafos" },
+      { "text": "Escalabilidade" },
+      { "text": "Arquitetura distribuída" }
+    ],
+    "Resposta": "Persistência poliglota"
+  },
+  {
+    "question": "Seja um banco de dados com a coleção chamada inventario que tem os seguintes campos: nome,qtd, tamanho, status, cores.<br>Abaixo, pode-se ver um documento desta coleção:<br><img src='./Img_perguntas/DNRQ4.png'><br>Numa consulta, para saber a quantidade total de cadaproduto é preciso criar um grupo. O comando correto desta consulta é",
+    "options": [
+      { "text": "db.inventario.aggregate([{$group: { _id: '$nome', total: { $sum: '$qtd' } } }])" },
+      { "text": "db.inventario.aggregate([{ $group: { nome: '$nome', total: { $sum: '$qtd' } } }])" },
+      { "text": "db.inventario.aggregate([{ $group: { _id: '$nome', total: { '$qtd' } } }])" },
+      { "text": "db.inventario.aggregate([{ $group: { nome: '$nome', total: { '$qtd' } } }])" },
+      { "text": "db.inventario.aggregate([{ $group: { _id: '$status', total: { $sum: '$qtd' } } }])" }
+    ],
+    "Resposta": "db.inventario.aggregate([{$group: { _id: '$nome', total: { $sum: '$qtd' } } }])"
+  },
+  {
+    "question": "O que caracteriza o Big Data, de acordo com alguns autores tais que RAMOS (2015, p.34) e DUMBILL (2012, p.29)?RAMOS, Atos. Infraestrutura Big Data com Opensource. Rio de Janeiro, RJ: Ciência Moderna,2015. DUMBILL, E. What is Big Data? In: O’Reilly Media Inc. Big Data Now: current perspectives. O’Reilly Media: California. 2012",
+    "options": [
+      { "text": "Volume, Velocidade, Versatilidade, Visibilidade e Veracidade." },
+      { "text": "Variedade, Velocidade, Valor, Viabilidade e Veracidade." },
+      { "text": "Volume, Variedade, Velocidade, Veracidade e Valor." },
+      { "text": "Volume, Variedade, Velocidade, Versatilidade e Veracidade." },
+      { "text": "Variedade, Velocidade, Viabilidade, Versatilidade e Veracidade" }
+    ],
+    "Resposta": "Volume, Variedade, Velocidade, Veracidade e Valor."
+  },
+  {
+    "question": "Qual é a principal diferença entre um Data Lake e um Data Warehouse?",
+    "options": [
+      { "text": "Um Data Lake armazena apenas dados estruturados, enquanto um Data Warehouse armazena apenas dados não estruturados." },
+      { "text": "Um Data Lake é usado exclusivamente para análises em tempo real, enquanto um Data Warehouse é usado para análises em lote." },
+      { "text": "Um Data Lake armazena dados em sua forma bruta, incluindo dados não estruturados, enquanto um Data Warehouse armazena dados estruturados e processados para consultas analíticas." },
+      { "text": "Um Data Lake requer hardware especializado para implantação, enquanto um Data Warehouse pode ser implantado em hardware convencional." },
+      { "text": "Um Data Lake é uma tecnologia obsoleta, enquanto um Data Warehouse é uma tecnologia moderna em análise de dados." }
+    ],
+    "Resposta": "Um Data Lake armazena dados em sua forma bruta, incluindo dados não estruturados, enquanto um Data Warehouse armazena dados estruturados e processados para consultas analíticas."
+  },
+  {
+    "question": "Qual das seguintes características NÃO faz parte dos '4 Vs' do Big Data?",
+    "options": [
+      { "text": "Volume" },
+      { "text": "Veracidade" },
+      { "text": "Verboso" },
+      { "text": "Variedade" },
+      { "text": "Velocidade" }
+    ],
+    "Resposta": "Verboso"
+  },
+  {
+    "question": "Conforme documentação ocial do MongoDB (2021), é possível indexar documentos usando um índice de texto. O MongoDB fornece índices de texto para dar suporte a consultas de pesquisa de texto em conteúdo de string. Índices text podem incluir qualquer campo cujo valor seja uma string ou uma matriz de elementos de string.<br>De acordo com o contexto, assinale a alternativa correta, que melhor representa o comando para criar um índice de texto nos campos title e content na coleção articles.",
+    "options": [
+      { "text": "db.articles.createIndex({<br>title: 'text',<br>content: 'text'<br>})" },
+      { "text": "db.articles.createIndex({<br>title: 'text',<br>text: 'content’<br>})" },
+      { "text": "db.articles.Index({<br>title: 'text',<br>content: 'text'<br>})" },
+      { "text": "db.articles.createIndex({<br>text: 'text',<br>content: 'text'<br>})" },
+      { "text": "db.createIndex({<br>title: 'text',<br>content: 'text'<br>})" }
+    ],
+    "Resposta": "db.articles.createIndex({<br>title: 'text',<br>content: 'text'<br>})"
+  },
+  {
+    "question": "Muitas vezes, duplicam-se algumas informações de uma coleção com o objetivo de melhorar a performance na leitura dos dados. No entanto, é preciso atualizar a informação em dois lugares. <br>Porque fazer a modelagem dessa maneira?",
+    "options": [
+      { "text": "Como o banco de dados vai ser lido muito mais vezes do que um documento vai ser escrito, escolhe-se priorizar a leitura." },
+      { "text": "Duplicar as informações facilita a escrita dos dados, já que se pode escrever em qualquer um dos documentos." },
+      { "text": "Duplicar as informações não tem impacto nenhum na leitura ou na escrita." },
+      { "text": "Duplicar informações é algo muito complexo e devemos evitar." },
+      { "text": "Duplicar informações é algo muito simples e deve ser feito para cada coleção." }
+    ],
+    "Resposta": "Como o banco de dados vai ser lido muito mais vezes do que um documento vai ser escrito, escolhe-se priorizar a leitura."
+  },
+  {
+    "question": "Qual das alternativas a seguir é uma característica do modelo de dados chave-valor em Bancos de Dados NoSQL, como o Redis?",
+    "options": [
+      { "text": "Os dados são organizados em tabelas, como nos bancos de dados relacionais." },
+      { "text": "Cada chave é associada a um valor único, e as operações de busca e inserção são rápidas." },
+      { "text": "O modelo chave-valor só suporta dados numéricos e não pode armazenar strings ou listas." },
+      { "text": "É necessário denir um schema para os dados antes de inseri-los no banco." },
+      { "text": "O modelo chave-valor é especialmente útil para dados altamente estruturados e relacionados." }
+    ],
+    "Resposta": "Cada chave é associada a um valor único, e as operações de busca e inserção são rápidas."
+  },
+  {
+    "question": "Seja a collection inventario. Vários documentos são inseridos conforme abaixo.<br><img src='./Img_perguntas/DNRQ2.png'><br>A equipe financeira deseja analisar o inventário agrupando os itens pelo nome, somando a quantidade (qtd) de cada grupo e calculando a média da largura (tamanho.largura) para cada item. Qual consulta permitirá essa análise?",
+    "options": [
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ5A.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ5B.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ5C.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ5D.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ5E.png'>" }
+    ],
+    "Resposta": "OP - <br><img src='./Img_perguntas/DNRQ5A.png'>"
+  },
+  {
+    "question": "Seja a collection inventario. Vários documentos são inseridos conforme abaixo.<br><img src='./Img_perguntas/DNRQ2.png'><br>A equipe de estoque está analisando o inventário para verificar a média de quantidade (qtd) dos itens que estão em uso ou em estoque. Para isso, eles agrupam os itens pelo status (Em estoque ou Em uso) e calculam a média da quantidade de cada grupo. Qual é a consulta que eles devem usar?",
+    "options": [
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ6A.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ6B.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ6C.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ6D.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DNRQ6E.png'>" }
+    ],
+    "Resposta": "OP - <br><img src='./Img_perguntas/DNRQ6B.png'>"
+  }
+  
+]
+

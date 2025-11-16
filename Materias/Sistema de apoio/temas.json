@@ -1,0 +1,11 @@
+[
+{"question": "Em quais problemas normalmente são utilizados os Algorítmos Genéticos?", 
+            "Resposta": "R1: Os algoritmos genéticos são utilizados para resolver problemas mais complexos como nas áreas de ciências, no sistema financeiro e inteligência artificial, por exemplo.<br>R2: Normalmente os Algorítimos genéticos são métodos de otimização e busca baseados nos princípios da seleção natural e evolução. Eles são amplamente usados em problemas onde as soluções não podem ser encontradas facilmente por métodos tradicionais devido a complexibilidade ou tamanho do espaço de busca, como: Treinamento de redes neurais, desing...."},
+{"question": "Qual a principal diferença entre os data lakes e os data warehouses ?", 
+            "Resposta": "A diferença mais significativa entre data lakes e data warehouses reside nos tipos de dados armazenados em cada um, visto que os data lakes armazenam grandes volumes de dados brutos e não estruturados, oferecendo flexibilidade para consultas futuras. Enquanto os data warehouses armazenam dados estruturados e processados, otimizados para análise rápida e consultas específicas."},
+{"question": "Existem três tipos básicos de data marts:<br>- dependentes;<br>- independentes; e<br>- híbridos.<br>Qual a principal diferença entre eles?", 
+            "Resposta": "Resposta do Gemini:A principal diferença entre os Data Marts reside na sua fonte de dados e relação com o Data Warehouse (DW):<br>Dependente: Extrai dados de um Data Warehouse centralizado existente, garantindo consistência.<br>Independente: Coleta dados diretamente de fontes operacionais, sem conexão com um DW central.<br>Híbrido: Combina dados do DW centralizado com outras fontes externas ou operacionais.<br><br>Resposta do GPT:Data Mart Dependente: usa dados extraídos do Data Warehouse; garante consistência.<br>Data Mart Independente: obtém dados diretamente das fontes operacionais; mais rápido, porém menos padronizado.<br>Data Mart Híbrido: combina dados do Data Warehouse e das fontes operacionais; oferece flexibilidade com alguma integração."}
+            
+]
+
+

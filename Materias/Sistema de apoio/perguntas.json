@@ -1,0 +1,180 @@
+[
+  {
+    "question": "Um sistema de informação (SI) que fornece informações sobre o desempenho da organizaçãogerando respostas e relatórios urgentes, importantes, periódicos ou restritos em formato fixo préespecificado a partir de informações produzidas por extração ou manipulação dos dadoscorporativos é um SI classificado como:<br>Selecione a opção correta:",
+    "options": [
+      { "text": "Sistema de Informação Gerencial" },
+      { "text": "Sistema de Apoio a Decisão" },
+      { "text": "Sistema de Suporte a Transações" },
+      { "text": "Sistema de Processamento de Transações" },
+      { "text": "Sistema de Business Inteligence" }
+    ],
+    "Resposta": "Sistema de Informação Gerencial"
+  },
+  {
+    "question": "A tomada de decisão é um processo que necessita de entradas (informação) para que ocorra uma boa saída (tomada de decisão). Assim sendo, em um processo de decisão organizacional, o foco da tomada de decisão necessita ser:<br>Marque a alternativa correta.",
+    "options": [
+      { "text": "orientada aos objetivos organizacionais" },
+      { "text": "orientada para custos." },
+      { "text": "orientada para a maximização de retornos locais." },
+      { "text": "orientada para as funções de direção e controle." },
+      { "text": "orientada para as funções de planejamento e organização." }
+    ],
+    "Resposta": "orientada aos objetivos organizacionais"
+  },
+  {
+    "question": "Para a mineração de dados usamos uma grande variedade de técnicas.<br>Assinale aquela que utiliza um algorítmo de MapReducing",
+    "options": [
+      { "text": "Lógica Difusa" },
+      { "text": "Regressão linear" },
+      { "text": "Clustering" },
+      { "text": "Partitioning" },
+      { "text": "Assembling" }
+    ],
+    "Resposta": "Lógica Difusa"
+  },
+  {
+    "question": "O conceito de data warehouse é amplamente utilizado no campo de TI e se refere a um sistema que agrega dados de múltiplas fontes. Diferente de outros tipos de armazenamento, como bancos de dados convencionais, o data warehouse é projetado para dar suporte a análises avançadas, mineração de dados e aprendizado de máquina. Ele se destaca por armazenar grandes volumes de dados históricos e fornecer uma base para decisões estratégicas. Diante disso, qual das opções abaixo descreve melhor a função de um data warehouse?",
+    "options": [
+      { "text": "Um banco de dados usado exclusivamente para transações em tempo real" },
+      { "text": "Um sistema que armazena dados de múltiplas fontes para análises avançadas" },
+      { "text": "Um repositório que armazena apenas dados financeiros de uma empresa" },
+      { "text": "Um sistema limitado ao armazenamento de big data não estruturado" },
+      { "text": "Uma ferramenta de backup de dados operacionais" }
+    ],
+    "Resposta": "Um sistema que armazena dados de múltiplas fontes para análises avançadas"
+  },
+  {
+    "question": "Um problema cuja ocorrência é rotineira, que possui definição clara e que as etapas a serem cumpridas para a obtenção dos resultados estejam bem delineadas é um problema do tipo: <br>Selecione a opção correta:",
+    "options": [
+      { "text": "estruturado." },
+      { "text": "pervasivo." },
+      { "text": "difuso." },
+      { "text": "não estruturado." },
+      { "text": "analítico." }
+    ],
+    "Resposta": "estruturado."
+  },
+  {
+    "question": "Em relação ao Big Data, escolha a opção que corretamente descreve quanto é um zettabyte",
+    "options": [
+      { "text": "um sextilhão de bytes" },
+      { "text": "um quatilhão de bytes" },
+      { "text": "um bilhão de bytes" },
+      { "text": "um octatilhão de bytes" },
+      { "text": "um sextilhão de Gigabytes" }
+    ],
+    "Resposta": "um sextilhão de bytes"
+  },
+  {
+    "question": "De acordo com o nosso Tópico 07 (Inteligência de Negócios (BI) e Sistemas de Suporte à Decisão), selecione a opção correta sobre quais são os quatro mais básicos componentes da inteligência de negócios.",
+    "options": [
+      { "text": "Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação de dados e, finalmente, o painel de dados e relatórios." },
+      { "text": "Os próprios dados (dados brutos), o ETL, o Data Warehouse e o Data Lake." },
+      { "text": "O Data Warehouse, o Data Lake e a parte de acesso, análise e apresentação de dados e, finalmente, o painel de dados e relatórios." },
+      { "text": "O Data Warehouse, o Data Mart, o Data Lake e, finalmente, o painel de dados e relatórios." },
+      { "text": " Nenhuma das opções anteriores." }
+    ],
+    "Resposta": "Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação de dados e, finalmente, o painel de dados e relatórios."
+  },
+  {
+    "question": "Um sistema que enfatiza a fleexibilidade, adaptabilidade e respostas rápidas que permite que os usuários inicializem e controlem os inputs (entradas) e outputs (saídas), oferecendo suporte e ajuda para a solução de problemas cujas soluções podem não estar especificadas em seu desenvolvimento e que pode usar sofisticados modelos de análise e modelagem de dados é um sistema de informação categorizado como:<br>Marque a opção correta",
+    "options": [
+      { "text": "estratégico" },
+      { "text": "tático" },
+      { "text": "operacional" },
+      { "text": "especialista" },
+      { "text": "transacional" }
+    ],
+    "Resposta": "estratégico"
+  },
+  {
+    "question": "São fatores que mostram influência decisiva no que diz respeito ao processo de tomada de decisão:<br>( 1 ) sua orientação para objetivos<br>( 2 ) sua condição pervasiva<br>( 3 ) seu caráter intuitivo<br>( 4 ) seu caráter de exercício intelectual<br>( 5 ) o fato de ser um processo descontínuo:<br>Escolha a opção que denota corretamente os fatores que influenciam o processo de tomada de decisão.<br>Escolha UMA opção:",
+    "options": [
+      { "text": "1 – 2 - 4." },
+      { "text": "1 – 2 – 3." },
+      { "text": "2 – 3 – 4." },
+      { "text": "3 – 4 – 5." },
+      { "text": "1 – 2 – 5." }
+    ],
+    "Resposta": "1 – 2 - 4."
+  },
+  {
+    "question": "Um problema cuja ocorrência é inédita ou cheia de incertezas, que não possui definição clara e que as etapas a serem cumpridas para a obtenção dos resultados não estejam bem delineadas é um problema do tipo:<br>Selecione a opção correta:",
+    "options": [
+      { "text": "não estruturado." },
+      { "text": "sintético." },
+      { "text": "analítico." },
+      { "text": "estruturado." },
+      { "text": "semi-estruturado." }
+    ],
+    "Resposta": "não estruturado."
+  },
+  {
+    "question": "Conforme Machado (2010), existem três tipos diferentes de gerenciadores de processo: gerenciador de carga (load manager), gerenciador de armazenamento (warehouse manager) e gerenciador de consultas (query manager). Qual a função de um Load Manager?",
+    "options": [
+      { "text": "Ele executa as operações necessárias, para extrair e carregar os dados no banco de dados. O tamanho e a complexidade de um load manager variam entre soluções específicas de um data warehouse para outro. Em termos de arquitetura, o load manager executa as seguintes funções: extrair dados do sistema de origem, carregar rapidamente os dados extraídos no armazenamento de dados temporário e realizar transformações simples em uma estrutura semelhante à do armazém de dados." },
+      { "text": "Ele é responsável por direcionar as consultas às tabelas adequadas. Ao fazê-lo, ele acelera a solicitação de consulta e o processo de resposta. Além disso,é responsável por agendar a execução das consultas postadas pelo usuário." },
+      { "text": "Ele é responsável por tudo o que se relaciona diretamente à armazenagem. Ele consiste em um sofhvare de sistema de terceiros (os chamados `third-party sofhvare”), os quais são programas em C e em Shell Script." },
+      { "text": "Ele é o gerente que é responsável pela carga de dados em um Data Warehouse" },
+      { "text": "Ele é o gerente que é responsável pela consulta de dados em um Data Warehouse" }
+    ],
+    "Resposta": "Ele executa as operações necessárias, para extrair e carregar os dados no banco de dados. O tamanho e a complexidade de um load manager variam entre soluções específicas de um data warehouse para outro. Em termos de arquitetura, o load manager executa as seguintes funções: extrair dados do sistema de origem, carregar rapidamente os dados extraídos no armazenamento de dados temporário e realizar transformações simples em uma estrutura semelhante à do armazém de dados."
+  },
+  {
+    "question": "Para a mineração de dados usamos uma grande variedade de algorítmos estatísticos. <br>Assinale aquele que representa um método estatístico básico",
+    "options": [
+      { "text": "Algoritmo de regressão" },
+      { "text": "Algorítmo de árvore de decisão" },
+      { "text": "Algorítmo de clusterização" },
+      { "text": "Algorítmo de lógica difusa" },
+      { "text": "Algorítmos genéticos" }
+    ],
+    "Resposta": "Algoritmo de regressão"
+  },
+  {
+    "question": "A arquitetura de um data warehouse é composta por três camadas principais: camada inferior, intermediária e superior. Essas camadas desempenham funções específicas que vão desde a coleta e transformação de dados até a disponibilização de uma interface amigável para análise. Sobre essas camadas, analise as seguintes descrições:<br> A camada inferior é responsável pelo ETL (Extract, Transform & Load) ou ELT (Extract, Load & Transform).<br>A camada intermediária inclui o processamento analítico online (OLAP).<br>A camada superior oferece interfaces para relatórios e consultas de usuários.<br>Com base nessas informações, qual alternativa descreve corretamente uma das funções dessas camadas?",
+    "options": [
+      { "text": "A camada intermediária armazena dados históricos não estruturados" },
+      { "text": "A camada inferior é responsável pelo processamento OLAP." },
+      { "text": "O ETL é usado exclusivamente na camada superior." },
+      { "text": "A camada superior fornece uma interface amigável para análises." },
+      { "text": "A camada intermediária coleta e transforma dados de várias fontes." }
+    ],
+    "Resposta": "A camada superior fornece uma interface amigável para análises."
+  },
+  {
+    "question": "Quais são os trés tipos principais de data warehouses?",
+    "options": [
+      { "text": "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart" },
+      { "text": "Data warehouse (DW), Data mart (DM) e Data Lake (DL)" },
+      { "text": "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Power BI" },
+      { "text": "Data warehouse (DW), Power Query e Power Pivot" },
+      { "text": "Armazenamento de dados operacionais (ODS) , Power BI e Power View" }
+    ],
+    "Resposta": "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart"
+  },
+  {
+    "question": "No contexto de data warehousing, o processo de ETL (Extract, Transform & Load) é essencial para consolidar dados provenientes de múltiplas fontes. Ele envolve etapas de extração dos dados, transformação para padronização e carregamento no data warehouse. Esse processo é amplamente utilizado em sistemas locais e estruturados. Qual é o signicado correto da sigla ETL?",
+    "options": [
+      { "text": "Extract, Transfer & Load" },
+      { "text": "Extract, Transform & Load" },
+      { "text": "Explore, Transform & Load" },
+      { "text": "Extract, Transform & Link" },
+      { "text": "Extract, Translate & Load" }
+    ],
+    "Resposta": "Extract, Transform & Load"
+  },
+  {
+    "question": "Um Sistema de Apoio a Decisão (SAD) é destinado a auxiliar os tomadores de decisão a endereçar resoluções para problemas dos tipos:<br>Marque a opção correta:",
+    "options": [
+      { "text": "semi-estruturados e não estruturados" },
+      { "text": "semi-estruturados e estruturados." },
+      { "text": "estruturados e não estruturados." },
+      { "text": "semi-estruturados e analíticos" },
+      { "text": "estruturados e analíticos" }
+    ],
+    "Resposta": "semi-estruturados e não estruturados"
+  }
+  
+]
+
