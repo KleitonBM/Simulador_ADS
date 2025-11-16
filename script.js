@@ -196,7 +196,7 @@ function loadQuestion(index = 0) {
     
     q.options.forEach(option => {
         let btn = document.createElement("button");
-        btn.textContent = option.text;
+        btn.innerHTML = option.text;
         btn.onclick = () => checkAnswer(option.text, btn);
         
         if (answers[currentQuestion] && answers[currentQuestion].selected === option.text) {
