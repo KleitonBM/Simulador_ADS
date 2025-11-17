@@ -1,0 +1,10 @@
+[
+    {"question": "Defina o conceito de memória virtual. Quais são os seus benefícios?", 
+                "Resposta": " A memória virtual não é utilizada diretamente para acessar a memória física, mas sim para gerenciar e expandir a utilização da memória de forma eficiente. Ela cria uma abstração da memória física, permitindo que cada processo tenha a ilusão de possuir toda a memória disponível para si. "},
+    {"question": "Qual é a diferença entre memória virtual por paginação e por segmentação? Sem título", 
+                "Resposta": "A memória virtual por paginação divide a memória em blocos de tamanho fixo chamados páginas, enquanto a segmentação divide em blocos de tamanho variável chamados segmentos, que refletem a estrutura lógica dos programas.  "},
+    {"question": "O que é a política de escalonamento de um sistema operacional?", 
+                "Resposta": "Politica de escalonamento é a regra que o sistema operacional utiliza para administrar o tempo do processamento entre as memorias, visando a segurança, a justiça e a prioridade. Tem como exemplo o FSFC (o comando indicado no inicio sempre será executado primeiro) o Round Robin e o SWAP (a troca rápida entre memória física e virtual quando a física não suportar mais a quantidade de dados processados)  "},
+     {"question": "Como funcionam os sistemas operacionais de tempo compartilhado?", 
+                "Resposta": " Sistemas operacionais de tempo compartilhado permitem que vários usuários utilizem o sistema simultaneamente, dividindo automaticamente o tempo de processamento entre eles de forma imperceptível. Isso otimiza a leitura de dados, o processamento, o uso da memória, do disco rígido e melhora o tempo de resposta."}
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "question": "A fragmentação é um fenômeno que ocorre na alocação de memória, onde o espaço disponível é dividido de maneira ineficiente, resultando em blocos livres que não podem ser usados adequadamente para novas alocações, afetando o desempenho e a utilização do sistema. A fragmentação externa ocorre quando: ",
+    "options": [
+      { "text": "Um bloco de memória alocado é maior que o necessário pelo programa." },
+      { "text": "A MMU falha ao traduzir endereços lógicos para físicos corretamente." },
+      { "text": "A memória disponível não é suficiente para armazenar o programa de um processo." },
+      { "text": "Existem blocos de memória livres que, somados, são suficientes, mas não há espaço contíguo disponível." },
+      { "text": "A memória é alocada de forma a evitar espaços livres não utilizados." }
+    ],
+    "Resposta": "Existem blocos de memória livres que, somados, são suficientes, mas não há espaço contíguo disponível."
+  },{
+    "question": "Qual o termo descreve a parte da linha de comando que ajusta o comportamento de comando?",
+    "options": [
+      { "text": "Opção" },
+      { "text": "Argumento" },
+      { "text": "Comando" },
+      { "text": "Atalho" },
+      { "text": "Prompt" }
+    ],
+    "Resposta": "Opção"
+  },{
+    "question": "Qual comando é utilizado para mudar o diretório atual no terminal?",
+    "options": [
+      { "text": "pwd" },
+      { "text": "mv" },
+      { "text": "ls" },
+      { "text": "cp" },
+      { "text": "cd" }
+    ],
+    "Resposta": "cd"
+  },{
+    "question": "Para que serve o comando chmod em um sistema Unix-like?",
+    "options": [
+      { "text": "Para mover arquivos para outro diretório" },
+      { "text": "Para mudar o proprietário de um arquivo" },
+      { "text": "Para alterar as permissões de um arquivo ou diretório" },
+      { "text": "Para criar um novo diretório" },
+      { "text": "Para listar arquivos em um diretório." }
+    ],
+    "Resposta": "Para alterar as permissões de um arquivo ou diretório"
+  },{
+    "question": "Ao usar o comando chmod 750 arquivo.txt , quais permissões estão sendo concedidas?",
+    "options": [
+      { "text": "Leitura e execução para todos." },
+      { "text": "Leitura e execução para o grupo, escrita para outros." },
+      { "text": "Nenhuma permissão para ninguém." },
+      { "text": "Leitura e escrita para o proprietário, escrita e execução para o grupo, nenhuma permissão para outros." },
+      { "text": "Leitura, escrita e execução para o proprietário, leitura e execução para o grupo, nenhuma permissão para outros" }
+    ],
+    "Resposta": "Leitura, escrita e execução para o proprietário, leitura e execução para o grupo, nenhuma permissão para outros"
+  },{
+    "question": "Em relação a técnica de Swapping é correto afirmar que",
+    "options": [
+      { "text": "Amplia a capacidade de memória total do sistema possuindo o mesmo desempenho que a memória física." },
+      { "text": "Uma área de memória de alta velocidade onde são armazenados os processos mais prioritários." },
+      { "text": "Uma técnica de escalonamento de processos usada em sistemas de tempo reaL" },
+      { "text": "É uma área de memória cache usada nos casos em que a memória física do sistema está esgotada." },
+      { "text": "É um mecanismo permitindo que alguns processos possam ser movidos para a memória secundária am de liberar espaço." }
+    ],
+    "Resposta": "É um mecanismo permitindo que alguns processos possam ser movidos para a memória secundária am de liberar espaço."
+  },{
+    "question": "Qual comando pode ser usado para alterar a propriedade de um arquivo para um novo proprietário?  ",
+    "options": [
+      { "text": "chgrp" },
+      { "text": "passwd" },
+      { "text": "usermod" },
+      { "text": "chown" },
+      { "text": "chmod" }
+    ],
+    "Resposta": "chown"
+  },{
+    "question": "Em sistemas que utilizam memória virtual, o espaço de swap e o algoritmo LRU desempenham papéis importantes. Qual das afirmações abaixo descreve corretamente como esses componentes funcionam?",
+    "options": [
+      { "text": "O swap e o LRU mantêm dados na memória RAM para evitar a troca frequente de páginas." },
+      { "text": "O espaço de swap funciona como uma extensão da RAM, armazenando páginas inativas, e o algoritmo LRU decide quais páginas menos acessadas serão movidas para o swap quando a RAM estiver cheia" },
+      { "text": "O swap serve para armazenar processos de alta prioridade, e o LRU substitui páginas mais antigas com base na ordem de chegada" },
+      { "text": "O LRU prioriza páginas mais recentes para armazenamento no swap, enquanto páginas mais antigas permanecem na RAM" },
+      { "text": "O espaço de swap armazena dados permanentemente, enquanto o algoritmo LRU remove dados que" }
+    ],
+    "Resposta": "O espaço de swap funciona como uma extensão da RAM, armazenando páginas inativas, e o algoritmo LRU decide quais páginas menos acessadas serão movidas para o swap quando a RAM estiver cheia"
+  },{
+    "question": "A fragmentação é um fenômeno que ocorre na alocação de memória, onde o espaço disponível é dividido de maneira ineficiente, resultando em blocos livres que não podem ser usados adequadamente para novas alocações, afetando o desempenho e a utilização do sistema. A fragmentação interna ocorre quando ",
+    "options": [
+      { "text": "A memória disponível é insuficiente para um processo." },
+      { "text": "O sistema operacional não consegue encontrar espaço suficiente para armazenar dados." },
+      { "text": "Um bloco de memória alocado possui mais espaço do que o necessário pelo processo." },
+      { "text": "A memória é alocada em blocos de tamanho variável, ajustando-se ao tamanho exato requerido." },
+      { "text": "Existem espaços livres suficientes, mas não contíguos, para atender a uma solicitação de adoção." }
+    ],
+    "Resposta": "Um bloco de memória alocado possui mais espaço do que o necessário pelo processo."
+  },{
+    "question": "Em um sistema local não distribuído, uma das soluções para resolver problemas de comunicação entre processos é o uso de semáforos. Em relação a este mecanismo é correto afirmar que: ",
+    "options": [
+      { "text": "A operação Wake up (acordar) permite que o processo permaneça aguardando." },
+      { "text": "O processo é acordado (Wake up) caso o valor do semáforo seja maior do que 0 (zero) dando continuidade ao processo." },
+      { "text": "Quando um semáforo executa a operação sleep, signifca que o processo será finalizado." },
+      { "text": "A operação dormir (sleep) é executada quando o semáforo é maior do que 0 (zero)." },
+      { "text": "Quando as operações Wake up e sleep são executadas, isso permite que qualquer outro processo acesse o semáforo" }
+    ],
+    "Resposta": "O processo é acordado (Wake up) caso o valor do semáforo seja maior do que 0 (zero) dando continuidade ao processo."
+  },{
+    "question": "Em alguns casos, o compartilhamento de recursos em sistemas operacionais pode gerar situações indesejadas. A situação em que um processo aguarda por um recurso que nunca estará disponível ou um evento que nunca ocorrerá é conhecida como ",
+    "options": [
+      { "text": "Deadlock" },
+      { "text": "Exclusão mútua" },
+      { "text": "Condições de corrida" },
+      { "text": "Starvation" },
+      { "text": "Page fault" }
+    ],
+    "Resposta": "Deadlock"
+  },{
+    "question": "Os sistemas operacionais multitarefa possuem como característica: ",
+    "options": [
+      { "text": "executar somente um programa (tarefa) por vez o que aumenta o desempenho, uma vez que" },
+      { "text": "não permite o compartilhamento dos recursos do computador." },
+      { "text": "acessar a internet de forma mais otimizada, pois permite a comunicação com vários servidores sumultâneos." },
+      { "text": "executar mais de um programa (tarefa) ao mesmo tempo, compartilhando os recursos do computador." },
+      { "text": "a existência de vários processadores, aumentando o desempenho na execução dos programas." }
+    ],
+    "Resposta": "executar mais de um programa (tarefa) ao mesmo tempo, compartilhando os recursos do computador."
+  },{
+    "question": "Qual dos seguintes tipos de sistemas operacionais é projetado para compartilhar o acesso de recursos do processador ao mesmo tempo? ",
+    "options": [
+      { "text": "Sistema operacional de tempo real com capacidade de agendamento." },
+      { "text": "Ambiente de sistema operacional para múltiplos usuários." },
+      { "text": "Sistema operacional de gerenciamento de tarefas em lote." },
+      { "text": "Sistema operacional monotarefa" },
+      { "text": "Sistema operacional para servidores de rede." }
+    ],
+    "Resposta": "Ambiente de sistema operacional para múltiplos usuários."
+  },{
+    "question": "Qual sistema operacional, criado na década de 1960 e mencionado no texto, deu origem aos sistemas operacionais da família Linux que utilizam sua estrutura no kernel?",
+    "options": [
+      { "text": "Windows" },
+      { "text": "MacOS" },
+      { "text": "Linux" },
+      { "text": "Unix" },
+      { "text": "Android" }
+    ],
+    "Resposta": "Unix"
+  },{
+    "question": "Qual das seguintes opções descreve corretamente o que acontece quando você usa o operador de redirecionamento > ?  ",
+    "options": [
+      { "text": "A saída do comando é exibida no terminal" },
+      { "text": "A saída do comando é adicionada ao nal de um arquivo existente." },
+      { "text": "A saída do comando é salva em um arquivo, sobrescrevendo o arquivo se ele já existir" },
+      { "text": "A saída do comando é passada como entrada para outro comando." },
+      { "text": "O comando é executado em segundo plano." }
+    ],
+    "Resposta": "A saída do comando é salva em um arquivo, sobrescrevendo o arquivo se ele já existir"
+  },{
+    "question": "Qual operador é utilizado para passar a saída de um comando como entrada para outro comando?  ",
+    "options": [
+      { "text": ";" },
+      { "text": ">>" },
+      { "text": "|" },
+      { "text": "<" },
+      { "text": ">" }
+    ],
+    "Resposta": "|"
+  },{
+    "question": "O conceito de endereçamento em sistemas de computador se refere à maneira como a memória é identicada e acessada. Em um sistema de memória virtual, o endereço lógico (ou virtual):  ",
+    "options": [
+      { "text": "É a localização física exata na RAM onde os dados estão armazenados." },
+      { "text": "É gerado somente durante o processo de compactação da memória." },
+      { "text": "Refere-se à localização de memória vista pelo programa, não à localização real na RAM." },
+      { "text": "Não precisa de tradução, pois já está no formato adequado para a MMU." },
+      { "text": "É utilizado pelo sistema operacional para acessar diretamente a memória RAM." }
+    ],
+    "Resposta": "Refere-se à localização de memória vista pelo programa, não à localização real na RAM."
+  },{
+    "question": "Por que as senhas no arquivo /etc/shadow são armazenadas como hashes criptográcos?   ",
+    "options": [
+      { "text": "Para economizar espaço de armazenamento" },
+      { "text": "Para facilitar a leitura" },
+      { "text": "Para aumentar a segurança, tornando inviável recuperar a senha original" },
+      { "text": "Para permitir a recuperação das senhas originais" },
+      { "text": "Para facilitar a edição manual" }
+    ],
+    "Resposta": "Para aumentar a segurança, tornando inviável recuperar a senha original"
+  },{
+    "question": "Em relação as transições de estados de um processo é correto afirmar que:",
+    "options": [
+      { "text": "Um processo no estado de execução pode mudar para o estado de término ou para o estado de espera ou para o estado de pronto, somente" },
+      { "text": "Um processo no estado de espera só pode alternar ara o estado de execução." },
+      { "text": "Um processo no estado de pronto pode ir para o estado de execução, ou estado de espera." },
+      { "text": "Um processo no estado de pronto pode transitar para o estado de espera." },
+      { "text": "Um processo no estado de término pode voltar ao estado de pronto caso seja finalizado por engano." }
+    ],
+    "Resposta": "Um processo no estado de execução pode mudar para o estado de término ou para o estado de espera ou para o estado de pronto, somente"
+  },{
+    "question": "Em relação ao conceito de processos, marque a alternativa correta.:",
+    "options": [
+      { "text": "Um processo muda do estado de espera (bloqueado) para o estado de excução assim que um recurso necessário é concedido ou uma operação de entrada e saída é concluída.." },
+      { "text": "Um processo pode ser entendido como um programa em execução e é composto por três partes conhecidas como contexto de hardware, contexto de software e espaço de processamento.;" },
+      { "text": "Um subprocesso é criado a partir de um outro processo em execução mas não possui nenhuma relação com o processo criador.;" },
+      { "text": "O contexto de hardware de um processo armazena o conteúdo dos registradores gerais da CPU, além dos registradores específicos como PC (program counter), SP (stack pointer) e registrador de status.;" },
+      { "text": "O contexto de software é fundamental para a implementação de sistemas multiprogramáveis, permitindo que os processos se alternem na utilização da CPU, sejam interrompidos e depois restaurados.;" }
+    ],
+    "Resposta": "O contexto de hardware de um processo armazena o conteúdo dos registradores gerais da CPU, além dos registradores específicos como PC (program counter), SP (stack pointer) e registrador de status.;"
+  },{
+    "question": "Em relação ao conceito de threads, marque a alternativa correta.:",
+    "options": [
+      { "text": "Os threads em modo kernel possui alto desempenho e caso uma thread entre em bloqueio, os demais threads não são afetados." },
+      { "text": "Os threads em modo usuário possuem baixo desempenho pois o sistema deve trocar o modo de acesso usuário-kernel-usuário a cada thread escalonado para execução." },
+      { "text": "Threads em modo usuário possuem maior desempenho mas possui a desvantagem de rotinas de E/S. Pois nesse caso, o processo inteiro é bloqueado." },
+      { "text": "Threads em modo usuário são implementados no espaço de usuários. Quando uma operação de E/S é executada, não afeta os demais threads." },
+      { "text": "Threads são usados nos sistemas operacionais atuais em menor número que processos, em razão do seu baixo desempenho." }
+    ],
+    "Resposta": "Threads em modo usuário possuem maior desempenho mas possui a desvantagem de rotinas de E/S. Pois nesse caso, o processo inteiro é bloqueado."
+  },{
+    "question": "Um sistema interativo deve ser adequado para lidar com usuários interagindo com o sistema. Por esse motivo, o mecanismo de escalonamento deve ser adequado para este propósito. Um mecanismo ideal para este tipo de sistema é:",
+    "options": [
+      { "text": "First-come-first-served – FCS." },
+      { "text": "Escalonamento estático." },
+      { "text": "Escalonamento dinâmico" },
+      { "text": "Tarefa mais curta primeiro (Shortest Job First - SJF)." },
+      { "text": "Round-robin." }
+    ],
+    "Resposta": "Round-robin."
+  },{
+    "question": "O sistema operacional é considerado uma camada intermediária responsável por fazer a interface hardware e softwares aplicativos. Nesse sentido, quando a aplicação utilizada pelo usuário deseja utilizar um arquivo do disco,  ",
+    "options": [
+      { "text": "a aplicação do usuário faz a solicitação diretamente ao disco." },
+      { "text": "a aplicação não tem acesso ao disco, portanto não pode acessar o arquivo." },
+      { "text": "o próprio usuário deve manipular o disco para obter acesso ao arquivo." },
+      { "text": "tanto a aplicação quanto o sistema operacional possuem acesso direto ao hardware e podem obter o arquivo diretamente." },
+      { "text": "o sistema operacional recebe a solicitação da aplicação e faz a solicitação do arquivo ao disco." }
+    ],
+    "Resposta": "o sistema operacional recebe a solicitação da aplicação e faz a solicitação do arquivo ao disco."
+  },{
+    "question": "A situação em que cada recurso só pode estar alocado a um único processo em um determinado instante é conhecida como: ",
+    "options": [
+      { "text": "Espera por recurso." },
+      { "text": "Espera circular." },
+      { "text": "Deadlock." },
+      { "text": "Exclusão mútua." },
+      { "text": "Preempção." }
+    ],
+    "Resposta": "Exclusão mútua."
+  },{
+    "question": "É uma característica da memória virtual por segmentação:",
+    "options": [
+      { "text": "Os segmentos possuem tamanhos variados." },
+      { "text": "Os segmentos nunca são armazenados na memória principal." },
+      { "text": "Ocorrência do problema conhecido como fragmentação interna" },
+      { "text": "É difícil trabalhar com estruturas de dados dinâmicas, ou seja, que crescem ou diminuem." },
+      { "text": "Segmentos não podem ser substituídos na memória." }
+    ],
+    "Resposta": "Os segmentos possuem tamanhos variados."
+  },{
+    "question": "Qual é o componente responsável por gerenciar os recursos de hardware em um sistema operacional?  ",
+    "options": [
+      { "text": "Nao tinha na prova copiada" },
+      { "text": "Kernel." },
+      { "text": "Interface gráfica." },
+      { "text": "Memória RAM." },
+      { "text": "Disco rígido" }
+    ],
+    "Resposta": "Kernel."
+  },{
+    "question": "O mecanismo de escalonamento conhecido como tarefa mais curta primeiro – SJF se caracteriza por:  ",
+    "options": [
+      { "text": "Seleciona o processo cujo tempo de execução restante é o mais curto." },
+      { "text": "Definir uma fatia de tempo pequena para cada processo, também chamado de quantum" },
+      { "text": "Cada processo recebe uma prioridade e o processo pronto com prioridade mais alta é selecionado para executar." },
+      { "text": "Ordenar a execução dos processos de acordo com o tempo de CPU onde os processos com menor tempo de CPU são selecionados primeiro." },
+      { "text": "Seleciona os processos para execução de acordo com a ordem de chegada." }
+    ],
+    "Resposta": "Ordenar a execução dos processos de acordo com o tempo de CPU onde os processos com menor tempo de CPU são selecionados primeiro."
+  },{
+    "question": "O que é um sistema operacional?",
+    "options": [
+      { "text": "Uma camada de software que gerencia recursos de hardware, fornece serviços para aplicativos e atua como intermediário entre o usuário e o hardware do computador" },
+      { "text": "Um mecanismo de controle de qualidade que verifica a segurança de todos os programas instalados em um computador." },
+      { "text": "Um dispositivo de hardware essencial em todos os computadores." },
+      { "text": "Um conjunto de instruções de baixo nível responsável pelo funcionamento dos dispositivos de hardware em um computador." },
+      { "text": "Um ambiente de design gráfico usado para criar interfaces de usuário para aplicativos de computador." }
+    ],
+    "Resposta": "Uma camada de software que gerencia recursos de hardware, fornece serviços para aplicativos e atua como intermediário entre o usuário e o hardware do computador"
+  },{
+    "question": "Qual é o principal papel do shell em um sistema operacional? ",
+    "options": [
+      { "text": "Executar automaticamente todos os programas instalados no sistema" },
+      { "text": "Facilitar o design gráfico de interfaces no sistema" },
+      { "text": "Proteger o sistema contra vírus e malwares" },
+      { "text": "Fornecer uma interface para os usuários se comunicarem com o sistema operacional" },
+      { "text": "Controlar o acesso à internet" }
+    ],
+    "Resposta": "Fornecer uma interface para os usuários se comunicarem com o sistema operacional"
+  },{
+    "question": "Qual é a finalidade do caractere de dólar ou cifrão ( $ ) no prompt do shell do Linux?",
+    "options": [
+      { "text": "Mostrar o caminho do diretório atual." },
+      { "text": "Indicar que o usuário é root." },
+      { "text": "Indicar que o usuário é um usuário regular." },
+      { "text": "Indicar que o usuário é um administrador." },
+      { "text": "Indicar que o usuário é um superusuário." }
+    ],
+    "Resposta": "Indicar que o usuário é um usuário regular."
+  },{
+    "question": "Um sistema de tempo real é aquele em que o tempo desempenha função fundamental. Portanto, esse tipo de sistema deve atender necessidades rígidas de tempo. Cada tarefa deve executar em um tempo específico e atrasos não são desejáveis ou até mesmo não são toleráveis. Esses sistemas são conhecidos como real time. Para atender essa característica, o mecanismo de escalonamento mais indicado é  ",
+    "options": [
+      { "text": "um escalonamento FCS (tarefas são executadas na ordem em que chegam)." },
+      { "text": "um escalonamento com valores de prioridades mais altas, que podem ser estáticas ou dinâmicas." },
+      { "text": "um escalonamento round-robin." },
+      { "text": "o escalonamento SJF (tarefa mais curta primeiro)" },
+      { "text": "um escalonamento por múltiplas filas" }
+    ],
+    "Resposta": "um escalonamento com valores de prioridades mais altas, que podem ser estáticas ou dinâmicas."
+  }
+ 
+ 
+]
