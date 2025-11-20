@@ -332,7 +332,7 @@
     "Resposta": "I e II somente"
   },
   {
-    "question": "Abaixo tem um componente:<br>Foi gerado o número ímpar aleatório entre o número digitado no TextInput e 65.<br>O número é gerado após se clicar no botão.<br><img src='./Img_perguntas/DSMQUE2.png'>Qual das funções abaixo gera um número aleatório ímpar entre número digitado no TextInput (novoMin) e 65 (max), sendo que os extremos podem ser considerados"
+    "question": "Abaixo tem um componente:<br>Foi gerado o número ímpar aleatório entre o número digitado no TextInput e 65.<br>O número é gerado após se clicar no botão.<br><img src='./Img_perguntas/DSMQUE2.png'>Qual das funções abaixo gera um número aleatório ímpar entre número digitado no TextInput (novoMin) e 65 (max), sendo que os extremos podem ser considerados",
     "options": [
       { "text": "OP - <br><img src='./Img_perguntas/DSMQUE2A.png'>" },
       { "text": "OP - <br><img src='./Img_perguntas/DSMQUE2B.png'>" },
@@ -344,6 +344,7 @@
   }
   
 ]
+
 
 
 
