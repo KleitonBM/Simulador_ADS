@@ -196,7 +196,153 @@
       { "text": "Mockups, Capacidade de criação de software, Compatibilidade entre plataformas, Detalhamento" }
     ],
     "Resposta": "Detalhamento, Grau de funcionalidade, Similaridade de interação, Renamento estético."
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é uma dimensão considerada na fidelidade de um protótipo de interface do usuário, segundo Mayhew (1999)?",
+    "options": [
+       { "text": "Detalhamento" },
+      { "text": "Grau de funcionalidade" },
+      { "text": "Similaridade de interação" },
+      { "text": "Refinamento estético" },
+      { "text": "Tempo de desenvolvimento" }
+    ],
+    "Resposta": "Tempo de desenvolvimento"
+  },
+  {
+    "question": "Qual das seguintes afirmações melhor descreve a computação ubiqua?",
+    "options": [
+       { "text": "É uma forma de computação que se concentra em dispositivos de hardware grandes e visíveis." },
+      { "text": "É um conceito que descreve a integração da tecnologia na vida cotidiana de forma sutil e transparente, tornando-se tão integrada e invisível que é imperceptível ao usuário." },
+      { "text": "É uma forma de computação que requer a interação constante do usuário com interfaces físicas explícitas." },
+      { "text": "É um conceito que descreve a necessidade de a tecnologia ser visível e perceptível ao usuário em todos os momentos." },
+      { "text": "É uma forma de computação que se concentra apenas em dispositivos móveis." }
+    ],
+    "Resposta": "É um conceito que descreve a integração da tecnologia na vida cotidiana de forma sutil e transparente, tornando-se tão integrada e invisível que é imperceptível ao usuário."
+  },
+  {
+    "question": "Qual das seguintes opções é uma framework comumente usada para desenvolvimento de aplicativos Android e iOS?",
+    "options": [
+       { "text": "Python" },
+      { "text": "Delphi" },
+      { "text": "React native" },
+      { "text": "C#" },
+      { "text": "C" }
+    ],
+    "Resposta": "React native"
+  },
+  {
+    "question": "O que é computação ubiqua ou pervasiva?",
+    "options": [
+       { "text": "Desenvolvimento de sistemas em nuvem" },
+      { "text": "Integração da tecnologia na vida cotidiana de forma sutil e transparente" },
+      { "text": "Uso de inteligência artificial em dispositivos móveis" },
+      { "text": "Conexão de múltiplos dispositivos através de redes locais" },
+      { "text": "Programação de aplicativos de desktop" }
+    ],
+    "Resposta": "Integração da tecnologia na vida cotidiana de forma sutil e transparente"
+  },
+  {
+    "question": "De acordo com Goodrich e Tamassia (2013), quais são os três termos que a segurança da informação se define:",
+    "options": [
+       { "text": "Confidencialidade, Integridade e Disponibilidade" },
+      { "text": "Confidencialidade, Habilidade e Invencibilidade" },
+      { "text": "Inconfiável, Quebrado e Disponível" },
+      { "text": "Confiável, Não-Integro e Disponibilidade" },
+      { "text": "Integridade, Habilidade e Quebrado" }
+    ],
+    "Resposta": "Confidencialidade, Integridade e Disponibilidade"
+  },
+  {
+    "question": "Segundo Goodrich e Tamassia (2013), a autenticação é a determinação da identidade ou do papel de alguém, sendo o momento em que ele precisa provar quem é. Pode-se listar três fatores, que são os mais utilizados pelas aplicações em geral:",
+    "options": [
+       { "text": "A prova de conhecimento, A prova de posse e A prova de características." },
+      { "text": "A prova de características, A prova da falta de conhecimento e A verificação de imagens." },
+      { "text": "A verificação de imagens, A prova de posse e A falta de características." },
+      { "text": "A prova de características, A prova de posse e A falta de conhecimento." },
+      { "text": "A verificação de imagens, A falta de conhecimento e a prova de posse" }
+    ],
+    "Resposta": "A prova de conhecimento, A prova de posse e A prova de características."
+  },
+  {
+    "question": "Para o que é utilizado o Paradigma de orientação a objetos:",
+    "options": [
+       { "text": "É utilizado para desenvolvimento de aplicações e contém o conceito de persistência, que possibilita que um objeto continue existindo após a finalização do processo que o criou, armazenando seu estado em disco e viabilizando sua posterior recriação." },
+      { "text": "É utilizado unicamente para criação de jogos." },
+      { "text": "É utilizado para o desenvolvimento de sites sem conter o conceito de persistência, impedindo que um objeto continue existindo após a finalização do processo que o criou." },
+      { "text": "É utilizado para armazenar a aplicação em disco, viabilizando a sua recriação posterior, porém não possui o conceito de persistência," },
+      { "text": "É utilizado apenas para criação de sites" }
+    ],
+    "Resposta": "É utilizado para desenvolvimento de aplicações e contém o conceito de persistência, que possibilita que um objeto continue existindo após a finalização do processo que o criou, armazenando seu estado em disco e viabilizando sua posterior recriação."
+  },
+  {
+    "question": "Quais ferramentas a seguir são de alta fidelidade de prototipação:",
+    "options": [
+       { "text": "Figma, Adobe XD e Sketch." },
+      { "text": "Figma, Draw.io e Sketch" },
+      { "text": "Mockflow, Adobe XD e Balsamiq" },
+      { "text": "Draw.io, Sketch e Mockflow" },
+      { "text": "Todas as alternativas" }
+    ],
+    "Resposta": "Figma, Adobe XD e Sketch."
+  },
+  {
+    "question": "Sobre o Node.js, é correto afirmar que são vantagens:<br>I - enorme comunidade ativa;<br>II - milhares de pacotes disponíveis para reutilização<br>III - poucos recursos computacionais<br>IV - modelo assíncrono se torna um fator complicador devido ao grande número de callbacks que possam existir.<br>V-tecnologia praticamente nova (desde 2009).".
+    "options": [
+       { "text": "I, II e III" },
+      { "text": "I, II e IV" },
+      { "text": "III, IV e ev V" },
+      { "text": "IV e V somente" },
+      { "text": "I somente" }
+    ],
+    "Resposta": "I, II e III"
+  },
+  {
+    "question": "Quais são os três tipos de apresentação disponibilizadas pelas ferramentas de mockup?",
+    "options": [
+       { "text": "Desktop, Web e Plugins" },
+      { "text": "Desktop, Monitor e Plugins" },
+      { "text": "Web, Monitor e Mobile" },
+      { "text": "Monitor, Mobile e Desktop" },
+      { "text": "Web, Plugins e Mobile" }
+    ],
+    "Resposta": "Desktop, Web e Plugins"
+  },
+  {
+    "question": "Dado o componente abaixo:<br>Considere um App que tem um Drawer Navigator que renderiza primeiro o componete HomeScreen. E estando nesta tela, ao se clicar no botão somar, navega-se para a tela ResultScreen (Figura 1), levando consigo os valores que estão nos dois TextInput. E ao se clicar no botão OPEN DRAWER, abre-se o menu (Figura 2). Caso se clique no menu DetailSomar a tela ResultSrceen é renderizada (Figura 3). Esta tela deve efetuar a soma dos valores digitados no TextInput, exibir o resultado a frente do texto 'Soma', e ao se clicar no botão VOLTAR, o resultado é passado de volta para a tela HomeScreen que exibe o valor depois do texto 'Resultado da Soma:'.<br><img src='./Img_perguntas/DSMQUE1.png'><br>Abaixo segue o código do componente HomeScreen:<br><img src='./Img_perguntas/DSMQUE1.1.png'><br>Ao clicar no botão VOLTAR na tela ResultScreen, o valor da soma é passado de volta para Tela HomeScreen, mas o valor inicial digitado nos campos TextInput permanecem. Para se evitar isso, ao voltar da ResultScreen, estes campos devem ser apagados e preenchidos com zero. Para tal, foi usado o Hook useEffect.<br>Avalie as afirmativas abaixo:<br>I- Ao voltar da tela ResultScreen os campos TextInput estão zerados<br>II- O valor passado para ResultScreen será o valor do primeiro TextInput, com o valor digitado do segundo TextInput.<br>III- Ao voltar da tela ResultScreen somente o primeiro TextInput (valor1) estará zerado<br>IV- Ao voltar da tela ResultScreen somente o segundo TextInput (valor2) estará zerado<br> V-O valor passado para ResultScreen será o valor digitado no primeito TextInput, com o valor constante do segundo TextInput.<br> É correto o que se afirma em:"
+    
+    "options": [
+       { "text": "I e V somente." },
+      { "text": "II e V somente." },
+      { "text": "III e V somente." },
+      { "text": "I e Il somente." },
+      { "text": "IV e V somente." }
+    ],
+    "Resposta": "I e V somente."
+  },
+  {
+    "question": "Dado o componente abaixo:<br>Considere um App que tem um Drawer Navigator que renderiza primeiro o componete HomeScreen. E estando nesta tela, ao se clicar no botão somar, navega-se para a tela ResultScreen (Figura 1), levando consigo os valores que estão nos dois TextInput. E ao se clicar no botão OPEN DRAWER, abre-se o menu (Figura 2). Caso se clique no menu DetailSomar a tela ResultSrceen é renderizada (Figura 3). Esta tela deve efetuar a soma dos valores digitados no TextInput, exibir o resultado a frente do texto 'Soma', e ao se clicar no botão VOLTAR, o resultado é passado de volta para a tela HomeScreen que exibe o valor depois do texto 'Resultado da Soma:'.,<br><img src='./Img_perguntas/DSMQUE1.png'><br>Abaixo segue o código do componente HomeScreen:<br><img src='./Img_perguntas/DSMQUE1.2.png'><br>Ao clicar no botão VOLTAR na tela ResultScreen, o valor da soma é passado de volta para Tela HomeScreen, mas o valor inicial digitado nos campos TextInput permanecem. Para se evitar isso, ao voltar da ResultScreen, estes campos devem ser apagados e preenchidos com zero. Para tal, foi usado o Hook use Effect.<br>Avalie as afirmativas abaixo:<br>I- Ao voltar da tela ResultScreen os campos TextInput estão zerados<br>II- O valor passado para ResultScreen será o valor do primeiro TextInput, com o valor digitado do segundo TextInput.<br>III- Ao voltar da tela ResultScreen somente o primeiro TextInput (valor1) estará zerado<br>IV- Ao voltar da tela ResultScreen somente o segundo TextInput (valor2) estará zerado<br>V-O valor passado para ResultScreen será o valor digitado no primeito TextInput, com o valor constante do segundo TextInput.<br>É correto o que se afirma em:"
+    
+    "options": [
+       { "text": "I e II somente" },
+      { "text": "II e V somente." },
+      { "text": "III e V somente." },
+      { "text": "I e V somente" },
+      { "text": "IV e V somente." }
+    ],
+    "Resposta": "I e II somente"
+  },
+  {
+    "question": "Abaixo tem um componente:<br>Foi gerado o número ímpar aleatório entre o número digitado no TextInput e 65.<br>O número é gerado após se clicar no botão.",<br><img src='./Img_perguntas/DSMQUE2.png'>Qual das funções abaixo gera um número aleatório ímpar entre número digitado no TextInput (novoMin) e 65 (max), sendo que os extremos podem ser considerados
+    "options": [
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQUE2A.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQUE2B.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQUE2C.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQUE2D.png'>" },
+      { "text": "OP - <br><img src='./Img_perguntas/DSMQUE2E.png'>" }
+    ],
+    "Resposta": "OP - <br><img src='./Img_perguntas/DSMQUE2A.png'>"
   }
   
 ]
+
 
