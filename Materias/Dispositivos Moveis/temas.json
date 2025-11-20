@@ -1,7 +1,17 @@
 [
-{"question": "", 
-            "Resposta": ""}
+{"question": "Durante as nossas aulas, trabalhamos com o desenvolvimento utilizando React Native. Entendemos um pouco sobre a biblioteca e suas aplicações. Descreva um pouco sobre a tecnologia citada. O que é, para que é utilizada e suas vantagens.", 
+            "Resposta": "React native é um framework baseado no React, criado pelo facebook, e é utilizado para desenvolver aplicações mobile, para android e ios. Suas vantagens: - as aplicações podem ser utilizadas tanto para mobile como para o web; utiliza a triade CSS, HTML e Javascript"},
+{"question": "Escreva o seguinte programa abaixo e explique-o:<br>import React from 'react';<br>import (Text) from 'react-native';<br>const Cat = () => {<br>const name = 'Maru';<br>return <Text>Hello, I am (name)!</Text>; };<br>export default Cat;<br>",
+            "Resposta": "import React from 'react';: importanto o component React de 'react'/import (Text) from 'react-native';: importando o componente Text de 'react-native'/const Cat ()> (: declarando o componente funcional Cat/const name = 'Maru: declarando a variável 'name' inicializando-a com a string 'Maru/return <Text>Hello, I am (name)!</Text>;};: retornando o texto que sera 'Hello, I am Marul/export default Cat:: exportando o componente para que seja usado em outros arquivos."                
+},
+{"question": "Oque e DESENVOLVIMENTO HÍBRIDO",
+            "Resposta": "Para dispositivos móveis é uma forma de criar um único aplicativo que funciona tanto em Android quanto em iOS, usando tecnologias web como HTML, CSS e JavaScript."
+            },
+{"question": "Oque e API FETCH NO REACT",
+            "Resposta": "Fetch é uma função nativa do JavaScript usada para fazer requisições HTTP, como GET, POST, etc. No React, usamos fetch para buscar dados de uma API (como de um servidor ou banco de dados) e mostrar no app"
+            }
 
 ]
+
 
 
