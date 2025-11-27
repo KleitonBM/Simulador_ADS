@@ -1,5 +1,27 @@
 [
   {
+    "question": "No Cassandra, a organização dos dados segue uma estrutura distribuída e altamente escalável, na qual a unidade lógica mais alta é o keyspace. Segundo a documentação oficial do Apache Cassandra e obras como HEWITT (2010) e LAKSHMAN (2010), o keyspace funciona como um contêiner que agrupa tabelas e define políticas de replicação e consistência para um cluster distribuído.<br> Considerando os conceitos apresentados, quais elementos são definidos diretamente em um keyspace?",
+    "options": [
+      { "text": "Estratégia de replicação e fator de replicação" },
+      { "text": "Chaves primárias e índices secundários das tabelas" },
+      { "text": "Particionamento físico dos nodos de armazenamento" },
+      { "text": "Triggers internos e funções definidas pelo usuário" },
+      { "text": "Tipos de dados permitidos em cada coluna do cluster" }
+    ],
+    "Resposta": "Estratégia de replicação e fator de replicação"
+  },
+  {
+    "question": "Sobre o conceito de keyspace no Apache Cassandra, qual das alternativas NÃO está correta?",
+    "options": [
+      { "text": "Um keyspace é o contêiner lógico que agrupa tabelas relacionadas em um cluster Cassandra." },
+      { "text": "O keyspace define parâmetros importantes como estratégia de replicação e fator de replicação." },
+      { "text": "Cada aplicação geralmente utiliza pelo menos um keyspace para organizar seus dados." },
+      { "text": "O keyspace funciona de forma semelhante a um banco de dados em sistemas relacionais." },
+      { "text": "O keyspace controla diretamente índices, gatilhos e stored procedures dentro do Cassandra." }
+    ],
+    "Resposta": "O keyspace controla diretamente índices, gatilhos e stored procedures dentro do Cassandra."
+  },
+  {
     "question": "Depois das fitas, surgiram os discos, disquetes, e o famoso HD, também chamado de ‘Winchester’ - que na época tinha esse nome.<br> Com base no texto acima, avalie seguintes asserções e a relação proposta entre elas.<br>I: Qualquer dado armazenado num HD (Hard Disk) pode ser acessado de forma imediata<br>Porque<br>II: O acesso ao dado desejado é feito através da leitura sequencial.<br>A respeito dessas asserções, assinale a alternativa correta.",
     "options": [
       { "text": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa." },
@@ -221,4 +243,5 @@
   }
   
 ]
+
 
