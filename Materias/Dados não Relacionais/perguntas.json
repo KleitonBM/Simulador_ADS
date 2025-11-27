@@ -1,6 +1,6 @@
 [
   {
-    "question": "No Apache Cassandra, o keyspace representa a estrutura lógica de mais alto nível dentro de um cluster distribuído. Em provas sobre bancos NoSQL, ele é frequentemente comparado a elementos tradicionais de bancos relacionais, o que pode gerar confusão.<br>Com base nesse contexto, qual é o conceito correto de um keyspace no Cassandra?",
+    "question": "DICA DA GALERA<br>No Apache Cassandra, o keyspace representa a estrutura lógica de mais alto nível dentro de um cluster distribuído. Em provas sobre bancos NoSQL, ele é frequentemente comparado a elementos tradicionais de bancos relacionais, o que pode gerar confusão.<br>Com base nesse contexto, qual é o conceito correto de um keyspace no Cassandra?",
     "options": [
       { "text": "Uma chave estrangeira que define vínculos entre tabelas distribuídas" },
       { "text": "Uma coluna especial usada para organizar partições no cluster" },
@@ -12,7 +12,7 @@
   },
 
   {
-    "question": "Bancos de dados de grafo surgem como uma alternativa altamente eficiente para modelar relações complexas entre entidades. Segundo ROBINSON, WEBBER & EIFREM (2015), esses bancos utilizam vértices (nodes) e arestas (relationships) para representar dados de maneira mais natural quando as conexões são fundamentais para as consultas. Diferentemente dos bancos relacionais, que dependem de joins custosos, os bancos de grafo otimizam consultas baseadas em relacionamentos e navegação em profundidade.<br>Com base nos conceitos apresentados, quais são os principais componentes estruturais de um banco de dados de grafo?",
+    "question": "DICA DA GALERA<br>Bancos de dados de grafo surgem como uma alternativa altamente eficiente para modelar relações complexas entre entidades. Segundo ROBINSON, WEBBER & EIFREM (2015), esses bancos utilizam vértices (nodes) e arestas (relationships) para representar dados de maneira mais natural quando as conexões são fundamentais para as consultas. Diferentemente dos bancos relacionais, que dependem de joins custosos, os bancos de grafo otimizam consultas baseadas em relacionamentos e navegação em profundidade.<br>Com base nos conceitos apresentados, quais são os principais componentes estruturais de um banco de dados de grafo?",
     "options": [
       { "text": "Nodes, relationships e properties" },
       { "text": "Tables, rows e foreign keys" },
@@ -23,7 +23,7 @@
     "Resposta": "Nodes, relationships e properties"
   },
   {
-    "question": "De acordo com SINGH & ADAMSKI (2019), bancos de dados orientados a grafos são projetados para lidar com dados altamente conectados e permitem consultas de relacionamentos em tempo real com baixa latência. Essas características tornam esse tipo de banco especialmente útil em sistemas como redes sociais, detecção de fraudes e sistemas de recomendação.<br>No contexto dos bancos de dados de grafo, qual das opções representa corretamente uma vantagem desse modelo?",
+    "question": "DICA DA GALERA<br>De acordo com SINGH & ADAMSKI (2019), bancos de dados orientados a grafos são projetados para lidar com dados altamente conectados e permitem consultas de relacionamentos em tempo real com baixa latência. Essas características tornam esse tipo de banco especialmente útil em sistemas como redes sociais, detecção de fraudes e sistemas de recomendação.<br>No contexto dos bancos de dados de grafo, qual das opções representa corretamente uma vantagem desse modelo?",
     "options": [
       { "text": "Permite navegação eficiente em grandes cadeias de relacionamentos sem necessidade de joins." },
       { "text": "Elimina completamente a necessidade de índices para consultas." },
@@ -34,7 +34,7 @@
     "Resposta": "Permite navegação eficiente em grandes cadeias de relacionamentos sem necessidade de joins."
   },
   {
-    "question": "No Cassandra, a organização dos dados segue uma estrutura distribuída e altamente escalável, na qual a unidade lógica mais alta é o keyspace. Segundo a documentação oficial do Apache Cassandra e obras como HEWITT (2010) e LAKSHMAN (2010), o keyspace funciona como um contêiner que agrupa tabelas e define políticas de replicação e consistência para um cluster distribuído.<br> Considerando os conceitos apresentados, quais elementos são definidos diretamente em um keyspace?",
+    "question": "DICA DA GALERA<br>No Cassandra, a organização dos dados segue uma estrutura distribuída e altamente escalável, na qual a unidade lógica mais alta é o keyspace. Segundo a documentação oficial do Apache Cassandra e obras como HEWITT (2010) e LAKSHMAN (2010), o keyspace funciona como um contêiner que agrupa tabelas e define políticas de replicação e consistência para um cluster distribuído.<br> Considerando os conceitos apresentados, quais elementos são definidos diretamente em um keyspace?",
     "options": [
       { "text": "Estratégia de replicação e fator de replicação" },
       { "text": "Chaves primárias e índices secundários das tabelas" },
@@ -45,7 +45,7 @@
     "Resposta": "Estratégia de replicação e fator de replicação"
   },
   {
-    "question": "Sobre o conceito de keyspace no Apache Cassandra, qual das alternativas NÃO está correta?",
+    "question": "DICA DA GALERA<br>Sobre o conceito de keyspace no Apache Cassandra, qual das alternativas NÃO está correta?",
     "options": [
       { "text": "Um keyspace é o contêiner lógico que agrupa tabelas relacionadas em um cluster Cassandra." },
       { "text": "O keyspace define parâmetros importantes como estratégia de replicação e fator de replicação." },
@@ -277,6 +277,7 @@
   }
   
 ]
+
 
 
 
