@@ -1,4 +1,25 @@
-[
+[  {
+    "question": "DICA DA GALERA<br>Segundo Herbert Simon, o processo decisório nas organizações segue um modelo estruturado composto por quatro fases principais. Esse modelo é amplamente utilizado em sistemas de apoio à decisão (SAD), pois permite organizar de forma lógica como problemas são percebidos, analisados e solucionados.<br>Com base nessa abordagem, quais são as quatro fases do processo de decisão propostas por Herbert Simon?",
+    "options": [
+      { "text": "Diagnóstico, execução, auditoria e feedback" },
+      { "text": "Planejamento, análise, operação e controle" },
+      { "text": "Inteligência, modelagem, escolha e implementação" },
+      { "text": "Observação, coleta de dados, síntese e ação" },
+      { "text": "Problematização, desenvolvimento, prototipação e decisão" }
+    ],
+    "Resposta": "Inteligência, modelagem, escolha e implementação"
+  },
+  {
+    "question": "DICA DA GALERA<br>Herbert Simon descreve o processo de tomada de decisão como um fluxo estruturado que auxilia gestores a identificar problemas, desenvolver soluções e selecionar alternativas adequadas. Esse modelo influenciou fortemente a criação dos Sistemas de Apoio à Decisão (SAD), que automatizam e apoiam cada uma de suas fases.<br>Considerando as quatro fases do processo decisório, qual alternativa descreve corretamente uma delas?",
+    "options": [
+      { "text": "A fase de inteligência consiste em selecionar a melhor alternativa entre as opções disponíveis." },
+      { "text": "A fase de escolha é responsável por identificar e monitorar problemas no ambiente organizacional." },
+      { "text": "A fase de modelagem envolve analisar alternativas e desenvolver possíveis soluções." },
+      { "text": "A fase de implementação analisa dados e informações em busca de ocorrências anormais." },
+      { "text": "A fase de inteligência executa o plano decidido e comunica os resultados." }
+    ],
+    "Resposta": "A fase de modelagem envolve analisar alternativas e desenvolver possíveis soluções."
+  },
   {
     "question": "Um sistema de informação (SI) que fornece informações sobre o desempenho da organizaçãogerando respostas e relatórios urgentes, importantes, periódicos ou restritos em formato fixo préespecificado a partir de informações produzidas por extração ou manipulação dos dadoscorporativos é um SI classificado como:<br>Selecione a opção correta:",
     "options": [
@@ -177,4 +198,5 @@
   }
   
 ]
+
 
