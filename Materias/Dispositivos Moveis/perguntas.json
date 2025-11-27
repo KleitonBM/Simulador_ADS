@@ -1,5 +1,16 @@
 [
   {
+    "question": "Qual das alternativas NÃO está correta sobre o uso do Flexbox no CSS?",
+    "options": [
+      { "text": "O Flexbox facilita o alinhamento de elementos tanto horizontal quanto verticalmente." },
+      { "text": "O Flexbox permite controlar a distribuição de espaço entre os itens dentro do contêiner." },
+      { "text": "O Flexbox possibilita que os itens sejam organizados em linhas ou colunas." },
+      { "text": "O Flexbox é ideal para criar layouts bidimensionais complexos envolvendo linhas e colunas simultaneamente." },
+      { "text": "O Flexbox pode ajustar automaticamente o espaço ocupado pelos itens conforme o tamanho da tela." }
+    ],
+    "Resposta": "O Flexbox é ideal para criar layouts bidimensionais complexos envolvendo linhas e colunas simultaneamente."
+  },
+  {
     "question": "O que é computação ubíqua ou pervasiva?",
     "options": [
       { "text": "Desenvolvimento de sistemas em nuvem" },
@@ -344,6 +355,7 @@
   }
   
 ]
+
 
 
 
