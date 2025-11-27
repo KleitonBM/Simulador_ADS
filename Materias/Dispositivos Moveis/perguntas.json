@@ -1,4 +1,26 @@
-[
+[  
+  {
+    "question": "DICA DA GALERA<br>A Google Play Store é a principal plataforma de distribuição de aplicativos para dispositivos Android. Além de disponibilizar apps, ela incorpora mecanismos de segurança, atualização e controle de qualidade que garantem uma experiência segura ao usuário.<br>Com base nisso, qual alternativa descreve corretamente a função da Play Store?",
+    "options": [
+      { "text": "É um sistema operacional responsável por executar aplicativos Android." },
+      { "text": "É uma loja oficial que distribui aplicativos, jogos e atualizações, além de realizar verificações de segurança." },
+      { "text": "É uma ferramenta de desenvolvimento usada para criar aplicativos móveis." },
+      { "text": "É um serviço de armazenamento em nuvem exclusivo para apps Android." },
+      { "text": "É uma plataforma utilizada apenas para testes beta fechados de aplicativos." }
+    ],
+    "Resposta": "É uma loja oficial que distribui aplicativos, jogos e atualizações, além de realizar verificações de segurança."
+  },
+  {
+    "question": "DICA DA GALERA<br>A popularização dos dispositivos móveis impulsionou o uso de aplicativos como forma de facilitar tarefas cotidianas. Esses aplicativos podem ser instalados diretamente pelos usuários e são projetados para operar em diferentes sistemas móveis, como Android e iOS.<br>Dentre as alternativas abaixo, marque a que melhor descreve o que é um aplicativo móvel.",
+    "options": [
+      { "text": "Um software desenvolvido exclusivamente para computadores desktop e servidores." },
+      { "text": "Um programa executado diretamente no navegador, sem necessidade de instalação." },
+      { "text": "Um software projetado para executar em dispositivos móveis, oferecendo funcionalidades específicas para o usuário." },
+      { "text": "Um tipo de hardware responsável por aumentar a capacidade de processamento do smartphone." },
+      { "text": "Um conjunto de drivers utilizados para comunicação entre o sistema e seus sensores." }
+    ],
+    "Resposta": "Um software projetado para executar em dispositivos móveis, oferecendo funcionalidades específicas para o usuário."
+  },
   {
     "question": "Qual das alternativas NÃO está correta sobre o uso do Flexbox no CSS?",
     "options": [
@@ -355,6 +377,7 @@
   }
   
 ]
+
 
 
 
